@@ -1,0 +1,2832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testCovering" time="38.883" tests="1" failures="0" errors="0">
+   <testsuite name="testCovering" tests="1" failures="0" errors="0" time="38.883" skipped="0" timestamp="2026-06-15T08:20:22.156Z" hostname="ACER - DESKTOP-RC89JE8" id="Test Suites/Test API Sample/testCovering">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260615_152007\\Test API Sample\\testCovering\\20260615_152007"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260615_152007\\Test API Sample\\testCovering\\20260615_152007\\console0.log, C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260615_152007\\Test API Sample\\testCovering\\20260615_152007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Quality Assurance"/>
+         <property name="hostName" value="ACER - DESKTOP-RC89JE8"/>
+         <property name="hostAddress" value="10.1.48.125"/>
+         <property name="projectName" value="sp3Final"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Sample/Test Flag/CovFlag6" time="36.072" classname="Test Cases/Sample/Test Flag/CovFlag6" status="PASSED">
+         <system-out><![CDATA[15-06-2026T15:20:24 - [TEST_CASE][PASSED] - Test Cases/Sample/Test Flag/CovFlag6: Test Cases/Sample/Test Flag/CovFlag6
+
+15-06-2026T15:20:27 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Test/SampleFlag"): null
+
+15-06-2026T15:20:29 - [TEST_STEP][PASSED] - totalRow = data.getRowNumbers(): null
+
+15-06-2026T15:20:29 - [TEST_STEP][PASSED] - println("Total Data : " + totalRow): null
+
+15-06-2026T15:20:29 - [TEST_STEP][PASSED] - for ([row = 1, row <= totalRow, (row++)]): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ee7d8b286e500acebf"}
+
+15-06-2026T15:20:30 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:36 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_0.har
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 1
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - Row                : 1
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210100000222
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - NIK                : 2605210100000222
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000004","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/65a561fca2ed9dee","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:37"}
+
+15-06-2026T15:20:37 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000004","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/65a561fca2ed9dee","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:37"}
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:38 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_1.har
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 2
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - Row                : 2
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210110000223
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - NIK                : 2605210110000223
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000005","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/3df697a5790e90f3","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:39"}
+
+15-06-2026T15:20:38 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000005","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/3df697a5790e90f3","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:39"}
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:39 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_2.har
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 3
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - Row                : 3
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210120000224
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - NIK                : 2605210120000224
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000006","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/d3691cba1c1c3c1a","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:40"}
+
+15-06-2026T15:20:39 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000006","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/d3691cba1c1c3c1a","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:40"}
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:40 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_3.har
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 4
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - Row                : 4
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210130000225
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - NIK                : 2605210130000225
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000007","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/a423190b7ed55df6","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+
+15-06-2026T15:20:40 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000007","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/a423190b7ed55df6","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:41 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_4.har
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 5
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - Row                : 5
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210140000226
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - NIK                : 2605210140000226
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000008","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/07e0fb3a02c74092","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+
+15-06-2026T15:20:41 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000008","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/07e0fb3a02c74092","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:42 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_5.har
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 6
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Row                : 6
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210150000227
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - NIK                : 2605210150000227
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000009","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/8a91492e11fcda5e","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:42"}
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000009","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/8a91492e11fcda5e","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:42"}
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:42 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_6.har
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 7
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Row                : 7
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210160000228
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - NIK                : 2605210160000228
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000010","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/0aec6adf8ccbb02d","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:43"}
+
+15-06-2026T15:20:42 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000010","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/0aec6adf8ccbb02d","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:43"}
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_7.har
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 8
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Row                : 8
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 2605210170000229
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - NIK                : 2605210170000229
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000011","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/27d50d81107a2879","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:44"}
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000011","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/27d50d81107a2879","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:44"}
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_8.har
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 9
+
+15-06-2026T15:20:43 - [MESSAGE][PASSED] - Row                : 9
+
+15-06-2026T15:20:43 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a4f"}
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a4f"}
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_9.har
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 10
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Row                : 10
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dda0305b22dd01b854"}
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dda0305b22dd01b854"}
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_10.har
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 11
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Row                : 11
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddfdd1f2b900034771"}
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddfdd1f2b900034771"}
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_11.har
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 12
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Row                : 12
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a50"}
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a50"}
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_12.har
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 13
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Row                : 13
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dea0305b22dd01b855"}
+
+15-06-2026T15:20:44 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dea0305b22dd01b855"}
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_13.har
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 14
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Row                : 14
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034772"}
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034772"}
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_14.har
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 15
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Row                : 15
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5decbebe9a6b1047a51"}
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5decbebe9a6b1047a51"}
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_15.har
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 16
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Row                : 16
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034773"}
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034773"}
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_16.har
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 17
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Row                : 17
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a53"}
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a53"}
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_17.har
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 18
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Row                : 18
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034775"}
+
+15-06-2026T15:20:45 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034775"}
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_18.har
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 19
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Row                : 19
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a54"}
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a54"}
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_19.har
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 20
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Row                : 20
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfa0305b22dd01b857"}
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfa0305b22dd01b857"}
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_20.har
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 21
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Row                : 21
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034776"}
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034776"}
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_21.har
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 22
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Row                : 22
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea4"}
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea4"}
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_22.har
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:46 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 23
+
+15-06-2026T15:20:46 - [MESSAGE][PASSED] - Row                : 23
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0cbebe9a6b1047a55"}
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0cbebe9a6b1047a55"}
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_23.har
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 24
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Row                : 24
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b858"}
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b858"}
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_24.har
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 25
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Row                : 25
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea5"}
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea5"}
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_25.har
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 26
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Row                : 26
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b859"}
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b859"}
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_26.har
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 27
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Row                : 27
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034778"}
+
+15-06-2026T15:20:47 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034778"}
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_27.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 28
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 28
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e17d8b286e500acea6"}
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e17d8b286e500acea6"}
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_28.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 29
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 29
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1a0305b22dd01b85a"}
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1a0305b22dd01b85a"}
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_29.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 30
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 30
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1cbebe9a6b1047a57"}
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1cbebe9a6b1047a57"}
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_30.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 31
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 31
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034779"}
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034779"}
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_31.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 32
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 32
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea7"}
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea7"}
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_32.har
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 33
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - Row                : 33
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:48 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:48 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a58"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a58"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_33.har
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 34
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Row                : 34
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2fdd1f2b90003477a"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2fdd1f2b90003477a"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_34.har
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 35
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Row                : 35
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea8"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea8"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_35.har
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 36
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Row                : 36
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a59"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a59"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_36.har
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 37
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Row                : 37
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477b"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477b"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_37.har
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 38
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Row                : 38
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500acea9"}
+
+15-06-2026T15:20:49 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500acea9"}
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_38.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 39
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 39
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5a"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5a"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_39.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 40
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 40
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477c"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477c"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_40.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 41
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 41
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500aceaa"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500aceaa"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_41.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 42
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 42
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5b"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5b"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_42.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 43
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 43
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477d"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477d"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_43.har
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 44
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Row                : 44
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceab"}
+
+15-06-2026T15:20:50 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceab"}
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_44.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 45
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 45
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5c"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5c"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_45.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 46
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 46
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477e"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477e"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_46.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 47
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 47
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceac"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceac"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_47.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 48
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 48
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5d"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5d"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_48.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 49
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 49
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b90003477f"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b90003477f"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_49.har
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 50
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Row                : 50
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500acead"}
+
+15-06-2026T15:20:51 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500acead"}
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_50.har
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 51
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Row                : 51
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5e"}
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5e"}
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_51.har
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 52
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Row                : 52
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b900034780"}
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b900034780"}
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_52.har
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 53
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Row                : 53
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500aceae"}
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500aceae"}
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_53.har
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 54
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Row                : 54
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5f"}
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5f"}
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_54.har
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 55
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Row                : 55
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034781"}
+
+15-06-2026T15:20:52 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034781"}
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_55.har
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 56
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Row                : 56
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceaf"}
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceaf"}
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_56.har
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 57
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Row                : 57
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6cbebe9a6b1047a60"}
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6cbebe9a6b1047a60"}
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_57.har
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 58
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Row                : 58
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034782"}
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034782"}
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_58.har
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 59
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Row                : 59
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceb0"}
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceb0"}
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_59.har
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 60
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Row                : 60
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a61"}
+
+15-06-2026T15:20:53 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a61"}
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_60.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 61
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 61
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034783"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034783"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_61.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 62
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 62
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e77d8b286e500aceb1"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e77d8b286e500aceb1"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_62.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 63
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 63
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a62"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a62"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_63.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 64
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 64
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034784"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034784"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_64.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 65
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 65
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb2"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb2"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_65.har
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 66
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Row                : 66
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a63"}
+
+15-06-2026T15:20:54 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a63"}
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_66.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 67
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 67
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034785"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034785"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_67.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 68
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 68
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb3"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb3"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_68.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 69
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 69
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a64"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a64"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_69.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 70
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 70
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034786"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034786"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_70.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 71
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 71
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb4"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb4"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_71.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 72
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 72
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a65"}
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a65"}
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_72.har
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 73
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - Row                : 73
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:55 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:55 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034787"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034787"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_73.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 74
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 74
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb5"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb5"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_74.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 75
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 75
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a66"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a66"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_75.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 76
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 76
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034788"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034788"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_76.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 77
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 77
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb6"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb6"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_77.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 78
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 78
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a67"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a67"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_78.har
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 79
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Row                : 79
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b900034789"}
+
+15-06-2026T15:20:56 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b900034789"}
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_79.har
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 80
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Row                : 80
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ea7d8b286e500aceb7"}
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ea7d8b286e500aceb7"}
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_80.har
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 81
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Row                : 81
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a68"}
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a68"}
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_81.har
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 82
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Row                : 82
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b90003478a"}
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b90003478a"}
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_82.har
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 83
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Row                : 83
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb8"}
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb8"}
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_83.har
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 84
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Row                : 84
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a69"}
+
+15-06-2026T15:20:57 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a69"}
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_84.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 85
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 85
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478b"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478b"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_85.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 86
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 86
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb9"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb9"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_86.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 87
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 87
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a6a"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a6a"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_87.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 88
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 88
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478c"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478c"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_88.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 89
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 89
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500aceba"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500aceba"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_89.har
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 90
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Row                : 90
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6b"}
+
+15-06-2026T15:20:58 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6b"}
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_90.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 91
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 91
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478d"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478d"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_91.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 92
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 92
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500acebb"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500acebb"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_92.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 93
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 93
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6c"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6c"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_93.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 94
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 94
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478e"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478e"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_94.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 95
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 95
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebc"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebc"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:20:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_95.har
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 96
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Row                : 96
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edcbebe9a6b1047a6d"}
+
+15-06-2026T15:20:59 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edcbebe9a6b1047a6d"}
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:20:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:21:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_96.har
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 97
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Row                : 97
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edfdd1f2b90003478f"}
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edfdd1f2b90003478f"}
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:21:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_97.har
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 98
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Row                : 98
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebd"}
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebd"}
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:21:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_98.har
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 99
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Row                : 99
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eefdd1f2b900034791"}
+
+15-06-2026T15:21:00 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eefdd1f2b900034791"}
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - nik = data.getValue("NomorIdentitas", row): null
+
+15-06-2026T15:21:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik])): Send request successfully
+
+15-06-2026T15:21:01 - [MESSAGE][INFO] - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_99.har
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2026T15:21:01 - [TEST_STEP][PASSED] - markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai"): Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - Post API FID 26692 berhasil ditambahkan dan data sesuai
+
+15-06-2026T15:21:01 - [TEST_STEP][PASSED] - markPassed("Row                : " + row): Row                : 100
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - Row                : 100
+
+15-06-2026T15:21:01 - [TEST_STEP][PASSED] - markPassed("NIK                : " + nik): NIK                : 
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - NIK                : 
+
+15-06-2026T15:21:01 - [TEST_STEP][PASSED] - markPassed("HTTP Status        : " + response.getStatusCode()): HTTP Status        : 200
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - HTTP Status        : 200
+
+15-06-2026T15:21:01 - [TEST_STEP][PASSED] - markPassed("Response Body      : " + response.getResponseBodyContent()): Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ee7d8b286e500acebf"}
+
+15-06-2026T15:21:01 - [MESSAGE][PASSED] - Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ee7d8b286e500acebf"}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-06-2026T15:20:22 - [TEST_SUITE][PASSED] - testCovering: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_MatchTransaction</name>
+   <tag></tag>
+   <elementGuidId>c066bfdb-de87-4776-b9f0-67f6349ab969</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='match-trx']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='match-trx']</value>
+      <webElementGuid>8eb0a030-38d6-42d9-8d5a-48c75da9e0e1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

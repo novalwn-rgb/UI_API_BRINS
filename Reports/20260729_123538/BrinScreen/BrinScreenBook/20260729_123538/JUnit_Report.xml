@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BrinScreenBook" time="130.442" tests="2" failures="0" errors="0">
+   <testsuite name="BrinScreenBook" tests="2" failures="0" errors="0" time="130.442" skipped="0" timestamp="2026-07-29T05:35:44.312Z" hostname="TTECH-0251 - NovalWinaNurcahyo.brins.co.id" id="Test Suites/BrinScreen/BrinScreenBook">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538"/>
+         <property name="logFiles" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\console0.log, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Gagal_29.07.2026_(12.35.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_29.07.2026_(12.35.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_29.07.2026_(12.35.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardRM_29.07.2026_(12.35.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.36.33).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Gagal_29.07.2026_(12.36.34).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_29.07.2026_(12.36.34).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_29.07.2026_(12.36.34).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardRM_29.07.2026_(12.36.34).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.37.53).png"/>
+         <property name="hostName" value="TTECH-0251 - NovalWinaNurcahyo.brins.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 150.0.7871.187"/>
+         <property name="userFullName" value="Noval Wina"/>
+         <property name="hostAddress" value="10.1.48.87"/>
+         <property name="sessionId" value="aa705fede746c1123c9c4c53f22c90ba"/>
+         <property name="projectName" value="AutoAPI"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook" time="48.942" classname="Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook" status="PASSED">
+         <system-out><![CDATA[29-07-2026T12:35:44 - [TEST_CASE][PASSED] - Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook: Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook
+
+29-07-2026T12:35:45 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+29-07-2026T12:35:45 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+29-07-2026T12:35:45 - [TEST_STEP][PASSED] - openBrowser("http://192.168.140.18:8005/login/"): Browser is opened with url: 'http://192.168.140.18:8005/login/'
+
+29-07-2026T12:35:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2026T12:35:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2026T12:35:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.140.18:8005/login/'
+
+29-07-2026T12:35:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2026T12:35:51 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2026T12:35:51 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/username"), "test"): Text 'test' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/username'
+
+29-07-2026T12:35:52 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/username'
+
+29-07-2026T12:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/password"), "passwordSalah"): Text 'passwordSalah' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/password'
+
+29-07-2026T12:35:53 - [MESSAGE][PASSED] - Text 'passwordSalah' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/password'
+
+29-07-2026T12:35:53 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnPortal")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnPortal' is clicked on
+
+29-07-2026T12:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnPortal' is clicked on
+
+29-07-2026T12:35:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-07-2026T12:35:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-07-2026T12:35:56 - [TEST_STEP][PASSED] - loginFailed = verifyTextPresent("IndexError at /login/", false, OPTIONAL): Text 'IndexError at /login/' is present on page 
+
+29-07-2026T12:35:57 - [MESSAGE][PASSED] - Text 'IndexError at /login/' is present on page 
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - if (loginFailed): null
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Gagal_$timestamp.png: null
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFailed): Taking screenshot successfully
+
+29-07-2026T12:35:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Gagal_29.07.2026_(12.35.45).png]]
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - println("Negative login berhasil divalidasi"): null
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+29-07-2026T12:35:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+29-07-2026T12:35:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2026T12:36:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-07-2026T12:36:00 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Login/linkForceLogout")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/linkForceLogout' is clicked on
+
+29-07-2026T12:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/linkForceLogout' is clicked on
+
+29-07-2026T12:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/userLogout"), "18891183"): Text '18891183' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/userLogout'
+
+29-07-2026T12:36:02 - [MESSAGE][PASSED] - Text '18891183' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/userLogout'
+
+29-07-2026T12:36:02 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnForceLogout")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnForceLogout' is clicked on
+
+29-07-2026T12:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnForceLogout' is clicked on
+
+29-07-2026T12:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/username"), "18891183"): Text '18891183' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/username'
+
+29-07-2026T12:36:04 - [MESSAGE][PASSED] - Text '18891183' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/username'
+
+29-07-2026T12:36:04 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/password"), "Raccess#0102"): Text 'Raccess#0102' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/password'
+
+29-07-2026T12:36:05 - [MESSAGE][PASSED] - Text 'Raccess#0102' is set on object 'Object Repository/BRINESIA UI/BrinscreenBook/Login/password'
+
+29-07-2026T12:36:05 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnPortal")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnPortal' is clicked on
+
+29-07-2026T12:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Login/btnPortal' is clicked on
+
+29-07-2026T12:36:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-07-2026T12:36:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-07-2026T12:36:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook"), 10): Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook' is present
+
+29-07-2026T12:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook' is present
+
+29-07-2026T12:36:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2026T12:36:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2026T12:36:13 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook' is clicked on
+
+29-07-2026T12:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook' is clicked on
+
+29-07-2026T12:36:14 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreen")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreen' is clicked on
+
+29-07-2026T12:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnBrinScreen' is clicked on
+
+29-07-2026T12:36:15 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnLastPage")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnLastPage' is clicked on
+
+29-07-2026T12:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnLastPage' is clicked on
+
+29-07-2026T12:36:16 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihSuper")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihSuper' is clicked on
+
+29-07-2026T12:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihSuper' is clicked on
+
+29-07-2026T12:36:21 - [TEST_STEP][PASSED] - urlSupervisi = getUrl(): Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchSupervisi?%3Aembed=yes&%3AshowVizHome=no&%3Atoolbar=yes#1'
+
+29-07-2026T12:36:21 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchSupervisi?%3Aembed=yes&%3AshowVizHome=no&%3Atoolbar=yes#1'
+
+29-07-2026T12:36:21 - [TEST_STEP][PASSED] - assert urlSupervisi.contains("DashboardProduksiPerLOA-BranchSupervisi"): null
+
+29-07-2026T12:36:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_Super"), 10): Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_Super' is present
+
+29-07-2026T12:36:23 - [MESSAGE][PASSED] - Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_Super' is present
+
+29-07-2026T12:36:23 - [TEST_STEP][PASSED] - screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png: null
+
+29-07-2026T12:36:23 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathSuper): Taking screenshot successfully
+
+29-07-2026T12:36:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_29.07.2026_(12.35.45).png]]
+
+29-07-2026T12:36:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2026T12:36:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2026T12:36:24 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+29-07-2026T12:36:24 - [MESSAGE][PASSED] - Navigate back successfully
+
+29-07-2026T12:36:24 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihUtama")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihUtama' is clicked on
+
+29-07-2026T12:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihUtama' is clicked on
+
+29-07-2026T12:36:26 - [TEST_STEP][PASSED] - urlBranchUtama = getUrl(): Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchUtama?:embed=yes&:showVizHome=no&:toolbar=yes'
+
+29-07-2026T12:36:26 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchUtama?:embed=yes&:showVizHome=no&:toolbar=yes'
+
+29-07-2026T12:36:26 - [TEST_STEP][PASSED] - assert urlBranchUtama.contains("DashboardProduksiPerLOA-BranchUtama"): null
+
+29-07-2026T12:36:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_Utama"), 10): Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_Utama' is present
+
+29-07-2026T12:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_Utama' is present
+
+29-07-2026T12:36:28 - [TEST_STEP][PASSED] - screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png: null
+
+29-07-2026T12:36:28 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathUtama): Taking screenshot successfully
+
+29-07-2026T12:36:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_29.07.2026_(12.35.45).png]]
+
+29-07-2026T12:36:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2026T12:36:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2026T12:36:29 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+29-07-2026T12:36:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+29-07-2026T12:36:29 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihRM")): Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihRM' is clicked on
+
+29-07-2026T12:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/btnPilihRM' is clicked on
+
+29-07-2026T12:36:30 - [TEST_STEP][PASSED] - urlRM = getUrl(): Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-RelationshipManager?:embed=yes&:showVizHome=no&:toolbar=yes'
+
+29-07-2026T12:36:30 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.140.106/t/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-RelationshipManager?:embed=yes&:showVizHome=no&:toolbar=yes'
+
+29-07-2026T12:36:30 - [TEST_STEP][PASSED] - assert urlRM.contains("DashboardProduksiPerLOA-RelationshipManager"): null
+
+29-07-2026T12:36:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_RM"), 10): Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_RM' is present
+
+29-07-2026T12:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/BRINESIA UI/BrinscreenBook/Menu/judulDash_RM' is present
+
+29-07-2026T12:36:32 - [TEST_STEP][PASSED] - screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png: null
+
+29-07-2026T12:36:32 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathRM): Taking screenshot successfully
+
+29-07-2026T12:36:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardRM_29.07.2026_(12.35.45).png]]
+
+29-07-2026T12:36:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+29-07-2026T12:36:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+29-07-2026T12:36:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+29-07-2026T12:36:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.36.33).png]]
+
+29-07-2026T12:36:33 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRINESIA UI/BRINSCREEN/Tableau" time="80.842" classname="Test Cases/BRINESIA UI/BRINSCREEN/Tableau" status="PASSED">
+         <system-out><![CDATA[29-07-2026T12:36:33 - [TEST_CASE][PASSED] - Test Cases/BRINESIA UI/BRINSCREEN/Tableau: Test Cases/BRINESIA UI/BRINSCREEN/Tableau
+
+29-07-2026T12:36:34 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+29-07-2026T12:36:34 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+29-07-2026T12:36:34 - [TEST_STEP][PASSED] - openBrowser("https://mis.brins.co.id/#/signin"): Browser is opened with url: 'https://mis.brins.co.id/#/signin'
+
+29-07-2026T12:36:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-07-2026T12:36:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2026T12:36:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2026T12:36:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mis.brins.co.id/#/signin'
+
+29-07-2026T12:36:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-07-2026T12:36:39 - [MESSAGE][PASSED] - Current window maximized
+
+29-07-2026T12:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/Tableau/Login/username"), "test"): Text 'test' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/username'
+
+29-07-2026T12:36:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/username'
+
+29-07-2026T12:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/Tableau/Login/password"), "passwordSalah"): Text 'passwordSalah' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/password'
+
+29-07-2026T12:36:42 - [MESSAGE][PASSED] - Text 'passwordSalah' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/password'
+
+29-07-2026T12:36:42 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Login/btnSign")): Object: 'Object Repository/BRINESIA UI/Tableau/Login/btnSign' is clicked on
+
+29-07-2026T12:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Login/btnSign' is clicked on
+
+29-07-2026T12:36:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-07-2026T12:36:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-07-2026T12:36:45 - [TEST_STEP][PASSED] - loginFailed = verifyTextPresent("Invalid username or password", false, OPTIONAL): Text 'Invalid username or password' is present on page 
+
+29-07-2026T12:36:45 - [MESSAGE][PASSED] - Text 'Invalid username or password' is present on page 
+
+29-07-2026T12:36:45 - [TEST_STEP][PASSED] - if (loginFailed): null
+
+29-07-2026T12:36:45 - [TEST_STEP][PASSED] - screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Gagal_$timestamp.png: null
+
+29-07-2026T12:36:45 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFailed): Taking screenshot successfully
+
+29-07-2026T12:36:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Gagal_29.07.2026_(12.36.34).png]]
+
+29-07-2026T12:36:46 - [TEST_STEP][PASSED] - println("Negative login berhasil divalidasi"): null
+
+29-07-2026T12:36:46 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+29-07-2026T12:36:46 - [MESSAGE][PASSED] - Refresh successfully
+
+29-07-2026T12:36:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-07-2026T12:36:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-07-2026T12:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/Tableau/Login/username"), "administrator"): Text 'administrator' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/username'
+
+29-07-2026T12:36:49 - [MESSAGE][PASSED] - Text 'administrator' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/username'
+
+29-07-2026T12:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("BRINESIA UI/Tableau/Login/password"), "Tsi_Brins2020"): Text 'Tsi_Brins2020' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/password'
+
+29-07-2026T12:36:51 - [MESSAGE][PASSED] - Text 'Tsi_Brins2020' is set on object 'Object Repository/BRINESIA UI/Tableau/Login/password'
+
+29-07-2026T12:36:51 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Login/btnSign")): Object: 'Object Repository/BRINESIA UI/Tableau/Login/btnSign' is clicked on
+
+29-07-2026T12:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Login/btnSign' is clicked on
+
+29-07-2026T12:36:52 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/MenuDashboard/opsiSearchDOB")): Object: 'Object Repository/BRINESIA UI/Tableau/MenuDashboard/opsiSearchDOB' is clicked on
+
+29-07-2026T12:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/MenuDashboard/opsiSearchDOB' is clicked on
+
+29-07-2026T12:36:53 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/MenuDashboard/dataDefault")): Object: 'Object Repository/BRINESIA UI/Tableau/MenuDashboard/dataDefault' is clicked on
+
+29-07-2026T12:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/MenuDashboard/dataDefault' is clicked on
+
+29-07-2026T12:36:54 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataLOA")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataLOA' is clicked on
+
+29-07-2026T12:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataLOA' is clicked on
+
+29-07-2026T12:36:55 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataSupervisi")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataSupervisi' is clicked on
+
+29-07-2026T12:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataSupervisi' is clicked on
+
+29-07-2026T12:36:56 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+29-07-2026T12:37:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+29-07-2026T12:37:11 - [TEST_STEP][PASSED] - urlSupervisi = getUrl(): Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchSupervisi?:iid=1'
+
+29-07-2026T12:37:11 - [MESSAGE][PASSED] - Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchSupervisi?:iid=1'
+
+29-07-2026T12:37:11 - [TEST_STEP][PASSED] - assert urlSupervisi.contains("DashboardProduksiPerLOA-BranchSupervisi"): null
+
+29-07-2026T12:37:11 - [TEST_STEP][PASSED] - screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png: null
+
+29-07-2026T12:37:11 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathSuper): Taking screenshot successfully
+
+29-07-2026T12:37:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_29.07.2026_(12.36.34).png]]
+
+29-07-2026T12:37:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2026T12:37:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-07-2026T12:37:17 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:17 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataBranchUtama")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataBranchUtama' is clicked on
+
+29-07-2026T12:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataBranchUtama' is clicked on
+
+29-07-2026T12:37:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+29-07-2026T12:37:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+29-07-2026T12:37:29 - [TEST_STEP][PASSED] - urlBranchUtama = getUrl(): Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchUtama?:iid=2'
+
+29-07-2026T12:37:29 - [MESSAGE][PASSED] - Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-BranchUtama?:iid=2'
+
+29-07-2026T12:37:29 - [TEST_STEP][PASSED] - assert urlBranchUtama.contains("DashboardProduksiPerLOA-BranchUtama"): null
+
+29-07-2026T12:37:29 - [TEST_STEP][PASSED] - screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png: null
+
+29-07-2026T12:37:29 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathUtama): Taking screenshot successfully
+
+29-07-2026T12:37:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_29.07.2026_(12.36.34).png]]
+
+29-07-2026T12:37:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2026T12:37:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-07-2026T12:37:34 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:35 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataRM")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataRM' is clicked on
+
+29-07-2026T12:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/dataRM' is clicked on
+
+29-07-2026T12:37:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+29-07-2026T12:37:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+29-07-2026T12:37:47 - [TEST_STEP][PASSED] - urlRM = getUrl(): Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-RelationshipManager?:iid=1'
+
+29-07-2026T12:37:47 - [MESSAGE][PASSED] - Current window's url is: 'https://mis.brins.co.id/#/site/DOB/views/DashboardProduksiPerLOA/DashboardProduksiPerLOA-RelationshipManager?:iid=1'
+
+29-07-2026T12:37:47 - [TEST_STEP][PASSED] - assert urlRM.contains("DashboardProduksiPerLOA-RelationshipManager"): null
+
+29-07-2026T12:37:47 - [TEST_STEP][PASSED] - screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png: null
+
+29-07-2026T12:37:47 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathRM): Taking screenshot successfully
+
+29-07-2026T12:37:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardRM_29.07.2026_(12.36.34).png]]
+
+29-07-2026T12:37:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-07-2026T12:37:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-07-2026T12:37:52 - [TEST_STEP][PASSED] - click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack")): Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/BRINESIA UI/Tableau/Menu Default/btnBack' is clicked on
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+29-07-2026T12:37:53 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+29-07-2026T12:37:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260729_123538\\BrinScreen\\BrinScreenBook\\20260729_123538\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.37.53).png]]
+
+29-07-2026T12:37:54 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2026T12:35:44 - [TEST_SUITE][PASSED] - BrinScreenBook: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

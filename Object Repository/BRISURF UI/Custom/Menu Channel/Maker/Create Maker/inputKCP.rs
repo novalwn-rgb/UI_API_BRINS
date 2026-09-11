@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputKCP</name>
+   <tag></tag>
+   <elementGuidId>38bec4d0-16cd-411b-9549-2380c13e15ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[contains(@class,'select2-search__field')])[last()]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[contains(@class,'select2-search__field')])[last()]</value>
+      <webElementGuid>4223ef39-1ac8-49d2-9c7b-67250160ff48</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Uker</name>
+   <tag></tag>
+   <elementGuidId>7037d928-529b-4f36-932f-720b0abf3414</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='id_uker_brins']/option[@value='ALL']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='id_uker_brins']/option[@value='ALL']</value>
+      <webElementGuid>08b522d8-b96f-400c-a4c7-ae6ef810651e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

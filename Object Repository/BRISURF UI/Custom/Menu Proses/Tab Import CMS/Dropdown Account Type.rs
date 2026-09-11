@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown Account Type</name>
+   <tag></tag>
+   <elementGuidId>bb51bbce-84d8-45b5-a6ac-c6f2dae6adad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.select2.select2-container.select2-container--default.select2-container--disabled.select2-container--focus > span.selection > span.select2-selection.select2-selection--single > span.select2-selection__arrow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='uploadFileForm']/div[5]/div/span/span/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f9417290-3174-43e2-bf1b-a9fe1e862ea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-selection__arrow</value>
+      <webElementGuid>4c2631eb-0e75-4eee-a541-404d2609d737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>716bea78-2192-4438-9c37-a8d79c792ae1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uploadFileForm&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-md-4 col-sm-9 d-flex flex-column&quot;]/span[@class=&quot;select2 select2-container select2-container--default select2-container--disabled select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]</value>
+      <webElementGuid>d875fdf0-16cb-445e-8e37-9bf93f3e82f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='uploadFileForm']/div[5]/div/span/span/span/span[2]</value>
+      <webElementGuid>d92515d2-3faf-4732-9899-d4624e95cfc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Pilih Tipe Rekening --'])[2]/following::span[1]</value>
+      <webElementGuid>61818d94-51ee-4b5c-b8f7-cb85d94f5330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Type'])[1]/following::span[6]</value>
+      <webElementGuid>48ec7f8a-c74d-4700-9050-4497bdee4d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account No.'])[1]/preceding::span[2]</value>
+      <webElementGuid>9ed4b62b-9938-40d8-9994-f1ab39ccce2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Pilih Rekening --'])[2]/preceding::span[2]</value>
+      <webElementGuid>5fadc295-23de-4b08-a54a-77d325f129bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/span/span/span/span[2]</value>
+      <webElementGuid>7e26bc40-6c14-4c92-b43f-135db8a57035</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

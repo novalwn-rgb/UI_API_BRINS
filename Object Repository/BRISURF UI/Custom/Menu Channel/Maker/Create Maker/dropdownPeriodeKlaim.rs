@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownPeriodeKlaim</name>
+   <tag></tag>
+   <elementGuidId>40bf9c3a-e80c-453d-9b93-f6c2e2c9c98b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='PeriodeKlaim']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='PeriodeKlaim']</value>
+      <webElementGuid>e51ea97c-3f37-4726-9757-809c2d140156</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

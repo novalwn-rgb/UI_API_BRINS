@@ -1,0 +1,10 @@
+{
+    "ResponseCode": "00",
+    "ResponseDescription": "Success - Berhasil melakukan flagging data",
+    "ResponseException": "",
+    "TanggalMulaiCovering": "09/07/2026",
+    "TanggalAkhirCovering": "09/07/2027",
+    "NomorPeserta": "FRP10305980826000006",
+    "URLDokumenKepesertaan": "https://dev-brisurf.brins.co.id/BRISURF/CoveringPrint/FRP10305980826000006",
+    "OriginalCoveringFlagSuccessDate": "07/08/2026 16:08:00"
+}

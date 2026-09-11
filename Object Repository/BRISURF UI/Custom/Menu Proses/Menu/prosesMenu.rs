@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>prosesMenu</name>
+   <tag></tag>
+   <elementGuidId>7e733b0e-b405-42cb-96e9-7329f57638ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.//span[normalize-space()='Proses']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.//span[normalize-space()='Proses']]</value>
+      <webElementGuid>87d63fd0-a095-47c1-b0d3-6d68ee03508b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNomor</name>
+   <tag></tag>
+   <elementGuidId>727dd55d-62f1-4bbf-8706-f23a24139fac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='Nomor']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='Nomor']</value>
+      <webElementGuid>e3a13e59-1342-4496-b25a-135368b0e9f3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

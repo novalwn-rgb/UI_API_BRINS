@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownEntry</name>
+   <tag></tag>
+   <elementGuidId>d6e54e00-531f-4b69-8e25-5c8b45d69c84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='tableImportCms_length']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='tableImportCms_length']</value>
+      <webElementGuid>2bdb64e8-db3a-4601-8ed9-73a1eea50f23</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

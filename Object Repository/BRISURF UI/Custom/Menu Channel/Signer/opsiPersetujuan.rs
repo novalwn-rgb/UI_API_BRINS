@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>opsiPersetujuan</name>
+   <tag></tag>
+   <elementGuidId>437cb31f-087a-477b-b68d-d998b3ddc857</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='approval']/option[normalize-space()='Setuju']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='approval']/option[normalize-space()='Setuju']</value>
+      <webElementGuid>162101ba-7006-40fb-b165-68bd8a8a9bd1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

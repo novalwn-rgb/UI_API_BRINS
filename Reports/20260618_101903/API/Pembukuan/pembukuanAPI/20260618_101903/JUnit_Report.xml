@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pembukuanAPI" time="433.385" tests="2" failures="0" errors="0">
+   <testsuite name="pembukuanAPI" tests="2" failures="0" errors="0" time="433.385" skipped="0" timestamp="2026-06-18T03:19:16.662Z" hostname="ACER - DESKTOP-RC89JE8" id="Test Suites/API/Pembukuan/pembukuanAPI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\AutoAPI\\Reports\\20260618_101903\\API\\Pembukuan\\pembukuanAPI\\20260618_101903"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\AutoAPI\\Reports\\20260618_101903\\API\\Pembukuan\\pembukuanAPI\\20260618_101903\\console0.log, C:\\Users\\ACER\\git\\AutoAPI\\Reports\\20260618_101903\\API\\Pembukuan\\pembukuanAPI\\20260618_101903\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Quality Assurance"/>
+         <property name="hostName" value="ACER - DESKTOP-RC89JE8"/>
+         <property name="hostAddress" value="10.1.48.125"/>
+         <property name="projectName" value="AutoAPI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/API/CoveringValidation/CovVal_26689" time="355.215" classname="Test Cases/API/CoveringValidation/CovVal_26689" status="PASSED">
+         <system-out><![CDATA[18-06-2026T10:19:19 - [TEST_CASE][PASSED] - Test Cases/API/CoveringValidation/CovVal_26689: Test Cases/API/CoveringValidation/CovVal_26689
+
+18-06-2026T10:19:21 - [TEST_STEP][PASSED] - data = findTestData("Data Files/CoveringValidation/CoveringVal"): null
+
+18-06-2026T10:19:22 - [TEST_STEP][PASSED] - totalRow = data.getRowNumbers(): null
+
+18-06-2026T10:19:23 - [TEST_STEP][PASSED] - println("Total Data : " + totalRow): null
+
+18-06-2026T10:19:23 - [TEST_STEP][PASSED] - for ([row = 1, row <= totalRow, (row++)]): Send request successfully
+
+18-06-2026T10:19:23 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:23 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_0.har
+
+18-06-2026T10:19:34 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:34 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:34 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:37 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_1.har
+
+18-06-2026T10:19:37 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:37 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:37 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:41 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_2.har
+
+18-06-2026T10:19:41 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:41 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:41 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_3.har
+
+18-06-2026T10:19:44 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:44 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:44 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_4.har
+
+18-06-2026T10:19:48 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:48 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:48 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_5.har
+
+18-06-2026T10:19:52 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:52 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:52 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_6.har
+
+18-06-2026T10:19:55 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:55 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:55 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:19:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_7.har
+
+18-06-2026T10:19:58 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:19:58 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:19:58 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:19:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:02 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_8.har
+
+18-06-2026T10:20:02 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:02 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:02 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:05 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_9.har
+
+18-06-2026T10:20:05 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:05 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:05 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:09 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_10.har
+
+18-06-2026T10:20:09 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:09 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:09 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:12 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_11.har
+
+18-06-2026T10:20:12 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:12 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:12 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:15 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_12.har
+
+18-06-2026T10:20:15 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:15 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:15 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:19 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_13.har
+
+18-06-2026T10:20:19 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:19 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:19 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:22 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_14.har
+
+18-06-2026T10:20:22 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:22 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:22 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:25 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_15.har
+
+18-06-2026T10:20:25 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:25 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:25 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:29 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_16.har
+
+18-06-2026T10:20:29 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:29 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:29 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:32 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_17.har
+
+18-06-2026T10:20:32 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:32 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:32 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:36 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_18.har
+
+18-06-2026T10:20:36 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:36 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:36 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:39 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_19.har
+
+18-06-2026T10:20:39 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:39 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:39 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_20.har
+
+18-06-2026T10:20:43 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:43 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:43 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_21.har
+
+18-06-2026T10:20:46 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:46 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:46 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_22.har
+
+18-06-2026T10:20:50 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:50 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:50 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_23.har
+
+18-06-2026T10:20:53 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:53 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:53 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:20:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_24.har
+
+18-06-2026T10:20:56 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:20:56 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:20:56 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:20:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_25.har
+
+18-06-2026T10:21:00 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:00 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:00 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:03 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_26.har
+
+18-06-2026T10:21:03 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:03 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:03 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:07 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_27.har
+
+18-06-2026T10:21:07 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:07 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:07 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:10 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_28.har
+
+18-06-2026T10:21:10 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:10 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:10 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:13 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_29.har
+
+18-06-2026T10:21:13 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:13 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:13 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:16 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_30.har
+
+18-06-2026T10:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:16 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:16 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_31.har
+
+18-06-2026T10:21:20 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:20 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:20 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:23 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_32.har
+
+18-06-2026T10:21:23 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:23 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:23 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:27 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_33.har
+
+18-06-2026T10:21:27 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:27 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:27 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:30 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_34.har
+
+18-06-2026T10:21:30 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:30 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:30 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_35.har
+
+18-06-2026T10:21:33 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:33 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:33 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:37 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_36.har
+
+18-06-2026T10:21:37 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:37 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:37 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:40 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_37.har
+
+18-06-2026T10:21:40 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:40 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:40 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_38.har
+
+18-06-2026T10:21:44 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:44 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:44 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_39.har
+
+18-06-2026T10:21:47 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:47 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:47 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_40.har
+
+18-06-2026T10:21:50 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:50 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:50 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_41.har
+
+18-06-2026T10:21:54 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:54 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:54 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:21:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_42.har
+
+18-06-2026T10:21:57 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:21:57 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:21:57 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:21:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:01 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_43.har
+
+18-06-2026T10:22:01 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:01 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:01 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:04 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_44.har
+
+18-06-2026T10:22:04 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:04 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:04 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:07 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_45.har
+
+18-06-2026T10:22:07 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:07 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:07 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:11 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_46.har
+
+18-06-2026T10:22:11 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:11 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:11 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:14 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_47.har
+
+18-06-2026T10:22:14 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:14 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:14 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:18 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_48.har
+
+18-06-2026T10:22:18 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:18 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:18 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:21 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_49.har
+
+18-06-2026T10:22:21 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:21 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:21 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:25 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_50.har
+
+18-06-2026T10:22:25 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:25 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:25 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:28 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_51.har
+
+18-06-2026T10:22:28 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:28 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:28 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:31 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_52.har
+
+18-06-2026T10:22:31 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:31 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:31 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:35 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_53.har
+
+18-06-2026T10:22:35 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:35 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:35 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:38 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_54.har
+
+18-06-2026T10:22:38 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:38 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:38 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:42 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_55.har
+
+18-06-2026T10:22:42 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:42 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:42 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_56.har
+
+18-06-2026T10:22:45 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:45 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:45 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_57.har
+
+18-06-2026T10:22:48 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:48 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:48 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_58.har
+
+18-06-2026T10:22:52 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:52 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:52 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_59.har
+
+18-06-2026T10:22:55 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:55 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:55 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:22:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_60.har
+
+18-06-2026T10:22:59 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:22:59 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:22:59 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:22:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:02 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_61.har
+
+18-06-2026T10:23:02 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:02 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:02 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:05 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_62.har
+
+18-06-2026T10:23:05 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:05 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:05 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:09 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_63.har
+
+18-06-2026T10:23:09 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:09 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:09 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:12 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_64.har
+
+18-06-2026T10:23:12 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:12 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:13 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:16 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_65.har
+
+18-06-2026T10:23:16 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:16 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:16 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_66.har
+
+18-06-2026T10:23:20 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:20 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:20 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:23 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_67.har
+
+18-06-2026T10:23:23 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:23 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:23 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:26 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_68.har
+
+18-06-2026T10:23:26 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:26 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:26 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:30 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_69.har
+
+18-06-2026T10:23:30 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:30 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:30 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_70.har
+
+18-06-2026T10:23:33 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:33 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:33 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:37 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_71.har
+
+18-06-2026T10:23:37 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:37 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:37 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:41 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_72.har
+
+18-06-2026T10:23:41 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:41 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:41 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_73.har
+
+18-06-2026T10:23:44 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:44 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:44 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_74.har
+
+18-06-2026T10:23:47 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:47 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:47 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_75.har
+
+18-06-2026T10:23:51 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:51 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:51 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_76.har
+
+18-06-2026T10:23:55 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:55 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:55 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:23:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_77.har
+
+18-06-2026T10:23:58 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:23:58 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:23:58 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:23:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:02 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_78.har
+
+18-06-2026T10:24:02 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:02 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:02 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:05 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_79.har
+
+18-06-2026T10:24:05 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:05 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:05 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:08 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_80.har
+
+18-06-2026T10:24:08 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:08 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:08 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:12 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_81.har
+
+18-06-2026T10:24:12 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:12 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:12 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:15 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_82.har
+
+18-06-2026T10:24:15 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:15 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:15 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:19 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_83.har
+
+18-06-2026T10:24:19 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:19 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:19 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:22 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_84.har
+
+18-06-2026T10:24:22 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:22 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:22 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:26 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_85.har
+
+18-06-2026T10:24:26 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:26 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:26 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:29 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_86.har
+
+18-06-2026T10:24:29 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:29 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:29 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_87.har
+
+18-06-2026T10:24:33 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:33 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:33 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:36 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_88.har
+
+18-06-2026T10:24:36 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:36 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:36 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:39 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_89.har
+
+18-06-2026T10:24:39 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:39 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:39 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_90.har
+
+18-06-2026T10:24:43 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:43 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:43 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_91.har
+
+18-06-2026T10:24:46 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:46 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:46 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_92.har
+
+18-06-2026T10:24:50 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:50 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:50 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_93.har
+
+18-06-2026T10:24:53 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:53 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:53 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:24:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_94.har
+
+18-06-2026T10:24:56 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:24:56 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:24:56 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:24:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:25:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_95.har
+
+18-06-2026T10:25:00 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:00 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:00 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:25:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:25:03 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_96.har
+
+18-06-2026T10:25:03 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:03 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:03 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:25:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:25:07 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_97.har
+
+18-06-2026T10:25:07 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:07 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:07 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:25:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:25:10 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_98.har
+
+18-06-2026T10:25:10 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:11 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:11 - [TEST_STEP][PASSED] - cif = data.getValue("CIFRekeningSimpanan", row): null
+
+18-06-2026T10:25:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringValidation/CovVal_26689", ["NomorRekeningSimpanan":norekSave, "CIFRekeningSimpanan":cif])): Send request successfully
+
+18-06-2026T10:25:14 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovVal_26689_99.har
+
+18-06-2026T10:25:14 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/CoveringFlag/CovFlag_26689" time="75.664" classname="Test Cases/API/CoveringFlag/CovFlag_26689" status="PASSED">
+         <system-out><![CDATA[18-06-2026T10:25:14 - [TEST_CASE][PASSED] - Test Cases/API/CoveringFlag/CovFlag_26689: Test Cases/API/CoveringFlag/CovFlag_26689
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - data = findTestData("Data Files/CoveringFlag/CoveringFlag"): null
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - totalRow = data.getRowNumbers(): null
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - println("Total Data : " + totalRow): null
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - for ([row = 1, row <= totalRow, (row++)]): null
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:15 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_100.har
+
+18-06-2026T10:25:15 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:16 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_101.har
+
+18-06-2026T10:25:16 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:17 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_102.har
+
+18-06-2026T10:25:17 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:17 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_103.har
+
+18-06-2026T10:25:17 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:18 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_104.har
+
+18-06-2026T10:25:18 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:19 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_105.har
+
+18-06-2026T10:25:19 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_106.har
+
+18-06-2026T10:25:20 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:21 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_107.har
+
+18-06-2026T10:25:21 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:21 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_108.har
+
+18-06-2026T10:25:21 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:22 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_109.har
+
+18-06-2026T10:25:22 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:23 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_110.har
+
+18-06-2026T10:25:23 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:24 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_111.har
+
+18-06-2026T10:25:24 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:24 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_112.har
+
+18-06-2026T10:25:24 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:25 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_113.har
+
+18-06-2026T10:25:25 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:26 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_114.har
+
+18-06-2026T10:25:26 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:27 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_115.har
+
+18-06-2026T10:25:27 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:27 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_116.har
+
+18-06-2026T10:25:27 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:28 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_117.har
+
+18-06-2026T10:25:28 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:29 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_118.har
+
+18-06-2026T10:25:29 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:30 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_119.har
+
+18-06-2026T10:25:30 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:30 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_120.har
+
+18-06-2026T10:25:30 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:31 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_121.har
+
+18-06-2026T10:25:31 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:32 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_122.har
+
+18-06-2026T10:25:32 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_123.har
+
+18-06-2026T10:25:33 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:33 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_124.har
+
+18-06-2026T10:25:33 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:34 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_125.har
+
+18-06-2026T10:25:34 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:35 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_126.har
+
+18-06-2026T10:25:35 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:36 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_127.har
+
+18-06-2026T10:25:36 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:36 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_128.har
+
+18-06-2026T10:25:36 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:37 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_129.har
+
+18-06-2026T10:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:38 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_130.har
+
+18-06-2026T10:25:38 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:39 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_131.har
+
+18-06-2026T10:25:39 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:40 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_132.har
+
+18-06-2026T10:25:40 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:40 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_133.har
+
+18-06-2026T10:25:40 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:41 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_134.har
+
+18-06-2026T10:25:41 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:42 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_135.har
+
+18-06-2026T10:25:42 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_136.har
+
+18-06-2026T10:25:43 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:43 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_137.har
+
+18-06-2026T10:25:43 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:44 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_138.har
+
+18-06-2026T10:25:44 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:45 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_139.har
+
+18-06-2026T10:25:45 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_140.har
+
+18-06-2026T10:25:46 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:46 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_141.har
+
+18-06-2026T10:25:46 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:47 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_142.har
+
+18-06-2026T10:25:47 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_143.har
+
+18-06-2026T10:25:48 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:48 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_144.har
+
+18-06-2026T10:25:48 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:49 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_145.har
+
+18-06-2026T10:25:49 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:50 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_146.har
+
+18-06-2026T10:25:50 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_147.har
+
+18-06-2026T10:25:51 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:51 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_148.har
+
+18-06-2026T10:25:51 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:52 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_149.har
+
+18-06-2026T10:25:52 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:53 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_150.har
+
+18-06-2026T10:25:53 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_151.har
+
+18-06-2026T10:25:54 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:54 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_152.har
+
+18-06-2026T10:25:54 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:55 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_153.har
+
+18-06-2026T10:25:55 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:56 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_154.har
+
+18-06-2026T10:25:56 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_155.har
+
+18-06-2026T10:25:57 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:57 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_156.har
+
+18-06-2026T10:25:57 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:58 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_157.har
+
+18-06-2026T10:25:58 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:25:59 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_158.har
+
+18-06-2026T10:25:59 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:25:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_159.har
+
+18-06-2026T10:26:00 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:00 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_160.har
+
+18-06-2026T10:26:00 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:01 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_161.har
+
+18-06-2026T10:26:01 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:02 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_162.har
+
+18-06-2026T10:26:02 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:03 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_163.har
+
+18-06-2026T10:26:03 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:03 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_164.har
+
+18-06-2026T10:26:03 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:04 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_165.har
+
+18-06-2026T10:26:04 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:05 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_166.har
+
+18-06-2026T10:26:05 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:06 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_167.har
+
+18-06-2026T10:26:06 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:06 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_168.har
+
+18-06-2026T10:26:06 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:07 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_169.har
+
+18-06-2026T10:26:07 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:08 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_170.har
+
+18-06-2026T10:26:08 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:09 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_171.har
+
+18-06-2026T10:26:09 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:09 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_172.har
+
+18-06-2026T10:26:09 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:10 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_173.har
+
+18-06-2026T10:26:10 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:11 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_174.har
+
+18-06-2026T10:26:11 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:12 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_175.har
+
+18-06-2026T10:26:12 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:12 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_176.har
+
+18-06-2026T10:26:12 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:13 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_177.har
+
+18-06-2026T10:26:13 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:14 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_178.har
+
+18-06-2026T10:26:14 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:15 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_179.har
+
+18-06-2026T10:26:15 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:15 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_180.har
+
+18-06-2026T10:26:15 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:16 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_181.har
+
+18-06-2026T10:26:16 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:17 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_182.har
+
+18-06-2026T10:26:17 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:18 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_183.har
+
+18-06-2026T10:26:18 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:18 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_184.har
+
+18-06-2026T10:26:18 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:19 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_185.har
+
+18-06-2026T10:26:19 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_186.har
+
+18-06-2026T10:26:20 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:21 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_187.har
+
+18-06-2026T10:26:21 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:21 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_188.har
+
+18-06-2026T10:26:21 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:22 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_189.har
+
+18-06-2026T10:26:22 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:23 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_190.har
+
+18-06-2026T10:26:23 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:24 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_191.har
+
+18-06-2026T10:26:24 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:24 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_192.har
+
+18-06-2026T10:26:24 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:25 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_193.har
+
+18-06-2026T10:26:25 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:26 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_194.har
+
+18-06-2026T10:26:26 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:27 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_195.har
+
+18-06-2026T10:26:27 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:27 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_196.har
+
+18-06-2026T10:26:27 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:28 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_197.har
+
+18-06-2026T10:26:28 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:29 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_198.har
+
+18-06-2026T10:26:29 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:29 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_199.har
+
+18-06-2026T10:26:29 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - norekSave = data.getValue("NomorRekeningSimpanan", row): null
+
+18-06-2026T10:26:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26689", ["NomorRekeningSimpanan":norekSave])): Send request successfully
+
+18-06-2026T10:26:30 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\AutoAPI\Reports\20260618_101903\API\Pembukuan\pembukuanAPI\20260618_101903\requests\main\CovFlag_26689_200.har
+
+18-06-2026T10:26:30 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2026T10:26:30 - [TEST_STEP][PASSED] - println("=============================="): null
+
+18-06-2026T10:26:30 - [TEST_STEP][PASSED] - println("Row                : " + row): null
+
+18-06-2026T10:26:30 - [TEST_STEP][PASSED] - println("Nomor Rekening Simpanan   : " + norekSave): null
+
+18-06-2026T10:26:30 - [TEST_STEP][PASSED] - println("HTTP Status        : " + response.getStatusCode()): null
+
+18-06-2026T10:26:30 - [TEST_STEP][PASSED] - println("Response Body      : " + response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-06-2026T10:19:16 - [TEST_SUITE][PASSED] - pembukuanAPI: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

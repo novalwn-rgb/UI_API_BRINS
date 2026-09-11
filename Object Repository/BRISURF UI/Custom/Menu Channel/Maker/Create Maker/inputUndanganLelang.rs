@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputUndanganLelang</name>
+   <tag></tag>
+   <elementGuidId>0d545eac-ec43-4a4a-957b-2e417094b1df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoUndanganLelang']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoUndanganLelang']</value>
+      <webElementGuid>f1144643-a836-4e66-8401-ad5331bba684</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

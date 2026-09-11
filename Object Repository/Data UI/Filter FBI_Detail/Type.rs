@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Type</name>
+   <tag></tag>
+   <elementGuidId>dc6dbc7c-9a60-4f6b-a3e6-1ced01201fe3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='id_type_coinsurance']/option[@value='ALL']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='id_type_coinsurance']/option[@value='ALL']</value>
+      <webElementGuid>894129a4-a2bb-4a0a-8696-e6357f32b9cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

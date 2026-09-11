@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CovFlag_KCU</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ef3f8e6-c26b-4df4-a24d-0b0e61ea0bf2</testCaseGuid>
+</TestCaseEntity>

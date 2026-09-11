@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pembukuanAPI,,,,18-06-2026 10:19:16,18-06-2026 10:26:30,7m - 13.531s,PASSED
+,,,,,,,
+Test Cases/API/CoveringValidation/CovVal_26689,,,,18-06-2026 10:19:19,18-06-2026 10:25:14,5m - 55.215s,PASSED
+"data = findTestData(""Data Files/CoveringValidation/CoveringVal"")",,,,18-06-2026 10:19:21,18-06-2026 10:19:22,1.801s,PASSED
+totalRow = data.getRowNumbers(),,,,18-06-2026 10:19:22,18-06-2026 10:19:23,0.167s,PASSED
+"println(""Total Data : "" + totalRow)",,,,18-06-2026 10:19:23,18-06-2026 10:19:23,0.087s,PASSED
+"for ([row = 1, row <= totalRow, (row++)])",,,,18-06-2026 10:19:23,18-06-2026 10:25:14,5m - 51.222s,PASSED
+,,,,,,,
+Test Cases/API/CoveringFlag/CovFlag_26689,,,,18-06-2026 10:25:14,18-06-2026 10:26:30,1m - 15.664s,PASSED
+"data = findTestData(""Data Files/CoveringFlag/CoveringFlag"")",,,,18-06-2026 10:25:14,18-06-2026 10:25:14,0.137s,PASSED
+totalRow = data.getRowNumbers(),,,,18-06-2026 10:25:14,18-06-2026 10:25:14,0.008s,PASSED
+"println(""Total Data : "" + totalRow)",,,,18-06-2026 10:25:14,18-06-2026 10:25:14,0.009s,PASSED
+"for ([row = 1, row <= totalRow, (row++)])",,,,18-06-2026 10:25:14,18-06-2026 10:26:30,1m - 15.219s,PASSED

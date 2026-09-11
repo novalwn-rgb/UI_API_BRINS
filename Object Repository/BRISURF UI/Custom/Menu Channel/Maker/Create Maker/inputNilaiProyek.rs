@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNilaiProyek</name>
+   <tag></tag>
+   <elementGuidId>d6ad119a-1600-459d-86ae-ea24bf73977b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NilaiProyek']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NilaiProyek']</value>
+      <webElementGuid>2676b9d6-df1d-4d26-9b63-1f1a5aa0ec18</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

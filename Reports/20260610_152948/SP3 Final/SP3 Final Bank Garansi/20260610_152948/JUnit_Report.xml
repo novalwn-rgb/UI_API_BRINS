@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SP3 Final Bank Garansi" time="211.776" tests="4" failures="3" errors="0">
+   <testsuite name="SP3 Final Bank Garansi" tests="4" failures="3" errors="0" time="211.776" skipped="0" timestamp="2026-06-10T08:29:56.382Z" hostname="ACER - DESKTOP-RC89JE8" id="Test Suites/SP3 Final/SP3 Final Bank Garansi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\console0.log, C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080314785.png, C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080362398.png, C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080408043.png"/>
+         <property name="hostName" value="ACER - DESKTOP-RC89JE8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 149.0.7827.53"/>
+         <property name="userFullName" value="Quality Assurance"/>
+         <property name="hostAddress" value="10.1.49.138"/>
+         <property name="sessionId" value="0c40f37b1d7982e527f3e5f84a64ee14"/>
+         <property name="projectName" value="sp3Final"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker" time="72.261" classname="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker" status="PASSED">
+         <system-out><![CDATA[10-06-2026T15:29:57 - [TEST_CASE][PASSED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker
+
+10-06-2026T15:29:59 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:29:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-06-2026T15:30:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-06-2026T15:30:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "barkah"): Text 'barkah' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:30:11 - [MESSAGE][PASSED] - Text 'barkah' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:30:11 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:30:12 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:30:12 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:30:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-06-2026T15:30:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-06-2026T15:30:17 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:30:18 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:30:22 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:30:24 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:30:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-06-2026T15:30:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-06-2026T15:30:25 - [TEST_STEP][PASSED] - executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null): Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:30:25 - [MESSAGE][PASSED] - Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:30:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:30:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:30:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:30:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:30:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:30:29 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:30:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:30:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:30:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis"), 0): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis' successfully
+
+10-06-2026T15:30:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:30:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis' successfully
+
+10-06-2026T15:30:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-06-2026T15:30:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-06-2026T15:30:44 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis' is clicked on
+
+10-06-2026T15:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis' is clicked on
+
+10-06-2026T15:30:44 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownDokumen")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownDokumen' is clicked on
+
+10-06-2026T15:30:54 - [MESSAGE][WARNING] - Waiting for element timed out
+
+10-06-2026T15:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownDokumen' is clicked on
+
+10-06-2026T15:30:54 - [TEST_STEP][PASSED] - uploadFile(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/uploadDokumen"), "C:\Users\ACER\Downloads\Sample Dokumen\BN57673UNDFL-0202SMG0725..pdf"): File 'C:\Users\ACER\Downloads\Sample Dokumen\BN57673UNDFL-0202SMG0725..pdf' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/uploadDokumen'
+
+10-06-2026T15:30:55 - [MESSAGE][PASSED] - File 'C:\Users\ACER\Downloads\Sample Dokumen\BN57673UNDFL-0202SMG0725..pdf' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/uploadDokumen'
+
+10-06-2026T15:30:55 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownKewenangan")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownKewenangan' is clicked on
+
+10-06-2026T15:31:05 - [MESSAGE][WARNING] - Waiting for element timed out
+
+10-06-2026T15:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownKewenangan' is clicked on
+
+10-06-2026T15:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/inputKeterangan"), "Testing Bank"): Text 'Testing Bank' is set on object 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/inputKeterangan'
+
+10-06-2026T15:31:06 - [MESSAGE][PASSED] - Text 'Testing Bank' is set on object 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/inputKeterangan'
+
+10-06-2026T15:31:06 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/btn KirimPengajuan")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/btn KirimPengajuan' is clicked on
+
+10-06-2026T15:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Pengajuan SP3/btn KirimPengajuan' is clicked on
+
+10-06-2026T15:31:06 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/btn OK popup")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/btn OK popup' is clicked on
+
+10-06-2026T15:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/btn OK popup' is clicked on
+
+10-06-2026T15:31:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-06-2026T15:31:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker" time="44.911" classname="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)&#xa;	at 02 SP3 Checker.run(02 SP3 Checker:69)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[10-06-2026T15:31:10 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+10-06-2026T15:31:10 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:31:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-06-2026T15:31:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-06-2026T15:31:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "tulus"): Text 'tulus' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:31:16 - [MESSAGE][PASSED] - Text 'tulus' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:31:17 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:31:17 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:31:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-06-2026T15:31:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-06-2026T15:31:22 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:31:23 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:31:27 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:31:28 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:31:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-06-2026T15:31:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-06-2026T15:31:30 - [TEST_STEP][PASSED] - executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null): Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:31:30 - [MESSAGE][PASSED] - Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:31:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:31:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:31:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:31:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:31:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:31:33 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:31:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:31:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:31:43 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis"), 0): Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:69)
+	... 15 more
+)
+
+10-06-2026T15:31:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:31:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[contains(@class,'btn-pengecekan')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-06-2026T15:31:54 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:69)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080314785.png]]]]></system-out>
+         <system-err><![CDATA[10-06-2026T15:31:10 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer" time="47.613" classname="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)&#xa;	at 03 SP3 Signer.run(03 SP3 Signer:66)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[10-06-2026T15:31:54 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+10-06-2026T15:31:55 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:31:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-06-2026T15:31:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-06-2026T15:31:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-06-2026T15:32:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "wenda"): Text 'wenda' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:32:03 - [MESSAGE][PASSED] - Text 'wenda' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:32:03 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:32:04 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:32:04 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:32:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-06-2026T15:32:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-06-2026T15:32:09 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:32:10 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:32:13 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:32:15 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:32:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-06-2026T15:32:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-06-2026T15:32:16 - [TEST_STEP][PASSED] - executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null): Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:32:16 - [MESSAGE][PASSED] - Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:32:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:32:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:32:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:32:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:32:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:32:20 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:32:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:32:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:32:31 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis"), 0): Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:66)
+	... 15 more
+)
+
+10-06-2026T15:32:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:32:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[contains(@class,'btn-approval')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-06-2026T15:32:42 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:66)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080362398.png]]]]></system-out>
+         <system-err><![CDATA[10-06-2026T15:31:54 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final" time="45.593" classname="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)&#xa;	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[10-06-2026T15:32:42 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+10-06-2026T15:32:42 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:32:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-06-2026T15:32:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-06-2026T15:32:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-06-2026T15:32:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+10-06-2026T15:32:49 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "barkah"): Text 'barkah' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:32:50 - [MESSAGE][PASSED] - Text 'barkah' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+10-06-2026T15:32:50 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:32:50 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+10-06-2026T15:32:50 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+10-06-2026T15:32:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-06-2026T15:32:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-06-2026T15:32:56 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/Slide' is clicked on
+
+10-06-2026T15:32:56 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+10-06-2026T15:33:00 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax' is clicked on
+
+10-06-2026T15:33:02 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu' is clicked on
+
+10-06-2026T15:33:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+10-06-2026T15:33:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+10-06-2026T15:33:03 - [TEST_STEP][PASSED] - executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null): Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:33:04 - [MESSAGE][PASSED] - Execute JavaScript '
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+' successfully
+
+10-06-2026T15:33:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:33:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:33:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:33:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu' successfully
+
+10-06-2026T15:33:07 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' is clicked on
+
+10-06-2026T15:33:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-06-2026T15:33:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-06-2026T15:33:16 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate"), 0): Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:71)
+	... 15 more
+)
+
+10-06-2026T15:33:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+10-06-2026T15:33:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[contains(@class,'btn-generate-draftsp3')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+10-06-2026T15:33:28 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:71)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\Katalon Studio\\sp3Final-master\\Reports\\20260610_152948\\SP3 Final\\SP3 Final Bank Garansi\\20260610_152948\\1781080408043.png]]]]></system-out>
+         <system-err><![CDATA[10-06-2026T15:32:42 - [TEST_CASE][FAILED] - Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final: Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-06-2026T15:29:56 - [TEST_SUITE][FAILED] - SP3 Final Bank Garansi: null]]></system-out>
+      <system-err><![CDATA[10-06-2026T15:29:56 - [TEST_SUITE][FAILED] - SP3 Final Bank Garansi: null]]></system-err>
+   </testsuite>
+</testsuites>

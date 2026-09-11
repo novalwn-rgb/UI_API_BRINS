@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Refresh</name>
+   <tag></tag>
+   <elementGuidId>6e4f6026-71bd-46b6-bdcd-ec7b1b1f01bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-secondary.btn-primary.btn-refresh.mt-1.mb-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tableExportCms_wrapper']/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>200b6239-f128-4ee5-835e-9ebf68e4e3d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-secondary btn-primary btn-refresh mt-1 mb-1</value>
+      <webElementGuid>e64cd045-691d-4727-86d6-d263f23d26ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>856ccd7a-39b8-4008-84d2-14a598db08a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>tableExportCms</value>
+      <webElementGuid>616ad368-3bea-455d-89ae-8234ae1ec180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Refresh</value>
+      <webElementGuid>d3e94689-f346-48e1-a7ec-005900406f1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tableExportCms_wrapper&quot;)/div[@class=&quot;dt-buttons btn-group&quot;]/button[@class=&quot;btn btn-secondary btn-primary btn-refresh mt-1 mb-1&quot;]</value>
+      <webElementGuid>00d0f903-f731-43bc-ac95-17b80b8220d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tableExportCms_wrapper']/div/button</value>
+      <webElementGuid>64e42b30-b473-480d-8578-3f587b5a79d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 11 of 11 entries'])[1]/following::button[1]</value>
+      <webElementGuid>a8da89cb-ada8-4d31-99c7-ff550a3f82ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cristine'])[1]/following::button[1]</value>
+      <webElementGuid>da585b5f-5a30-46ee-a2fc-a1f55ef54728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing...'])[1]/preceding::button[1]</value>
+      <webElementGuid>c5313758-2fea-4f49-b199-e352c9802400</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>bf45ef8a-b552-4867-8819-eb7042fca402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Refresh' or . = ' Refresh')]</value>
+      <webElementGuid>b6c28204-d384-4a86-8cd0-9e174dc3e653</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

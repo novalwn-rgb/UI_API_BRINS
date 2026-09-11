@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownFID</name>
+   <tag></tag>
+   <elementGuidId>7d402321-b1a5-497c-b10f-d00764e7c505</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='select2-fidprog-container']/parent::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='select2-fidprog-container']/parent::span</value>
+      <webElementGuid>607a2aee-c35c-4cad-822a-8ba90f6d42c0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

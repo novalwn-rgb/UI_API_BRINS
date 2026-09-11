@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadSP3Final</name>
+   <tag></tag>
+   <elementGuidId>cb17e5d5-acc1-478e-bf23-e5fca8014acf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='Doc_file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='Doc_file']</value>
+      <webElementGuid>16e0ef73-07d4-4b9b-92ac-7df8bf59bc51</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

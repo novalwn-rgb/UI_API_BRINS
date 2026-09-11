@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pilihRMJakarta1</name>
+   <tag></tag>
+   <elementGuidId>9624236e-c0e6-4be5-89eb-9ce202616fae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='RM']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='RM']</value>
+      <webElementGuid>eaa2fbf1-8d90-4d66-8c42-df9f696e455f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

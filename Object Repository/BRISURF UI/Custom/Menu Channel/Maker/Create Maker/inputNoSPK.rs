@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoSPK</name>
+   <tag></tag>
+   <elementGuidId>8d89bf82-b1bf-4638-9d69-252dd0f4809d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoSPK']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoSPK']</value>
+      <webElementGuid>f5bacc70-7766-4f2d-b855-f650f00eac04</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

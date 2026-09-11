@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPilihSuper</name>
+   <tag></tag>
+   <elementGuidId>629545ff-c0f6-4fa2-8179-1dbeeef8e71d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'kode_reporting=BR_DOB_19')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'kode_reporting=BR_DOB_19')]</value>
+      <webElementGuid>ddc62bb1-6a87-4ded-9ab2-b2fd3f0bc2ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

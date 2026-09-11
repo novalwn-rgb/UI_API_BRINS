@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoAddendum</name>
+   <tag></tag>
+   <elementGuidId>b3a8abc1-dc3d-470c-a006-b4ee7179694a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoAddendumKontrak']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoAddendumKontrak']</value>
+      <webElementGuid>a2f770cf-771f-4084-8a99-e98b75ad694a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

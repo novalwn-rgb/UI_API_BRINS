@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>frameCapta</name>
+   <tag></tag>
+   <elementGuidId>b80c73f8-17e0-4268-9a47-68e33225375a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[contains(@src,'challenges.cloudflare.com')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[contains(@src,'challenges.cloudflare.com')]</value>
+      <webElementGuid>18efac11-c71b-4524-8351-c72cef79229b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

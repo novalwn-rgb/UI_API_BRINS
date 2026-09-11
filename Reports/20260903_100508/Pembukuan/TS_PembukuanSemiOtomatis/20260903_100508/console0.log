@@ -1,0 +1,243 @@
+2026-09-03 10:05:13.544 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\TTECH-0251\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-09-03 10:05:13.548 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\TTECH-0251\git\AutoAPI\Include\config\log.properties
+2026-09-03 10:05:14.460 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Pembukuan/TS_PembukuanSemiOtomatis
+2026-09-03 10:05:14.553 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance 12
+2026-09-03 10:05:14.555 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutoAPI
+2026-09-03 10:05:14.555 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = TTECH-0251 - NovalWinaNurcahyo.brins.co.id
+2026-09-03 10:05:14.556 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-09-03 10:05:14.557 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.19
+2026-09-03 10:05:14.558 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-09-03 10:05:15.126 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-03 10:05:15.126 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker
+2026-09-03 10:05:15.346 DEBUG testcase.PembukuanAutomatic_Maker        - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-09-03 10:05:15.683 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-03 10:05:15.759 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 03, 2026 10:05:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 03, 2026 10:05:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-03 10:05:19.694 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9b23c0a2a62ec337c8e73fd1226f5acf
+2026-09-03 10:05:19.696 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.65
+2026-09-03 10:05:19.697 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-09-03 10:05:19.698 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-09-03 10:05:19.711 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-03 10:05:23.618 DEBUG testcase.PembukuanAutomatic_Maker        - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "Azkarik")
+2026-09-03 10:05:24.921 DEBUG testcase.PembukuanAutomatic_Maker        - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-09-03 10:05:25.939 DEBUG testcase.PembukuanAutomatic_Maker        - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-09-03 10:05:26.459 DEBUG testcase.PembukuanAutomatic_Maker        - 5: delay(5)
+2026-09-03 10:05:31.512 DEBUG testcase.PembukuanAutomatic_Maker        - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-09-03 10:05:36.086 DEBUG testcase.PembukuanAutomatic_Maker        - 7: click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/prosesMenu"))
+2026-09-03 10:05:37.815 DEBUG testcase.PembukuanAutomatic_Maker        - 8: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"), 0, STOP_ON_FAILURE)
+2026-09-03 10:05:37.868 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-03 10:05:38.320 DEBUG testcase.PembukuanAutomatic_Maker        - 9: click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"))
+2026-09-03 10:05:43.931 DEBUG testcase.PembukuanAutomatic_Maker        - 10: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/dropdownBranch"))
+2026-09-03 10:05:45.347 DEBUG testcase.PembukuanAutomatic_Maker        - 11: setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch"), "Makassar")
+2026-09-03 10:05:46.549 DEBUG testcase.PembukuanAutomatic_Maker        - 12: sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch"), Keys.chord(ENTER))
+2026-09-03 10:05:47.159 DEBUG testcase.PembukuanAutomatic_Maker        - 13: setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputName"), "Automation 3")
+2026-09-03 10:05:48.382 DEBUG testcase.PembukuanAutomatic_Maker        - 14: uploadFile(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/uploadDok"), "C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Dokumen Test 2\BRINS_038601001055307_SPV_tes13.xlsx")
+2026-09-03 10:05:48.719 DEBUG testcase.PembukuanAutomatic_Maker        - 15: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Product"))
+2026-09-03 10:05:49.193 DEBUG testcase.PembukuanAutomatic_Maker        - 16: setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "Asuransi Mikro BRILINK WIC")
+2026-09-03 10:05:50.992 DEBUG testcase.PembukuanAutomatic_Maker        - 17: sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER))
+2026-09-03 10:05:51.668 DEBUG testcase.PembukuanAutomatic_Maker        - 18: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account Type"))
+2026-09-03 10:05:52.667 DEBUG testcase.PembukuanAutomatic_Maker        - 19: setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "PREMI")
+2026-09-03 10:05:54.416 DEBUG testcase.PembukuanAutomatic_Maker        - 20: sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER))
+2026-09-03 10:05:55.087 DEBUG testcase.PembukuanAutomatic_Maker        - 21: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account No"))
+2026-09-03 10:05:55.936 DEBUG testcase.PembukuanAutomatic_Maker        - 22: setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "020601000102311")
+2026-09-03 10:05:57.560 DEBUG testcase.PembukuanAutomatic_Maker        - 23: sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER))
+2026-09-03 10:05:58.194 DEBUG testcase.PembukuanAutomatic_Maker        - 24: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/button_Import Excel"))
+2026-09-03 10:05:58.910 DEBUG testcase.PembukuanAutomatic_Maker        - 25: delay(5)
+2026-09-03 10:06:03.919 DEBUG testcase.PembukuanAutomatic_Maker        - 26: closeBrowser()
+2026-09-03 10:06:04.637 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+)
+2026-09-03 10:06:04.639 ERROR c.k.k.core.context.internal.TestHooker   - ❌ com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2026-09-03 10:06:04.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker
+2026-09-03 10:06:04.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-03 10:06:04.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer
+2026-09-03 10:06:04.848 DEBUG testcase.PembukuanAutomatic_Maker        - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-09-03 10:06:04.855 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-03 10:06:04.856 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 03, 2026 10:06:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 03, 2026 10:06:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-03 10:06:06.525 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0f84b544f9755e781863c54f9a263215
+2026-09-03 10:06:06.526 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.65
+2026-09-03 10:06:06.526 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-09-03 10:06:06.527 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-09-03 10:06:06.527 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-03 10:06:10.268 DEBUG testcase.PembukuanAutomatic_Maker        - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "Rexy")
+2026-09-03 10:06:11.252 DEBUG testcase.PembukuanAutomatic_Maker        - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-09-03 10:06:12.578 DEBUG testcase.PembukuanAutomatic_Maker        - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-09-03 10:06:13.086 DEBUG testcase.PembukuanAutomatic_Maker        - 5: delay(5)
+2026-09-03 10:06:18.099 DEBUG testcase.PembukuanAutomatic_Maker        - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-09-03 10:06:22.802 DEBUG testcase.PembukuanAutomatic_Maker        - 7: click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/prosesMenu"))
+2026-09-03 10:06:23.858 DEBUG testcase.PembukuanAutomatic_Maker        - 8: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"), 0, STOP_ON_FAILURE)
+2026-09-03 10:06:23.871 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-03 10:06:24.382 DEBUG testcase.PembukuanAutomatic_Maker        - 9: click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"))
+2026-09-03 10:06:32.296 DEBUG testcase.PembukuanAutomatic_Maker        - 10: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionCeklis"))
+2026-09-03 10:06:36.363 DEBUG testcase.PembukuanAutomatic_Maker        - 11: verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction"))
+2026-09-03 10:06:37.461 DEBUG testcase.PembukuanAutomatic_Maker        - 12: verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CancelProcess"))
+2026-09-03 10:06:38.154 DEBUG testcase.PembukuanAutomatic_Maker        - 13: verifyElementText(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/WordingHint_Match"), "The transaction remarks matching process has not been executed yet.")
+2026-09-03 10:06:38.483 DEBUG testcase.PembukuanAutomatic_Maker        - 14: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction"))
+2026-09-03 10:06:38.932 DEBUG testcase.PembukuanAutomatic_Maker        - 15: waitForAlert(3)
+2026-09-03 10:06:42.061 WARN  c.k.k.c.w.k.builtin.WaitForAlertKeyword  - No alert found after 3 second(s).
+2026-09-03 10:06:42.063 DEBUG testcase.PembukuanAutomatic_Maker        - 16: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Popup_Submit"))
+2026-09-03 10:06:42.523 DEBUG testcase.PembukuanAutomatic_Maker        - 17: delay(5)
+2026-09-03 10:06:47.528 DEBUG testcase.PembukuanAutomatic_Maker        - 18: waitForElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"), 10)
+2026-09-03 10:06:47.966 DEBUG testcase.PembukuanAutomatic_Maker        - 19: verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"))
+2026-09-03 10:06:48.262 DEBUG testcase.PembukuanAutomatic_Maker        - 20: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"))
+2026-09-03 10:06:48.700 DEBUG testcase.PembukuanAutomatic_Maker        - 21: waitForElementNotPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"), 10)
+2026-09-03 10:06:51.736 DEBUG testcase.PembukuanAutomatic_Maker        - 22: delay(5)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.06.56).png
+2026-09-03 10:06:57.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer
+2026-09-03 10:06:57.189 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-03 10:06:57.189 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download
+2026-09-03 10:06:57.412 DEBUG testcase.PembukuanAutomatic_Maker        - 1: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionDownload"))
+2026-09-03 10:06:57.872 DEBUG testcase.PembukuanAutomatic_Maker        - 2: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Dropdown StatusPembukuan"))
+2026-09-03 10:06:59.109 DEBUG testcase.PembukuanAutomatic_Maker        - 3: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Dropdown OpsiGagal"))
+2026-09-03 10:07:09.146 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-03 10:07:09.186 DEBUG testcase.PembukuanAutomatic_Maker        - 4: click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Btn RequestExcel"))
+2026-09-03 10:07:11.768 DEBUG testcase.PembukuanAutomatic_Maker        - 5: delay(5)
+2026-09-03 10:07:16.783 DEBUG testcase.PembukuanAutomatic_Maker        - 6: waitForElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel"), 10)
+2026-09-03 10:07:17.125 DEBUG testcase.PembukuanAutomatic_Maker        - 7: click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel"))
+2026-09-03 10:07:17.602 DEBUG testcase.PembukuanAutomatic_Maker        - 8: isMenunggu = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Menunggu"), 5, OPTIONAL)
+2026-09-03 10:07:17.940 DEBUG testcase.PembukuanAutomatic_Maker        - 9: println("Status Menunggu Diproses: " + isMenunggu)
+Status Menunggu Diproses: true
+2026-09-03 10:07:17.949 DEBUG testcase.PembukuanAutomatic_Maker        - 10: maxTry = 10
+2026-09-03 10:07:17.951 DEBUG testcase.PembukuanAutomatic_Maker        - 11: isSelesai = false
+2026-09-03 10:07:17.952 DEBUG testcase.PembukuanAutomatic_Maker        - 12: for ([i = 0, i < maxTry, (i++)])
+2026-09-03 10:07:17.953 DEBUG testcase.PembukuanAutomatic_Maker        - 1: println("Checking status... Percobaan ke-" + i + 1)
+Checking status... Percobaan ke-1
+2026-09-03 10:07:17.959 DEBUG testcase.PembukuanAutomatic_Maker        - 2: delay(5)
+2026-09-03 10:07:22.964 DEBUG testcase.PembukuanAutomatic_Maker        - 3: refresh()
+2026-09-03 10:07:24.840 DEBUG testcase.PembukuanAutomatic_Maker        - 4: delay(2)
+2026-09-03 10:07:26.848 DEBUG testcase.PembukuanAutomatic_Maker        - 5: isSelesai = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Selesai"), 5, OPTIONAL)
+2026-09-03 10:07:27.192 DEBUG testcase.PembukuanAutomatic_Maker        - 6: if (isSelesai)
+2026-09-03 10:07:27.195 DEBUG testcase.PembukuanAutomatic_Maker        - 1: println("========================================")
+========================================
+2026-09-03 10:07:27.200 DEBUG testcase.PembukuanAutomatic_Maker        - 2: println("STATUS SUDAH SELESAI DIPROSES")
+STATUS SUDAH SELESAI DIPROSES
+2026-09-03 10:07:27.202 DEBUG testcase.PembukuanAutomatic_Maker        - 3: println("========================================")
+========================================
+2026-09-03 10:07:27.202 DEBUG testcase.PembukuanAutomatic_Maker        - 4: break
+2026-09-03 10:07:27.205 DEBUG testcase.PembukuanAutomatic_Maker        - 13: if (!(isSelesai))
+2026-09-03 10:07:27.207 DEBUG testcase.PembukuanAutomatic_Maker        - 14: else
+2026-09-03 10:07:27.208 DEBUG testcase.PembukuanAutomatic_Maker        - 1: println("Status proses berhasil menjadi Selesai Diproses")
+Status proses berhasil menjadi Selesai Diproses
+2026-09-03 10:07:27.210 DEBUG testcase.PembukuanAutomatic_Maker        - 2: isDownloadAvailable = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel"), 5, OPTIONAL)
+2026-09-03 10:07:32.382 WARN  c.k.k.core.keyword.internal.KeywordMain  - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at PembukuanAutomatic_Download.run(PembukuanAutomatic_Download:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-09-03 10:07:32.382 DEBUG testcase.PembukuanAutomatic_Maker        - 3: if (isDownloadAvailable)
+2026-09-03 10:07:32.382 DEBUG testcase.PembukuanAutomatic_Maker        - 4: else
+2026-09-03 10:07:32.382 DEBUG testcase.PembukuanAutomatic_Maker        - 1: println("========================================")
+========================================
+2026-09-03 10:07:32.382 DEBUG testcase.PembukuanAutomatic_Maker        - 2: println("IKON DOWNLOAD BELUM TERSEDIA")
+IKON DOWNLOAD BELUM TERSEDIA
+2026-09-03 10:07:32.389 DEBUG testcase.PembukuanAutomatic_Maker        - 3: println("Download dilakukan manual oleh Developer")
+Download dilakukan manual oleh Developer
+2026-09-03 10:07:32.390 DEBUG testcase.PembukuanAutomatic_Maker        - 4: println("Test tetap dianggap BERHASIL")
+Test tetap dianggap BERHASIL
+2026-09-03 10:07:32.392 DEBUG testcase.PembukuanAutomatic_Maker        - 5: println("========================================")
+========================================
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.07.32).png
+2026-09-03 10:07:32.843 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download
+2026-09-03 10:07:33.481 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-03 10:07:33.481 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Pembukuan/TS_PembukuanSemiOtomatis
+2026-09-03 10:07:33.481 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

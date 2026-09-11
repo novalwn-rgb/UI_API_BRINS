@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputAllDropdown</name>
+   <tag></tag>
+   <elementGuidId>0e44cd32-27a7-47e9-aa90-9c922adcb507</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@class,'select2-container--open')]//input[contains(@class,'select2-search__field')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@class,'select2-container--open')]//input[contains(@class,'select2-search__field')]</value>
+      <webElementGuid>c9095896-0336-4f3f-8f05-940cbbb23b18</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

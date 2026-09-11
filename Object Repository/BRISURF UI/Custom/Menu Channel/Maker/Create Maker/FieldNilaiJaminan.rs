@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FieldNilaiJaminan</name>
+   <tag></tag>
+   <elementGuidId>c6ef9991-d4a3-4769-a635-f292bea14800</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NilaiJaminan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NilaiJaminan']</value>
+      <webElementGuid>5bbb0328-665d-4583-b148-768698c4abb3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

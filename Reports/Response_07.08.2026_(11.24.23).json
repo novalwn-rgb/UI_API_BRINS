@@ -1,0 +1,5 @@
+{
+    "ResponseCode": "01",
+    "ResponseDescription": "Failed : [ERR_COVVAL_JUMLAH_PENGAJUAN_MELEBIHI_BATAS_MAX_RUMAHKU] jumlah pengajuan melebihi batas maksimal, pengajuan produk ASMIK rumahku hanya diperbolehkan 3",
+    "ResponseException": "6a755e4cb8f33168970010c4"
+}

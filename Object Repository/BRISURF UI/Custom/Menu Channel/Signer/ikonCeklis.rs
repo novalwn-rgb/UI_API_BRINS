@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ikonCeklis</name>
+   <tag></tag>
+   <elementGuidId>1eff50fa-eead-4ffd-ad97-27ad5bb480f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//button[contains(@class,'btn-approval')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//button[contains(@class,'btn-approval')])[1]</value>
+      <webElementGuid>39234b68-e647-4e76-a78e-21c30e1de406</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

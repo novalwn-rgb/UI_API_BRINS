@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>covMenu</name>
+   <tag></tag>
+   <elementGuidId>5679b1a5-69c2-4ce8-90d0-bc2dc38fbe11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.//span[normalize-space()='Covering']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.//span[normalize-space()='Covering']]</value>
+      <webElementGuid>b30be84c-1175-4114-9d10-d2387b1e5e9d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>channelMenu</name>
+   <tag></tag>
+   <elementGuidId>e34da2b3-b55d-4bb8-9fd6-4aa6fd02737c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.//span[normalize-space()='Channel']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.//span[normalize-space()='Channel']]</value>
+      <webElementGuid>a216357f-7884-4f6b-9082-27f7069cc29d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

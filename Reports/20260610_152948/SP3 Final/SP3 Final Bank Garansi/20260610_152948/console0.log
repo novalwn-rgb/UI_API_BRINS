@@ -1,0 +1,385 @@
+2026-06-10 15:29:56.223 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/SP3 Final/SP3 Final Bank Garansi
+2026-06-10 15:29:56.429 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance
+2026-06-10 15:29:56.435 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = sp3Final
+2026-06-10 15:29:56.437 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - DESKTOP-RC89JE8
+2026-06-10 15:29:56.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-06-10 15:29:56.449 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.49.138
+2026-06-10 15:29:56.454 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2026-06-10 15:29:57.734 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:29:57.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker
+2026-06-10 15:29:59.068 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:29:59.924 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:30:00.052 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:30:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:30:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:30:05.265 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b8db908f36ed5ededf83e671e704e754
+2026-06-10 15:30:05.266 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:30:05.268 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:30:05.269 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:30:05.286 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:30:10.412 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "barkah")
+2026-06-10 15:30:11.545 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:30:12.279 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:30:12.806 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)
+2026-06-10 15:30:17.920 DEBUG testcase.01 SP3 Maker                    - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide"))
+2026-06-10 15:30:18.543 DEBUG testcase.01 SP3 Maker                    - 7: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-06-10 15:30:22.594 DEBUG testcase.01 SP3 Maker                    - 8: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax"))
+2026-06-10 15:30:24.079 DEBUG testcase.01 SP3 Maker                    - 9: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu"))
+2026-06-10 15:30:24.522 DEBUG testcase.01 SP3 Maker                    - 10: delay(1)
+2026-06-10 15:30:25.538 DEBUG testcase.01 SP3 Maker                    - 11: executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null)
+2026-06-10 15:30:25.640 DEBUG testcase.01 SP3 Maker                    - 12: delay(3)
+2026-06-10 15:30:28.651 DEBUG testcase.01 SP3 Maker                    - 13: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0)
+2026-06-10 15:30:28.690 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:30:29.027 DEBUG testcase.01 SP3 Maker                    - 14: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu"))
+2026-06-10 15:30:36.050 DEBUG testcase.01 SP3 Maker                    - 15: delay(3)
+2026-06-10 15:30:39.067 DEBUG testcase.01 SP3 Maker                    - 16: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis"), 0)
+2026-06-10 15:30:39.082 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:30:39.370 DEBUG testcase.01 SP3 Maker                    - 17: delay(5)
+2026-06-10 15:30:44.385 DEBUG testcase.01 SP3 Maker                    - 18: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis"))
+2026-06-10 15:30:44.817 DEBUG testcase.01 SP3 Maker                    - 19: click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownDokumen"))
+2026-06-10 15:30:54.864 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-10 15:30:54.920 DEBUG testcase.01 SP3 Maker                    - 20: uploadFile(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/uploadDokumen"), "C:\Users\ACER\Downloads\Sample Dokumen\BN57673UNDFL-0202SMG0725..pdf")
+2026-06-10 15:30:55.320 DEBUG testcase.01 SP3 Maker                    - 21: click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownKewenangan"))
+2026-06-10 15:31:05.365 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-10 15:31:05.403 DEBUG testcase.01 SP3 Maker                    - 22: setText(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/inputKeterangan"), "Testing Bank")
+2026-06-10 15:31:06.180 DEBUG testcase.01 SP3 Maker                    - 23: click(findTestObject("BRISURF UI/Custom/Menu Channel/Pengajuan SP3/btn KirimPengajuan"))
+2026-06-10 15:31:06.613 DEBUG testcase.01 SP3 Maker                    - 24: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/btn OK popup"))
+2026-06-10 15:31:09.555 DEBUG testcase.01 SP3 Maker                    - 25: closeBrowser()
+2026-06-10 15:31:09.996 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker
+2026-06-10 15:31:10.009 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:31:10.009 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker
+2026-06-10 15:31:10.294 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:31:10.299 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:31:10.303 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:31:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:31:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:31:12.218 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 803bdf8b08d9185376dad83b552d0872
+2026-06-10 15:31:12.220 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:31:12.221 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:31:12.222 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:31:12.223 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:31:16.025 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "tulus")
+2026-06-10 15:31:16.764 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:31:17.431 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:31:17.856 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)
+2026-06-10 15:31:22.873 DEBUG testcase.01 SP3 Maker                    - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide"))
+2026-06-10 15:31:23.374 DEBUG testcase.01 SP3 Maker                    - 7: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-06-10 15:31:27.269 DEBUG testcase.01 SP3 Maker                    - 8: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax"))
+2026-06-10 15:31:28.321 DEBUG testcase.01 SP3 Maker                    - 9: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu"))
+2026-06-10 15:31:29.130 DEBUG testcase.01 SP3 Maker                    - 10: delay(1)
+2026-06-10 15:31:30.156 DEBUG testcase.01 SP3 Maker                    - 11: executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null)
+2026-06-10 15:31:30.241 DEBUG testcase.01 SP3 Maker                    - 12: delay(3)
+2026-06-10 15:31:33.267 DEBUG testcase.01 SP3 Maker                    - 13: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0)
+2026-06-10 15:31:33.276 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:31:33.591 DEBUG testcase.01 SP3 Maker                    - 14: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu"))
+2026-06-10 15:31:40.633 DEBUG testcase.01 SP3 Maker                    - 15: delay(3)
+2026-06-10 15:31:43.647 DEBUG testcase.01 SP3 Maker                    - 16: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis"), 0)
+2026-06-10 15:31:43.662 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:31:54.768 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (//button[contains(@class,'btn-pengecekan')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2026-06-10 15:31:54.900 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:69)
+	... 15 more
+)
+2026-06-10 15:31:54.915 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 02 SP3 Checker.run(02 SP3 Checker:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis' located by '(//button[contains(@class,'btn-pengecekan')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-06-10 15:31:54.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker
+2026-06-10 15:31:54.929 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:31:54.929 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer
+2026-06-10 15:31:55.155 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:31:55.164 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-10 15:31:55.692 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:31:55.694 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:31:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:31:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:31:57.509 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c8ff0b4b04ecb3416542315e549f712d
+2026-06-10 15:31:57.513 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:31:57.515 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:31:57.519 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:31:57.520 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:32:02.798 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "wenda")
+2026-06-10 15:32:03.562 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:32:04.261 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:32:04.658 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)
+2026-06-10 15:32:09.672 DEBUG testcase.01 SP3 Maker                    - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide"))
+2026-06-10 15:32:10.052 DEBUG testcase.01 SP3 Maker                    - 7: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-06-10 15:32:13.798 DEBUG testcase.01 SP3 Maker                    - 8: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax"))
+2026-06-10 15:32:15.275 DEBUG testcase.01 SP3 Maker                    - 9: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu"))
+2026-06-10 15:32:15.663 DEBUG testcase.01 SP3 Maker                    - 10: delay(1)
+2026-06-10 15:32:16.684 DEBUG testcase.01 SP3 Maker                    - 11: executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null)
+2026-06-10 15:32:16.704 DEBUG testcase.01 SP3 Maker                    - 12: delay(3)
+2026-06-10 15:32:19.725 DEBUG testcase.01 SP3 Maker                    - 13: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0)
+2026-06-10 15:32:19.807 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:32:20.160 DEBUG testcase.01 SP3 Maker                    - 14: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu"))
+2026-06-10 15:32:28.121 DEBUG testcase.01 SP3 Maker                    - 15: delay(3)
+2026-06-10 15:32:31.139 DEBUG testcase.01 SP3 Maker                    - 16: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis"), 0)
+2026-06-10 15:32:31.150 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:32:42.393 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (//button[contains(@class,'btn-approval')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2026-06-10 15:32:42.517 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:66)
+	... 15 more
+)
+2026-06-10 15:32:42.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer
+2026-06-10 15:32:42.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:32:42.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final
+2026-06-10 15:32:42.524 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 03 SP3 Signer.run(03 SP3 Signer:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis' located by '(//button[contains(@class,'btn-approval')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-06-10 15:32:42.897 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:32:42.901 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-10 15:32:43.500 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:32:43.501 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:32:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:32:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:32:45.830 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0c40f37b1d7982e527f3e5f84a64ee14
+2026-06-10 15:32:45.831 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:32:45.832 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:32:45.833 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:32:45.835 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:32:49.499 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "barkah")
+2026-06-10 15:32:50.218 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:32:50.927 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:32:51.310 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)
+2026-06-10 15:32:56.330 DEBUG testcase.01 SP3 Maker                    - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide"))
+2026-06-10 15:32:56.737 DEBUG testcase.01 SP3 Maker                    - 7: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-06-10 15:33:00.844 DEBUG testcase.01 SP3 Maker                    - 8: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax"))
+2026-06-10 15:33:02.336 DEBUG testcase.01 SP3 Maker                    - 9: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu"))
+2026-06-10 15:33:02.934 DEBUG testcase.01 SP3 Maker                    - 10: delay(1)
+2026-06-10 15:33:03.950 DEBUG testcase.01 SP3 Maker                    - 11: executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null)
+2026-06-10 15:33:04.017 DEBUG testcase.01 SP3 Maker                    - 12: delay(3)
+2026-06-10 15:33:07.043 DEBUG testcase.01 SP3 Maker                    - 13: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0)
+2026-06-10 15:33:07.053 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:33:07.347 DEBUG testcase.01 SP3 Maker                    - 14: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu"))
+2026-06-10 15:33:13.828 DEBUG testcase.01 SP3 Maker                    - 15: delay(3)
+2026-06-10 15:33:16.850 DEBUG testcase.01 SP3 Maker                    - 16: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate"), 0)
+2026-06-10 15:33:16.907 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:33:28.041 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //button[contains(@class,'btn-generate-draftsp3')]'. Please recheck the objects properties to make sure the desired element is located. 
+2026-06-10 15:33:28.145 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at Script1774922504196.run(Script1774922504196.groovy:71)
+	... 15 more
+)
+2026-06-10 15:33:28.153 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4209)
+	at 04 SP3 Maker - Final.run(04 SP3 Maker - Final:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080188451.run(TempTestSuite1781080188451.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate' located by '//button[contains(@class,'btn-generate-draftsp3')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1554)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-06-10 15:33:28.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final
+2026-06-10 15:33:28.809 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-10 15:33:28.810 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/SP3 Final/SP3 Final Bank Garansi
+2026-06-10 15:33:28.810 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

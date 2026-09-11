@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CoveringFlag</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>32a0cbfb-5837-4fb5-a86a-45d04fa447c3</dataFileGUID>
+   <dataSourceUrl>C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Cabang Brins\Request API\CoveringFlag.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CovFlag_Jayapura</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

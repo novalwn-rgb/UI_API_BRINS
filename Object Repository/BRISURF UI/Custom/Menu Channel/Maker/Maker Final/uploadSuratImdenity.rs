@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadSuratImdenity</name>
+   <tag></tag>
+   <elementGuidId>3a7c89ae-3176-4949-ad77-1a108a5dad12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='Doc_file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='Doc_file']</value>
+      <webElementGuid>4529461a-5466-4434-856d-9375ccdea5bd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PeriodeAkhir</name>
+   <tag></tag>
+   <elementGuidId>d8a412d8-d6e3-4dd7-bceb-d4aa71c6267d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='id_end_date']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='id_end_date']</value>
+      <webElementGuid>1b7a739f-ce17-4176-b25c-2d7492660a6e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

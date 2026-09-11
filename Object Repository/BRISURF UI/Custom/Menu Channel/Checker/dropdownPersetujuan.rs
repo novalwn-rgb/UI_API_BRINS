@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownPersetujuan</name>
+   <tag></tag>
+   <elementGuidId>4d32f842-1228-42aa-9e1a-916d01e630a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='approval']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='approval']</value>
+      <webElementGuid>52ea5c95-30bf-455e-bf6b-ef190f46567b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputDetailNamaObligae</name>
+   <tag></tag>
+   <elementGuidId>15a20626-929a-406f-b294-82234315d753</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='DetailNamaOblegee']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='DetailNamaOblegee']</value>
+      <webElementGuid>902677e3-2bde-458d-b1e3-880008388760</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

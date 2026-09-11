@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Submenu Upload Rekening Koran</name>
+   <tag></tag>
+   <elementGuidId>893c7104-6caf-4d7a-915c-9e644efddeb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@id='sidebar-wrapper']/ul/li[5]/ul/li[9]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ae24656b-510b-4e5b-914e-bdc738798be9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>children-menu</value>
+      <webElementGuid>5c41ff83-bcef-47c4-8890-132620e85c5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Rekening Koran</value>
+      <webElementGuid>8532e964-cca3-44c1-ac7c-3a28e24f9277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;dropdown&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[9]/a[@class=&quot;nav-link&quot;]/span[@class=&quot;children-menu&quot;]</value>
+      <webElementGuid>62f25a7b-4f99-47a1-bdd7-b72c18474514</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//aside[@id='sidebar-wrapper']/ul/li[5]/ul/li[9]/a/span</value>
+      <webElementGuid>d3181ace-7859-4ec5-8559-2e2fc77c1710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate Confirmation Note'])[1]/following::span[1]</value>
+      <webElementGuid>91a55353-6cde-41d3-a324-7803a5fc2aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register Revisi Data'])[1]/following::span[2]</value>
+      <webElementGuid>a9748c66-5f77-48df-85de-03e5b06725bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Claim'])[2]/preceding::span[1]</value>
+      <webElementGuid>973fc0ea-c0ee-42a3-b7f5-42505a5b4b53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ASMIK'])[6]/preceding::span[2]</value>
+      <webElementGuid>fafc8773-1f1d-477c-aa14-47cad4411a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/ul/li[9]/a/span</value>
+      <webElementGuid>0f9c36dd-fea1-48d6-9b2a-17475367c6d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Upload Rekening Koran' or . = 'Upload Rekening Koran')]</value>
+      <webElementGuid>02d313f2-3ae4-47cc-8c6f-8a955cd42059</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

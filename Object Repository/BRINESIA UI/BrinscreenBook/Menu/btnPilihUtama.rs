@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPilihUtama</name>
+   <tag></tag>
+   <elementGuidId>c34782bd-442f-490c-8931-87ef126415fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'kode_reporting=BR_DOB_20')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'kode_reporting=BR_DOB_20')]</value>
+      <webElementGuid>793ebd48-8091-4fb9-9929-79089a5b4b55</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

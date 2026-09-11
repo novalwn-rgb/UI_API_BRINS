@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoBAST</name>
+   <tag></tag>
+   <elementGuidId>1888c964-c312-4bc0-9422-17b97b375a31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoBAST']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoBAST']</value>
+      <webElementGuid>6725a148-bde4-4793-a7a7-83c91d1b824d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

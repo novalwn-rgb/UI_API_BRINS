@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnBack</name>
+   <tag></tag>
+   <elementGuidId>0d70ed90-e329-4ba0-bc51-7e0c6a4fa9ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-tb-test-id='back-Button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@data-tb-test-id='back-Button']</value>
+      <webElementGuid>0dab491d-1c97-4cdc-8c99-88df2ee62bfd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

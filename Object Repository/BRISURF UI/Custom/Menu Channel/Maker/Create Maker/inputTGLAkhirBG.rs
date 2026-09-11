@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputTGLAkhirBG</name>
+   <tag></tag>
+   <elementGuidId>b8329e27-4816-4461-81c7-4e8dd7bba3ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='TglAkhirJangkaWaktuBG']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='TglAkhirJangkaWaktuBG']</value>
+      <webElementGuid>a69234e7-1d8f-434a-ab68-481ee5e194b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

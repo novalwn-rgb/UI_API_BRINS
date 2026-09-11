@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdownCabangBrins</name>
+   <tag></tag>
+   <elementGuidId>e08d898d-bddd-4617-954c-1a5dd0011399</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'cbbrins-container')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'cbbrins-container')]</value>
+      <webElementGuid>a075201d-0060-473d-8d2c-f69880cfd44c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

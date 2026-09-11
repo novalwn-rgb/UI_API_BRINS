@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPilihRM</name>
+   <tag></tag>
+   <elementGuidId>cc442ecc-a692-40b3-8d71-8075711aa46a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'kode_reporting=BR_DOB_21')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'kode_reporting=BR_DOB_21')]</value>
+      <webElementGuid>6f478351-921d-4cf6-b54f-14b47d4240d7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

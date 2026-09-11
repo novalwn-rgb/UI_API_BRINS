@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CoveringVal</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c5d457fa-3393-4a2d-a10f-79ecd09a2060</dataFileGUID>
+   <dataSourceUrl>C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Cabang Brins\Request API\CoveringValidation.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CovVal_Jayapura</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

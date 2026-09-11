@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadSP_BRI</name>
+   <tag></tag>
+   <elementGuidId>df5a0b86-2d36-4439-a927-2d15eb36ab3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='Doc_file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='Doc_file']</value>
+      <webElementGuid>f7b98edf-ece0-4a41-95f7-44c33fae5a6b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoKontrak</name>
+   <tag></tag>
+   <elementGuidId>ffc89552-c4c7-400b-8b2c-2f024bc67d01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoKontrak']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoKontrak']</value>
+      <webElementGuid>0960a691-c047-4ec6-8bc4-a36933bbe0fc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

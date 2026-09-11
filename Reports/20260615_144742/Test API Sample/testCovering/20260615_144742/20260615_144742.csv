@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testCovering,,,,15-06-2026 14:48:05,15-06-2026 14:49:14,1m - 9.194s,PASSED
+,,,,,,,
+Test Cases/Sample/Test Val/CovVal1,,,,15-06-2026 14:48:07,15-06-2026 14:48:53,46.484s,PASSED
+"data = findTestData(""Data Files/Test/SampleVal"")",,,,15-06-2026 14:48:08,15-06-2026 14:48:09,1.091s,PASSED
+totalRow = data.getRowNumbers(),,,,15-06-2026 14:48:09,15-06-2026 14:48:09,0.066s,PASSED
+"println(""Total Data : "" + totalRow)",,,,15-06-2026 14:48:09,15-06-2026 14:48:09,0.047s,PASSED
+"for ([row = 1, row <= totalRow, (row++)])",,,,15-06-2026 14:48:09,15-06-2026 14:48:53,43.787s,PASSED
+,,,,,,,
+Test Cases/Sample/Test Flag/CovFlag1,,,,15-06-2026 14:48:53,15-06-2026 14:49:14,20.284s,PASSED
+"data = findTestData(""Data Files/Test/SampleFlag"")",,,,15-06-2026 14:48:54,15-06-2026 14:48:54,0.090s,PASSED
+totalRow = data.getRowNumbers(),,,,15-06-2026 14:48:54,15-06-2026 14:48:54,0.017s,PASSED
+"println(""Total Data : "" + totalRow)",,,,15-06-2026 14:48:54,15-06-2026 14:48:54,0.005s,PASSED
+"for ([row = 1, row <= totalRow, (row++)])",,,,15-06-2026 14:48:54,15-06-2026 14:49:14,19.690s,PASSED

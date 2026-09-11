@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputCabangBrins</name>
+   <tag></tag>
+   <elementGuidId>822f44c0-f5e9-421a-8169-0300fff0bd11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[contains(@class,'select2-search__field')])[last()]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[contains(@class,'select2-search__field')])[last()]</value>
+      <webElementGuid>ea8161e6-e0fc-4b92-94cc-3565d914a609</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

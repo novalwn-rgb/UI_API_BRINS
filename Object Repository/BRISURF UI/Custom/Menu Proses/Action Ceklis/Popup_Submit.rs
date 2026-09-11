@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Popup_Submit</name>
+   <tag></tag>
+   <elementGuidId>81afffa5-d5b7-44dc-8679-6952ebb99c5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='btn-submit-match-trx']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='btn-submit-match-trx']</value>
+      <webElementGuid>c049c1ad-906a-4700-b113-94071265b1e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

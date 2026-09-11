@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Popup_Close</name>
+   <tag></tag>
+   <elementGuidId>428fbbc9-7102-4b4e-96d0-1222d797d733</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='btn-cancel-match-trx']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='btn-cancel-match-trx']</value>
+      <webElementGuid>3ec75013-8e6b-4e1c-a6be-df6cc63243de</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

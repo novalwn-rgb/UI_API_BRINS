@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>username</name>
+   <tag></tag>
+   <elementGuidId>8bde4e77-dc6a-4ebe-9c95-6d3886607455</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-tb-test-id='username-TextInput']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@data-tb-test-id='username-TextInput']</value>
+      <webElementGuid>87c2a4bd-76ac-4c21-b033-a95b472c3102</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

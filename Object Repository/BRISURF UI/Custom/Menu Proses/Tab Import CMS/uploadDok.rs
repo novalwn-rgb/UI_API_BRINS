@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadDok</name>
+   <tag></tag>
+   <elementGuidId>55b32b6b-e3ad-4fc1-bacf-cf091859e571</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='cmsFile']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='cmsFile']</value>
+      <webElementGuid>9761e201-9f53-453f-96ac-10c67392683c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ikonProfile</name>
+   <tag></tag>
+   <elementGuidId>ef175058-2114-48e3-998a-8ceb153ce22f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-tb-test-id='flyout-list-menu-Button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@data-tb-test-id='flyout-list-menu-Button']</value>
+      <webElementGuid>8b3833da-c7b8-4637-9897-60f4b15934d3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SP3 Final Bank Garansi,Chrome 149.0.7827.53,,,10-06-2026 15:29:56,10-06-2026 15:33:28,3m - 32.428s,FAILED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker,Chrome 149.0.7827.53,,,10-06-2026 15:29:57,10-06-2026 15:31:09,1m - 12.261s,PASSED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 149.0.7827.53,,,10-06-2026 15:29:59,10-06-2026 15:30:10,11.344s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""barkah"")",Chrome 149.0.7827.53,,,10-06-2026 15:30:10,10-06-2026 15:30:11,1.132s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 149.0.7827.53,,,10-06-2026 15:30:11,10-06-2026 15:30:12,0.732s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:12,10-06-2026 15:30:12,0.526s,PASSED
+delay(5),Chrome 149.0.7827.53,,,10-06-2026 15:30:12,10-06-2026 15:30:17,5.112s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/Slide""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:17,10-06-2026 15:30:18,0.623s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:18,10-06-2026 15:30:22,4.051s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:22,10-06-2026 15:30:24,1.481s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:24,10-06-2026 15:30:24,0.443s,PASSED
+delay(1),Chrome 149.0.7827.53,,,10-06-2026 15:30:24,10-06-2026 15:30:25,1.014s,PASSED
+"executeJavaScript(""
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+"", null)",Chrome 149.0.7827.53,,,10-06-2026 15:30:25,10-06-2026 15:30:25,0.101s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:30:25,10-06-2026 15:30:28,3.011s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:30:28,10-06-2026 15:30:29,0.378s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:29,10-06-2026 15:30:36,7.015s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:30:36,10-06-2026 15:30:39,3.017s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:30:39,10-06-2026 15:30:39,0.301s,PASSED
+delay(5),Chrome 149.0.7827.53,,,10-06-2026 15:30:39,10-06-2026 15:30:44,5.014s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/ikonCeklis""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:44,10-06-2026 15:30:44,0.433s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownDokumen""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:44,10-06-2026 15:30:54,10.100s,PASSED
+"uploadFile(findTestObject(""BRISURF UI/Custom/Menu Channel/Pengajuan SP3/uploadDokumen""), ""C:\Users\ACER\Downloads\Sample Dokumen\BN57673UNDFL-0202SMG0725..pdf"")",Chrome 149.0.7827.53,,,10-06-2026 15:30:54,10-06-2026 15:30:55,0.399s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Pengajuan SP3/dropdownKewenangan""))",Chrome 149.0.7827.53,,,10-06-2026 15:30:55,10-06-2026 15:31:05,10.082s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Channel/Pengajuan SP3/inputKeterangan""), ""Testing Bank"")",Chrome 149.0.7827.53,,,10-06-2026 15:31:05,10-06-2026 15:31:06,0.766s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Pengajuan SP3/btn KirimPengajuan""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:06,10-06-2026 15:31:06,0.431s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/btn OK popup""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:06,10-06-2026 15:31:09,2.940s,PASSED
+closeBrowser(),Chrome 149.0.7827.53,,,10-06-2026 15:31:09,10-06-2026 15:31:09,0.438s,PASSED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker,Chrome 149.0.7827.53,,,10-06-2026 15:31:10,10-06-2026 15:31:54,44.911s,FAILED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 149.0.7827.53,,,10-06-2026 15:31:10,10-06-2026 15:31:16,5.731s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""tulus"")",Chrome 149.0.7827.53,,,10-06-2026 15:31:16,10-06-2026 15:31:16,0.738s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 149.0.7827.53,,,10-06-2026 15:31:16,10-06-2026 15:31:17,0.665s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:17,10-06-2026 15:31:17,0.424s,PASSED
+delay(5),Chrome 149.0.7827.53,,,10-06-2026 15:31:17,10-06-2026 15:31:22,5.014s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/Slide""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:22,10-06-2026 15:31:23,0.506s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:23,10-06-2026 15:31:27,3.890s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:27,10-06-2026 15:31:28,1.049s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:28,10-06-2026 15:31:29,0.808s,PASSED
+delay(1),Chrome 149.0.7827.53,,,10-06-2026 15:31:29,10-06-2026 15:31:30,1.022s,PASSED
+"executeJavaScript(""
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+"", null)",Chrome 149.0.7827.53,,,10-06-2026 15:31:30,10-06-2026 15:31:30,0.084s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:31:30,10-06-2026 15:31:33,3.026s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:31:33,10-06-2026 15:31:33,0.324s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu""))",Chrome 149.0.7827.53,,,10-06-2026 15:31:33,10-06-2026 15:31:40,7.038s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:31:40,10-06-2026 15:31:43,3.013s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Checker/ikonCeklis""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:31:43,10-06-2026 15:31:54,11.259s,FAILED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Channel/Bank Garansi/03 SP3 Signer,Chrome 149.0.7827.53,,,10-06-2026 15:31:54,10-06-2026 15:32:42,47.613s,FAILED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 149.0.7827.53,,,10-06-2026 15:31:55,10-06-2026 15:32:02,7.642s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""wenda"")",Chrome 149.0.7827.53,,,10-06-2026 15:32:02,10-06-2026 15:32:03,0.763s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 149.0.7827.53,,,10-06-2026 15:32:03,10-06-2026 15:32:04,0.699s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:04,10-06-2026 15:32:04,0.396s,PASSED
+delay(5),Chrome 149.0.7827.53,,,10-06-2026 15:32:04,10-06-2026 15:32:09,5.014s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/Slide""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:09,10-06-2026 15:32:10,0.380s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:10,10-06-2026 15:32:13,3.744s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:13,10-06-2026 15:32:15,1.476s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:15,10-06-2026 15:32:15,0.388s,PASSED
+delay(1),Chrome 149.0.7827.53,,,10-06-2026 15:32:15,10-06-2026 15:32:16,1.020s,PASSED
+"executeJavaScript(""
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+"", null)",Chrome 149.0.7827.53,,,10-06-2026 15:32:16,10-06-2026 15:32:16,0.019s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:32:16,10-06-2026 15:32:19,3.021s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:32:19,10-06-2026 15:32:20,0.433s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:20,10-06-2026 15:32:28,7.960s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:32:28,10-06-2026 15:32:31,3.017s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Signer/ikonCeklis""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:32:31,10-06-2026 15:32:42,11.382s,FAILED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Channel/Bank Garansi/04 SP3 Maker - Final,Chrome 149.0.7827.53,,,10-06-2026 15:32:42,10-06-2026 15:33:28,45.593s,FAILED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 149.0.7827.53,,,10-06-2026 15:32:42,10-06-2026 15:32:49,6.603s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""barkah"")",Chrome 149.0.7827.53,,,10-06-2026 15:32:49,10-06-2026 15:32:50,0.717s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 149.0.7827.53,,,10-06-2026 15:32:50,10-06-2026 15:32:50,0.708s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:50,10-06-2026 15:32:51,0.383s,PASSED
+delay(5),Chrome 149.0.7827.53,,,10-06-2026 15:32:51,10-06-2026 15:32:56,5.018s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/Slide""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:56,10-06-2026 15:32:56,0.406s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:32:56,10-06-2026 15:33:00,4.106s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax""))",Chrome 149.0.7827.53,,,10-06-2026 15:33:00,10-06-2026 15:33:02,1.491s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu""))",Chrome 149.0.7827.53,,,10-06-2026 15:33:02,10-06-2026 15:33:02,0.597s,PASSED
+delay(1),Chrome 149.0.7827.53,,,10-06-2026 15:33:02,10-06-2026 15:33:03,1.015s,PASSED
+"executeJavaScript(""
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+"", null)",Chrome 149.0.7827.53,,,10-06-2026 15:33:03,10-06-2026 15:33:04,0.067s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:33:04,10-06-2026 15:33:07,3.025s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:33:07,10-06-2026 15:33:07,0.303s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu""))",Chrome 149.0.7827.53,,,10-06-2026 15:33:07,10-06-2026 15:33:13,6.482s,PASSED
+delay(3),Chrome 149.0.7827.53,,,10-06-2026 15:33:13,10-06-2026 15:33:16,3.023s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Channel/Maker/Maker Final/btn Generate""), 0)",Chrome 149.0.7827.53,,,10-06-2026 15:33:16,10-06-2026 15:33:28,11.294s,FAILED

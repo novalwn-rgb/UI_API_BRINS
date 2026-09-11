@@ -1,0 +1,141 @@
+2026-07-29 12:35:43.304 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\TTECH-0251\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-07-29 12:35:43.308 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\TTECH-0251\git\AutoAPI\Include\config\log.properties
+2026-07-29 12:35:44.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/BrinScreen/BrinScreenBook
+2026-07-29 12:35:44.334 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Noval Wina
+2026-07-29 12:35:44.335 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutoAPI
+2026-07-29 12:35:44.336 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = TTECH-0251 - NovalWinaNurcahyo.brins.co.id
+2026-07-29 12:35:44.338 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-07-29 12:35:44.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.87
+2026-07-29 12:35:44.343 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-07-29 12:35:44.962 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-29 12:35:44.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook
+2026-07-29 12:35:45.323 DEBUG testcase.ScreenBook                      - 1: projectDir = getProjectDir()
+2026-07-29 12:35:45.330 DEBUG testcase.ScreenBook                      - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-07-29 12:35:45.361 DEBUG testcase.ScreenBook                      - 3: openBrowser("http://192.168.140.18:8005/login/")
+2026-07-29 12:35:45.732 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-29 12:35:45.822 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 29, 2026 12:35:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 29, 2026 12:35:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-07-29 12:35:48.923 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8e54fb3107f2ecbd7b88cd9ec7af786e
+2026-07-29 12:35:48.924 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.187
+2026-07-29 12:35:48.926 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-07-29 12:35:48.927 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-07-29 12:35:48.940 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-29 12:35:51.342 DEBUG testcase.ScreenBook                      - 4: maximizeWindow()
+2026-07-29 12:35:51.459 DEBUG testcase.ScreenBook                      - 5: setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/username"), "test")
+2026-07-29 12:35:52.809 DEBUG testcase.ScreenBook                      - 6: setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/password"), "passwordSalah")
+2026-07-29 12:35:53.834 DEBUG testcase.ScreenBook                      - 7: click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnPortal"))
+2026-07-29 12:35:54.637 DEBUG testcase.ScreenBook                      - 8: delay(2)
+2026-07-29 12:35:56.696 DEBUG testcase.ScreenBook                      - 9: loginFailed = verifyTextPresent("IndexError at /login/", false, OPTIONAL)
+2026-07-29 12:35:57.217 DEBUG testcase.ScreenBook                      - 10: if (loginFailed)
+2026-07-29 12:35:57.219 DEBUG testcase.ScreenBook                      - 1: screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Gagal_$timestamp.png
+2026-07-29 12:35:57.259 DEBUG testcase.ScreenBook                      - 2: takeScreenshot(screenshotPathFailed)
+2026-07-29 12:35:57.677 DEBUG testcase.ScreenBook                      - 3: println("Negative login berhasil divalidasi")
+Negative login berhasil divalidasi
+2026-07-29 12:35:57.689 DEBUG testcase.ScreenBook                      - 12: back()
+2026-07-29 12:35:57.810 DEBUG testcase.ScreenBook                      - 13: delay(3)
+2026-07-29 12:36:00.818 DEBUG testcase.ScreenBook                      - 14: click(findTestObject("BRINESIA UI/BrinscreenBook/Login/linkForceLogout"))
+2026-07-29 12:36:01.463 DEBUG testcase.ScreenBook                      - 15: setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/userLogout"), "18891183")
+2026-07-29 12:36:02.644 DEBUG testcase.ScreenBook                      - 16: click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnForceLogout"))
+2026-07-29 12:36:03.292 DEBUG testcase.ScreenBook                      - 17: setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/username"), "18891183")
+2026-07-29 12:36:04.584 DEBUG testcase.ScreenBook                      - 18: setText(findTestObject("BRINESIA UI/BrinscreenBook/Login/password"), "Raccess#0102")
+2026-07-29 12:36:05.670 DEBUG testcase.ScreenBook                      - 19: click(findTestObject("BRINESIA UI/BrinscreenBook/Login/btnPortal"))
+2026-07-29 12:36:09.332 DEBUG testcase.ScreenBook                      - 20: delay(3)
+2026-07-29 12:36:12.349 DEBUG testcase.ScreenBook                      - 21: verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook"), 10)
+2026-07-29 12:36:12.710 DEBUG testcase.ScreenBook                      - 22: delay(1)
+2026-07-29 12:36:13.720 DEBUG testcase.ScreenBook                      - 23: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook"))
+2026-07-29 12:36:14.466 DEBUG testcase.ScreenBook                      - 24: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnBrinScreen"))
+2026-07-29 12:36:15.837 DEBUG testcase.ScreenBook                      - 25: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnLastPage"))
+2026-07-29 12:36:16.732 DEBUG testcase.ScreenBook                      - 26: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihSuper"))
+2026-07-29 12:36:21.367 DEBUG testcase.ScreenBook                      - 27: urlSupervisi = getUrl()
+2026-07-29 12:36:21.755 DEBUG testcase.ScreenBook                      - 28: assert urlSupervisi.contains("DashboardProduksiPerLOA-BranchSupervisi")
+2026-07-29 12:36:21.775 DEBUG testcase.ScreenBook                      - 29: verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_Super"), 10)
+2026-07-29 12:36:23.173 DEBUG testcase.ScreenBook                      - 30: screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png
+2026-07-29 12:36:23.176 DEBUG testcase.ScreenBook                      - 31: takeScreenshot(screenshotPathSuper)
+2026-07-29 12:36:23.561 DEBUG testcase.ScreenBook                      - 32: delay(1)
+2026-07-29 12:36:24.581 DEBUG testcase.ScreenBook                      - 33: back()
+2026-07-29 12:36:24.714 DEBUG testcase.ScreenBook                      - 34: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihUtama"))
+2026-07-29 12:36:26.507 DEBUG testcase.ScreenBook                      - 35: urlBranchUtama = getUrl()
+2026-07-29 12:36:26.538 DEBUG testcase.ScreenBook                      - 36: assert urlBranchUtama.contains("DashboardProduksiPerLOA-BranchUtama")
+2026-07-29 12:36:26.551 DEBUG testcase.ScreenBook                      - 37: verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_Utama"), 10)
+2026-07-29 12:36:28.078 DEBUG testcase.ScreenBook                      - 38: screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png
+2026-07-29 12:36:28.082 DEBUG testcase.ScreenBook                      - 39: takeScreenshot(screenshotPathUtama)
+2026-07-29 12:36:28.459 DEBUG testcase.ScreenBook                      - 40: delay(1)
+2026-07-29 12:36:29.474 DEBUG testcase.ScreenBook                      - 41: back()
+2026-07-29 12:36:29.548 DEBUG testcase.ScreenBook                      - 42: click(findTestObject("BRINESIA UI/BrinscreenBook/Menu/btnPilihRM"))
+2026-07-29 12:36:30.742 DEBUG testcase.ScreenBook                      - 43: urlRM = getUrl()
+2026-07-29 12:36:30.778 DEBUG testcase.ScreenBook                      - 44: assert urlRM.contains("DashboardProduksiPerLOA-RelationshipManager")
+2026-07-29 12:36:30.786 DEBUG testcase.ScreenBook                      - 45: verifyElementPresent(findTestObject("BRINESIA UI/BrinscreenBook/Menu/judulDash_RM"), 10)
+2026-07-29 12:36:32.087 DEBUG testcase.ScreenBook                      - 46: screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png
+2026-07-29 12:36:32.089 DEBUG testcase.ScreenBook                      - 47: takeScreenshot(screenshotPathRM)
+2026-07-29 12:36:32.452 DEBUG testcase.ScreenBook                      - 48: delay(1)
+2026-07-29 12:36:33.473 DEBUG testcase.ScreenBook                      - 49: back()
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.36.33).png
+2026-07-29 12:36:33.905 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook
+2026-07-29 12:36:33.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-29 12:36:33.912 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRINESIA UI/BRINSCREEN/Tableau
+2026-07-29 12:36:34.125 DEBUG testcase.Tableau                         - 1: projectDir = getProjectDir()
+2026-07-29 12:36:34.129 DEBUG testcase.Tableau                         - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-07-29 12:36:34.131 DEBUG testcase.Tableau                         - 3: openBrowser("https://mis.brins.co.id/#/signin")
+2026-07-29 12:36:34.135 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-29 12:36:34.821 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-29 12:36:34.822 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 29, 2026 12:36:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 29, 2026 12:36:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-07-29 12:36:36.277 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = aa705fede746c1123c9c4c53f22c90ba
+2026-07-29 12:36:36.278 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.187
+2026-07-29 12:36:36.280 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-07-29 12:36:36.281 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-07-29 12:36:36.281 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-29 12:36:39.482 DEBUG testcase.Tableau                         - 4: maximizeWindow()
+2026-07-29 12:36:39.610 DEBUG testcase.Tableau                         - 5: setText(findTestObject("BRINESIA UI/Tableau/Login/username"), "test")
+2026-07-29 12:36:41.662 DEBUG testcase.Tableau                         - 6: setText(findTestObject("BRINESIA UI/Tableau/Login/password"), "passwordSalah")
+2026-07-29 12:36:42.884 DEBUG testcase.Tableau                         - 7: click(findTestObject("BRINESIA UI/Tableau/Login/btnSign"))
+2026-07-29 12:36:43.589 DEBUG testcase.Tableau                         - 8: delay(2)
+2026-07-29 12:36:45.601 DEBUG testcase.Tableau                         - 9: loginFailed = verifyTextPresent("Invalid username or password", false, OPTIONAL)
+2026-07-29 12:36:45.936 DEBUG testcase.Tableau                         - 10: if (loginFailed)
+2026-07-29 12:36:45.937 DEBUG testcase.Tableau                         - 1: screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Gagal_$timestamp.png
+2026-07-29 12:36:45.939 DEBUG testcase.Tableau                         - 2: takeScreenshot(screenshotPathFailed)
+2026-07-29 12:36:46.350 DEBUG testcase.Tableau                         - 3: println("Negative login berhasil divalidasi")
+Negative login berhasil divalidasi
+2026-07-29 12:36:46.352 DEBUG testcase.Tableau                         - 12: refresh()
+2026-07-29 12:36:46.973 DEBUG testcase.Tableau                         - 13: delay(2)
+2026-07-29 12:36:48.990 DEBUG testcase.Tableau                         - 14: setText(findTestObject("BRINESIA UI/Tableau/Login/username"), "administrator")
+2026-07-29 12:36:49.961 DEBUG testcase.Tableau                         - 15: setText(findTestObject("BRINESIA UI/Tableau/Login/password"), "Tsi_Brins2020")
+2026-07-29 12:36:51.863 DEBUG testcase.Tableau                         - 16: click(findTestObject("BRINESIA UI/Tableau/Login/btnSign"))
+2026-07-29 12:36:52.434 DEBUG testcase.Tableau                         - 17: click(findTestObject("BRINESIA UI/Tableau/MenuDashboard/opsiSearchDOB"))
+2026-07-29 12:36:53.414 DEBUG testcase.Tableau                         - 18: click(findTestObject("BRINESIA UI/Tableau/MenuDashboard/dataDefault"))
+2026-07-29 12:36:54.754 DEBUG testcase.Tableau                         - 19: click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataLOA"))
+2026-07-29 12:36:55.771 DEBUG testcase.Tableau                         - 20: click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataSupervisi"))
+2026-07-29 12:36:56.952 DEBUG testcase.Tableau                         - 21: delay(15)
+2026-07-29 12:37:11.964 DEBUG testcase.Tableau                         - 22: urlSupervisi = getUrl()
+2026-07-29 12:37:11.990 DEBUG testcase.Tableau                         - 23: assert urlSupervisi.contains("DashboardProduksiPerLOA-BranchSupervisi")
+2026-07-29 12:37:11.992 DEBUG testcase.Tableau                         - 24: screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png
+2026-07-29 12:37:11.995 DEBUG testcase.Tableau                         - 25: takeScreenshot(screenshotPathSuper)
+2026-07-29 12:37:12.368 DEBUG testcase.Tableau                         - 26: delay(5)
+2026-07-29 12:37:17.379 DEBUG testcase.Tableau                         - 27: click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack"))
+2026-07-29 12:37:17.911 DEBUG testcase.Tableau                         - 28: click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataBranchUtama"))
+2026-07-29 12:37:19.251 DEBUG testcase.Tableau                         - 29: delay(10)
+2026-07-29 12:37:29.265 DEBUG testcase.Tableau                         - 30: urlBranchUtama = getUrl()
+2026-07-29 12:37:29.297 DEBUG testcase.Tableau                         - 31: assert urlBranchUtama.contains("DashboardProduksiPerLOA-BranchUtama")
+2026-07-29 12:37:29.299 DEBUG testcase.Tableau                         - 32: screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png
+2026-07-29 12:37:29.301 DEBUG testcase.Tableau                         - 33: takeScreenshot(screenshotPathUtama)
+2026-07-29 12:37:29.695 DEBUG testcase.Tableau                         - 34: delay(5)
+2026-07-29 12:37:34.712 DEBUG testcase.Tableau                         - 35: click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack"))
+2026-07-29 12:37:35.273 DEBUG testcase.Tableau                         - 36: click(findTestObject("BRINESIA UI/Tableau/Menu Default/dataRM"))
+2026-07-29 12:37:37.068 DEBUG testcase.Tableau                         - 37: delay(10)
+2026-07-29 12:37:47.090 DEBUG testcase.Tableau                         - 38: urlRM = getUrl()
+2026-07-29 12:37:47.123 DEBUG testcase.Tableau                         - 39: assert urlRM.contains("DashboardProduksiPerLOA-RelationshipManager")
+2026-07-29 12:37:47.126 DEBUG testcase.Tableau                         - 40: screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png
+2026-07-29 12:37:47.130 DEBUG testcase.Tableau                         - 41: takeScreenshot(screenshotPathRM)
+2026-07-29 12:37:47.525 DEBUG testcase.Tableau                         - 42: delay(5)
+2026-07-29 12:37:52.542 DEBUG testcase.Tableau                         - 43: click(findTestObject("BRINESIA UI/Tableau/Menu Default/btnBack"))
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_29.07.2026_(12.37.53).png
+2026-07-29 12:37:54.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRINESIA UI/BRINSCREEN/Tableau
+2026-07-29 12:37:55.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-29 12:37:55.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/BrinScreen/BrinScreenBook
+2026-07-29 12:37:55.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

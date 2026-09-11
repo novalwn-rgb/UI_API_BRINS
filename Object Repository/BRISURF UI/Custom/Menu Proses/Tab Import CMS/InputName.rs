@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputName</name>
+   <tag></tag>
+   <elementGuidId>d69dfdd6-dad9-448f-9b7e-f8bd4d18b84f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='cmsName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='cmsName']</value>
+      <webElementGuid>e59a5f73-9821-48fd-ae87-4bed00afb8cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNamaProyek</name>
+   <tag></tag>
+   <elementGuidId>c36f3155-009a-413b-bac3-e020df82e687</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NamaProyek']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NamaProyek']</value>
+      <webElementGuid>5a9f1975-94e9-4610-8cf7-8b9771352f74</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

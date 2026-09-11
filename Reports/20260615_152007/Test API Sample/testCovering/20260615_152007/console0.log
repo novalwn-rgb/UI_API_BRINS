@@ -1,0 +1,1316 @@
+2026-06-15 15:20:21.801 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test API Sample/testCovering
+2026-06-15 15:20:22.246 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance
+2026-06-15 15:20:22.252 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = sp3Final
+2026-06-15 15:20:22.255 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - DESKTOP-RC89JE8
+2026-06-15 15:20:22.258 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-06-15 15:20:22.274 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.125
+2026-06-15 15:20:22.287 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2026-06-15 15:20:24.965 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-15 15:20:24.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Sample/Test Flag/CovFlag6
+2026-06-15 15:20:27.554 DEBUG testcase.CovFlag6                        - 1: data = findTestData("Data Files/Test/SampleFlag")
+2026-06-15 15:20:29.599 DEBUG testcase.CovFlag6                        - 2: totalRow = data.getRowNumbers()
+2026-06-15 15:20:29.746 DEBUG testcase.CovFlag6                        - 3: println("Total Data : " + totalRow)
+Total Data : 100
+2026-06-15 15:20:29.850 DEBUG testcase.CovFlag6                        - 4: for ([row = 1, row <= totalRow, (row++)])
+2026-06-15 15:20:30.068 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:30.271 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:36.837 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_0.har
+2026-06-15 15:20:37.138 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:37.203 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:37.245 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:37.262 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 1
+2026-06-15 15:20:37.278 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:37.310 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210100000222
+2026-06-15 15:20:37.319 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:37.418 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:37.445 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:37.477 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000004","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/65a561fca2ed9dee","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:37"}
+2026-06-15 15:20:37.566 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:37.599 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:38.517 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_1.har
+2026-06-15 15:20:38.530 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:38.532 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:38.535 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:38.542 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 2
+2026-06-15 15:20:38.545 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:38.548 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210110000223
+2026-06-15 15:20:38.551 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:38.563 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:38.567 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:38.598 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000005","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/3df697a5790e90f3","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:39"}
+2026-06-15 15:20:38.616 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:38.619 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:39.541 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_2.har
+2026-06-15 15:20:39.550 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:39.552 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:39.561 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:39.565 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 3
+2026-06-15 15:20:39.570 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:39.576 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210120000224
+2026-06-15 15:20:39.579 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:39.582 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:39.585 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:39.594 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000006","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/d3691cba1c1c3c1a","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:40"}
+2026-06-15 15:20:39.597 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:39.600 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:40.397 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_3.har
+2026-06-15 15:20:40.403 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:40.412 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:40.414 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:40.417 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 4
+2026-06-15 15:20:40.419 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:40.424 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210130000225
+2026-06-15 15:20:40.426 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:40.428 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:40.430 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:40.434 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000007","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/a423190b7ed55df6","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+2026-06-15 15:20:40.447 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:40.473 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:41.226 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_4.har
+2026-06-15 15:20:41.232 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:41.235 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:41.237 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:41.242 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 5
+2026-06-15 15:20:41.245 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:41.247 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210140000226
+2026-06-15 15:20:41.249 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:41.251 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:41.254 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:41.259 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000008","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/07e0fb3a02c74092","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:41"}
+2026-06-15 15:20:41.262 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:41.266 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:42.094 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_5.har
+2026-06-15 15:20:42.099 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:42.102 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:42.109 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:42.111 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 6
+2026-06-15 15:20:42.114 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:42.124 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210150000227
+2026-06-15 15:20:42.127 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:42.131 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:42.133 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:42.136 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000009","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/8a91492e11fcda5e","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:42"}
+2026-06-15 15:20:42.141 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:42.149 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:42.952 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_6.har
+2026-06-15 15:20:42.961 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:42.963 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:42.966 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:42.968 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 7
+2026-06-15 15:20:42.970 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:42.974 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210160000228
+2026-06-15 15:20:42.976 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:42.978 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:42.980 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:42.982 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000010","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/0aec6adf8ccbb02d","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:43"}
+2026-06-15 15:20:42.984 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:42.986 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:43.736 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_7.har
+2026-06-15 15:20:43.742 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:43.744 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:43.746 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:43.747 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 8
+2026-06-15 15:20:43.749 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:43.758 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 2605210170000229
+2026-06-15 15:20:43.760 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:43.763 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:43.765 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:43.767 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"00","ResponseDescription":"Success - Berhasil melakukan flagging data","ResponseException":"","TanggalMulaiCovering":"20\/05\/2026","TanggalAkhirCovering":"20\/05\/2027","NomorPeserta":"KTW10849210626000011","URLDokumenKepesertaan":"https:\/\/dev-brisurf.brins.co.id\/\/CovPr\/27d50d81107a2879","OriginalCoveringFlagSuccessDate":"15\/06\/2026 15:20:44"}
+2026-06-15 15:20:43.775 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:43.786 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:43.980 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_8.har
+2026-06-15 15:20:43.985 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:43.991 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:43.993 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:43.996 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 9
+2026-06-15 15:20:43.998 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:44.000 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:44.002 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:44.010 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:44.013 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:44.015 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a4f"}
+2026-06-15 15:20:44.025 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:44.031 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:44.192 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_9.har
+2026-06-15 15:20:44.197 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:44.199 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:44.201 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:44.206 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 10
+2026-06-15 15:20:44.209 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:44.210 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:44.212 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:44.214 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:44.216 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:44.219 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dda0305b22dd01b854"}
+2026-06-15 15:20:44.224 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:44.226 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:44.383 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_10.har
+2026-06-15 15:20:44.392 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:44.395 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:44.398 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:44.400 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 11
+2026-06-15 15:20:44.402 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:44.407 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:44.409 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:44.415 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:44.419 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:44.424 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddfdd1f2b900034771"}
+2026-06-15 15:20:44.427 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:44.435 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:44.613 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_11.har
+2026-06-15 15:20:44.622 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:44.624 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:44.626 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:44.628 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 12
+2026-06-15 15:20:44.630 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:44.633 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:44.635 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:44.642 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:44.644 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:44.646 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ddcbebe9a6b1047a50"}
+2026-06-15 15:20:44.648 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:44.649 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:44.808 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_12.har
+2026-06-15 15:20:44.813 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:44.815 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:44.816 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:44.818 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 13
+2026-06-15 15:20:44.822 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:44.826 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:44.828 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:44.830 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:44.832 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:44.833 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dea0305b22dd01b855"}
+2026-06-15 15:20:44.835 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:44.840 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:45.001 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_13.har
+2026-06-15 15:20:45.010 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:45.011 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:45.013 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:45.014 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 14
+2026-06-15 15:20:45.016 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:45.017 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:45.019 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:45.026 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:45.030 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:45.033 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034772"}
+2026-06-15 15:20:45.041 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:45.044 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:45.226 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_14.har
+2026-06-15 15:20:45.231 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:45.232 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:45.234 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:45.236 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 15
+2026-06-15 15:20:45.242 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:45.244 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:45.245 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:45.247 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:45.248 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:45.251 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5decbebe9a6b1047a51"}
+2026-06-15 15:20:45.261 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:45.266 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:45.447 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_15.har
+2026-06-15 15:20:45.484 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:45.491 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:45.495 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:45.497 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 16
+2026-06-15 15:20:45.499 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:45.501 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:45.507 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:45.511 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:45.516 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:45.518 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5defdd1f2b900034773"}
+2026-06-15 15:20:45.526 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:45.531 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:45.724 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_16.har
+2026-06-15 15:20:45.729 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:45.730 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:45.732 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:45.734 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 17
+2026-06-15 15:20:45.735 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:45.741 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:45.743 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:45.744 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:45.746 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:45.748 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a53"}
+2026-06-15 15:20:45.750 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:45.752 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:45.912 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_17.har
+2026-06-15 15:20:45.916 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:45.918 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:45.923 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:45.925 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 18
+2026-06-15 15:20:45.927 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:45.930 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:45.932 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:45.933 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:45.935 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:45.942 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034775"}
+2026-06-15 15:20:45.944 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:45.947 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:46.116 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_18.har
+2026-06-15 15:20:46.123 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:46.124 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:46.126 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:46.128 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 19
+2026-06-15 15:20:46.130 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:46.139 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:46.143 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:46.146 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:46.151 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:46.156 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfcbebe9a6b1047a54"}
+2026-06-15 15:20:46.160 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:46.162 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:46.360 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_19.har
+2026-06-15 15:20:46.365 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:46.367 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:46.372 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:46.374 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 20
+2026-06-15 15:20:46.376 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:46.377 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:46.379 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:46.380 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:46.382 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:46.384 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dfa0305b22dd01b857"}
+2026-06-15 15:20:46.390 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:46.392 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:46.543 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_20.har
+2026-06-15 15:20:46.549 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:46.550 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:46.558 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:46.560 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 21
+2026-06-15 15:20:46.563 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:46.564 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:46.566 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:46.567 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:46.573 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:46.575 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5dffdd1f2b900034776"}
+2026-06-15 15:20:46.577 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:46.579 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:46.734 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_21.har
+2026-06-15 15:20:46.741 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:46.743 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:46.745 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:46.746 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 22
+2026-06-15 15:20:46.748 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:46.750 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:46.756 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:46.758 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:46.763 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:46.765 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea4"}
+2026-06-15 15:20:46.766 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:46.773 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:46.988 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_22.har
+2026-06-15 15:20:46.993 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:46.994 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:46.996 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:46.998 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 23
+2026-06-15 15:20:46.999 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:47.001 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:47.007 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:47.008 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:47.010 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:47.011 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0cbebe9a6b1047a55"}
+2026-06-15 15:20:47.013 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:47.014 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:47.166 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_23.har
+2026-06-15 15:20:47.174 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:47.176 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:47.177 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:47.178 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 24
+2026-06-15 15:20:47.179 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:47.182 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:47.184 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:47.188 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:47.190 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:47.191 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b858"}
+2026-06-15 15:20:47.193 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:47.196 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:47.377 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_24.har
+2026-06-15 15:20:47.384 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:47.385 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:47.389 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:47.391 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 25
+2026-06-15 15:20:47.393 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:47.394 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:47.396 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:47.398 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:47.399 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:47.400 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e07d8b286e500acea5"}
+2026-06-15 15:20:47.405 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:47.407 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:47.594 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_25.har
+2026-06-15 15:20:47.600 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:47.606 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:47.608 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:47.610 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 26
+2026-06-15 15:20:47.612 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:47.614 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:47.617 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:47.623 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:47.626 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:47.629 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e0a0305b22dd01b859"}
+2026-06-15 15:20:47.632 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:47.635 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:47.854 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_26.har
+2026-06-15 15:20:47.859 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:47.860 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:47.861 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:47.863 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 27
+2026-06-15 15:20:47.865 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:47.866 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:47.878 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:47.880 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:47.882 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:47.884 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034778"}
+2026-06-15 15:20:47.890 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:47.893 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.043 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_27.har
+2026-06-15 15:20:48.047 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.048 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.049 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.051 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 28
+2026-06-15 15:20:48.055 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.056 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.058 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.060 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.061 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:48.062 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e17d8b286e500acea6"}
+2026-06-15 15:20:48.064 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:48.066 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.224 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_28.har
+2026-06-15 15:20:48.228 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.229 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.230 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.232 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 29
+2026-06-15 15:20:48.233 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.237 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.239 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.241 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.242 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:48.244 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1a0305b22dd01b85a"}
+2026-06-15 15:20:48.247 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:48.250 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.394 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_29.har
+2026-06-15 15:20:48.398 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.399 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.400 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.404 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 30
+2026-06-15 15:20:48.406 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.407 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.408 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.410 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.412 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:48.414 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1cbebe9a6b1047a57"}
+2026-06-15 15:20:48.437 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:48.440 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.585 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_30.har
+2026-06-15 15:20:48.592 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.593 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.594 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.596 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 31
+2026-06-15 15:20:48.597 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.599 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.601 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.606 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.608 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:48.610 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e1fdd1f2b900034779"}
+2026-06-15 15:20:48.611 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:48.614 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.778 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_31.har
+2026-06-15 15:20:48.783 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.785 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.792 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.794 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 32
+2026-06-15 15:20:48.796 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.797 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.798 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.800 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.801 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:48.804 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea7"}
+2026-06-15 15:20:48.806 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:48.809 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:48.979 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_32.har
+2026-06-15 15:20:48.984 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:48.985 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:48.990 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:48.991 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 33
+2026-06-15 15:20:48.993 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:48.994 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:48.996 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:48.997 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:48.999 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.000 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a58"}
+2026-06-15 15:20:49.005 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.007 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:49.175 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_33.har
+2026-06-15 15:20:49.180 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:49.181 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:49.182 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:49.184 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 34
+2026-06-15 15:20:49.188 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:49.190 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:49.191 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:49.193 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:49.194 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.196 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2fdd1f2b90003477a"}
+2026-06-15 15:20:49.197 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.199 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:49.345 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_34.har
+2026-06-15 15:20:49.351 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:49.358 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:49.359 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:49.361 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 35
+2026-06-15 15:20:49.362 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:49.364 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:49.365 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:49.367 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:49.368 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.372 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e27d8b286e500acea8"}
+2026-06-15 15:20:49.374 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.376 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:49.529 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_35.har
+2026-06-15 15:20:49.533 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:49.535 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:49.539 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:49.540 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 36
+2026-06-15 15:20:49.542 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:49.544 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:49.545 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:49.547 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:49.548 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.550 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e2cbebe9a6b1047a59"}
+2026-06-15 15:20:49.554 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.557 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:49.707 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_36.har
+2026-06-15 15:20:49.712 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:49.713 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:49.714 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:49.715 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 37
+2026-06-15 15:20:49.716 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:49.718 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:49.723 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:49.725 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:49.726 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.727 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477b"}
+2026-06-15 15:20:49.728 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.730 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:49.907 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_37.har
+2026-06-15 15:20:49.913 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:49.915 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:49.916 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:49.917 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 38
+2026-06-15 15:20:49.921 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:49.923 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:49.924 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:49.925 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:49.926 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:49.927 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500acea9"}
+2026-06-15 15:20:49.928 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:49.930 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.109 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_38.har
+2026-06-15 15:20:50.113 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.115 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.117 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.121 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 39
+2026-06-15 15:20:50.123 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.124 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.126 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.127 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.128 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.130 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5a"}
+2026-06-15 15:20:50.131 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.132 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.296 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_39.har
+2026-06-15 15:20:50.301 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.305 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.306 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.307 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 40
+2026-06-15 15:20:50.308 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.309 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.311 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.312 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.313 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.314 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3fdd1f2b90003477c"}
+2026-06-15 15:20:50.316 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.317 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.450 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_40.har
+2026-06-15 15:20:50.457 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.458 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.460 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.460 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 41
+2026-06-15 15:20:50.461 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.462 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.463 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.464 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.466 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.467 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e37d8b286e500aceaa"}
+2026-06-15 15:20:50.470 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.472 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.622 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_41.har
+2026-06-15 15:20:50.626 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.627 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.628 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.629 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 42
+2026-06-15 15:20:50.630 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.631 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.631 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.632 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.634 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.638 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e3cbebe9a6b1047a5b"}
+2026-06-15 15:20:50.639 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.640 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.772 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_42.har
+2026-06-15 15:20:50.776 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.776 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.777 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.778 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 43
+2026-06-15 15:20:50.779 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.780 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.781 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.783 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.784 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.788 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477d"}
+2026-06-15 15:20:50.789 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.790 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:50.926 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_43.har
+2026-06-15 15:20:50.930 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:50.931 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:50.931 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:50.932 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 44
+2026-06-15 15:20:50.933 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:50.938 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:50.939 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:50.939 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:50.940 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:50.941 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceab"}
+2026-06-15 15:20:50.942 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:50.943 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.084 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_44.har
+2026-06-15 15:20:51.090 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.092 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.093 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.094 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 45
+2026-06-15 15:20:51.095 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.097 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.098 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.099 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.100 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.105 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5c"}
+2026-06-15 15:20:51.106 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.108 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.239 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_45.har
+2026-06-15 15:20:51.242 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.243 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.244 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.245 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 46
+2026-06-15 15:20:51.247 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.247 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.248 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.249 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.255 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.256 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4fdd1f2b90003477e"}
+2026-06-15 15:20:51.257 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.258 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.407 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_46.har
+2026-06-15 15:20:51.410 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.411 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.412 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.413 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 47
+2026-06-15 15:20:51.414 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.415 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.416 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.417 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.422 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.423 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e47d8b286e500aceac"}
+2026-06-15 15:20:51.426 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.429 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.571 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_47.har
+2026-06-15 15:20:51.575 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.576 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.577 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.578 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 48
+2026-06-15 15:20:51.579 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.580 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.581 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.582 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.583 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.587 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e4cbebe9a6b1047a5d"}
+2026-06-15 15:20:51.588 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.589 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.719 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_48.har
+2026-06-15 15:20:51.724 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.726 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.728 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.729 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 49
+2026-06-15 15:20:51.730 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.731 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.734 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.741 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.742 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.743 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b90003477f"}
+2026-06-15 15:20:51.745 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.746 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:51.937 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_49.har
+2026-06-15 15:20:51.943 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:51.944 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:51.946 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:51.948 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 50
+2026-06-15 15:20:51.950 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:51.954 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:51.956 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:51.957 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:51.959 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:51.960 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500acead"}
+2026-06-15 15:20:51.961 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:51.963 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:52.098 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_50.har
+2026-06-15 15:20:52.107 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:52.109 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:52.111 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:52.112 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 51
+2026-06-15 15:20:52.114 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:52.116 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:52.120 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:52.122 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:52.123 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:52.124 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5e"}
+2026-06-15 15:20:52.125 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:52.126 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:52.257 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_51.har
+2026-06-15 15:20:52.261 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:52.263 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:52.265 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:52.267 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 52
+2026-06-15 15:20:52.272 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:52.273 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:52.274 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:52.276 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:52.277 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:52.279 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5fdd1f2b900034780"}
+2026-06-15 15:20:52.282 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:52.283 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:52.433 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_52.har
+2026-06-15 15:20:52.441 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:52.442 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:52.444 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:52.445 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 53
+2026-06-15 15:20:52.447 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:52.448 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:52.450 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:52.461 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:52.463 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:52.464 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e57d8b286e500aceae"}
+2026-06-15 15:20:52.466 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:52.473 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:52.641 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_53.har
+2026-06-15 15:20:52.647 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:52.648 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:52.650 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:52.655 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 54
+2026-06-15 15:20:52.657 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:52.658 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:52.659 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:52.660 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:52.662 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:52.663 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e5cbebe9a6b1047a5f"}
+2026-06-15 15:20:52.664 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:52.666 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:52.874 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_54.har
+2026-06-15 15:20:52.880 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:52.881 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:52.883 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:52.888 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 55
+2026-06-15 15:20:52.890 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:52.891 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:52.893 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:52.894 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:52.895 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:52.896 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034781"}
+2026-06-15 15:20:52.897 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:52.899 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:53.091 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_55.har
+2026-06-15 15:20:53.096 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:53.097 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:53.098 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:53.100 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 56
+2026-06-15 15:20:53.104 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:53.105 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:53.106 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:53.107 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:53.109 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:53.110 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceaf"}
+2026-06-15 15:20:53.111 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:53.112 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:53.258 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_56.har
+2026-06-15 15:20:53.264 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:53.265 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:53.266 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:53.273 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 57
+2026-06-15 15:20:53.275 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:53.277 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:53.278 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:53.279 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:53.280 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:53.281 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6cbebe9a6b1047a60"}
+2026-06-15 15:20:53.283 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:53.288 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:53.447 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_57.har
+2026-06-15 15:20:53.457 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:53.458 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:53.460 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:53.460 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 58
+2026-06-15 15:20:53.463 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:53.466 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:53.473 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:53.475 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:53.477 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:53.478 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e6fdd1f2b900034782"}
+2026-06-15 15:20:53.479 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:53.483 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:53.640 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_58.har
+2026-06-15 15:20:53.644 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:53.645 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:53.647 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:53.648 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 59
+2026-06-15 15:20:53.649 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:53.650 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:53.657 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:53.659 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:53.660 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:53.661 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e67d8b286e500aceb0"}
+2026-06-15 15:20:53.662 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:53.664 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:53.828 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_59.har
+2026-06-15 15:20:53.832 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:53.833 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:53.837 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:53.838 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 60
+2026-06-15 15:20:53.839 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:53.840 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:53.841 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:53.842 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:53.843 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:53.845 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a61"}
+2026-06-15 15:20:53.846 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:53.847 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.029 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_60.har
+2026-06-15 15:20:54.036 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.037 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.038 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.040 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 61
+2026-06-15 15:20:54.041 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.042 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.043 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.044 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.045 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.046 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034783"}
+2026-06-15 15:20:54.047 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.048 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.203 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_61.har
+2026-06-15 15:20:54.207 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.208 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.209 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.210 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 62
+2026-06-15 15:20:54.211 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.212 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.212 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.213 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.215 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.216 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e77d8b286e500aceb1"}
+2026-06-15 15:20:54.220 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.223 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.383 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_62.har
+2026-06-15 15:20:54.389 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.390 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.391 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.391 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 63
+2026-06-15 15:20:54.392 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.393 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.394 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.394 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.395 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.396 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7cbebe9a6b1047a62"}
+2026-06-15 15:20:54.397 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.398 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.532 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_63.har
+2026-06-15 15:20:54.539 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.541 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.542 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.543 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 64
+2026-06-15 15:20:54.544 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.545 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.547 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.549 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.553 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.555 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e7fdd1f2b900034784"}
+2026-06-15 15:20:54.557 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.558 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.692 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_64.har
+2026-06-15 15:20:54.697 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.699 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.705 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.707 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 65
+2026-06-15 15:20:54.708 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.709 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.711 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.712 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.713 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.714 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb2"}
+2026-06-15 15:20:54.715 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.716 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:54.871 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_65.har
+2026-06-15 15:20:54.874 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:54.875 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:54.876 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:54.877 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 66
+2026-06-15 15:20:54.877 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:54.878 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:54.879 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:54.881 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:54.882 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:54.886 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a63"}
+2026-06-15 15:20:54.888 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:54.889 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.021 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_66.har
+2026-06-15 15:20:55.026 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.027 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.028 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.029 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 67
+2026-06-15 15:20:55.030 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.031 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.033 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.040 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.041 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.042 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034785"}
+2026-06-15 15:20:55.043 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.044 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.175 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_67.har
+2026-06-15 15:20:55.178 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.179 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.180 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.181 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 68
+2026-06-15 15:20:55.183 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.185 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.187 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.188 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.189 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.190 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb3"}
+2026-06-15 15:20:55.191 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.193 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.343 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_68.har
+2026-06-15 15:20:55.347 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.348 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.348 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.349 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 69
+2026-06-15 15:20:55.354 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.357 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.358 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.360 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.361 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.362 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8cbebe9a6b1047a64"}
+2026-06-15 15:20:55.363 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.364 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.521 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_69.har
+2026-06-15 15:20:55.525 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.526 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.526 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.527 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 70
+2026-06-15 15:20:55.528 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.529 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.530 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.531 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.531 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.532 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e8fdd1f2b900034786"}
+2026-06-15 15:20:55.536 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.537 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.663 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_70.har
+2026-06-15 15:20:55.666 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.670 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.671 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.672 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 71
+2026-06-15 15:20:55.673 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.674 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.675 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.676 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.677 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.678 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e87d8b286e500aceb4"}
+2026-06-15 15:20:55.679 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.680 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.825 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_71.har
+2026-06-15 15:20:55.828 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.829 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.830 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.831 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 72
+2026-06-15 15:20:55.832 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.833 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.837 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:55.838 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:55.840 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:55.841 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a65"}
+2026-06-15 15:20:55.842 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:55.843 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:55.986 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_72.har
+2026-06-15 15:20:55.989 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:55.991 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:55.992 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:55.994 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 73
+2026-06-15 15:20:55.995 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:55.996 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:55.997 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.000 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.006 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.008 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034787"}
+2026-06-15 15:20:56.009 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.011 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.149 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_73.har
+2026-06-15 15:20:56.156 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.157 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.158 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.159 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 74
+2026-06-15 15:20:56.160 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.160 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.161 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.162 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.163 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.164 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb5"}
+2026-06-15 15:20:56.165 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.169 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.328 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_74.har
+2026-06-15 15:20:56.331 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.332 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.332 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.336 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 75
+2026-06-15 15:20:56.337 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.338 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.339 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.339 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.340 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.341 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9cbebe9a6b1047a66"}
+2026-06-15 15:20:56.342 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.344 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.492 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_75.har
+2026-06-15 15:20:56.495 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.496 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.497 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.497 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 76
+2026-06-15 15:20:56.498 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.502 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.503 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.504 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.505 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.507 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e9fdd1f2b900034788"}
+2026-06-15 15:20:56.508 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.509 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.670 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_76.har
+2026-06-15 15:20:56.675 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.676 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.677 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.678 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 77
+2026-06-15 15:20:56.679 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.679 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.680 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.681 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.682 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.689 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5e97d8b286e500aceb6"}
+2026-06-15 15:20:56.690 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.692 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.823 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_77.har
+2026-06-15 15:20:56.826 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.827 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.828 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.829 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 78
+2026-06-15 15:20:56.830 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.831 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.832 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.835 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.836 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.837 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a67"}
+2026-06-15 15:20:56.838 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.839 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:56.980 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_78.har
+2026-06-15 15:20:56.986 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:56.987 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:56.988 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:56.989 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 79
+2026-06-15 15:20:56.990 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:56.991 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:56.992 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:56.993 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:56.994 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:56.995 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b900034789"}
+2026-06-15 15:20:56.996 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:56.998 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:57.142 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_79.har
+2026-06-15 15:20:57.146 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:57.147 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:57.153 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:57.156 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 80
+2026-06-15 15:20:57.161 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:57.162 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:57.163 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:57.170 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:57.171 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:57.173 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ea7d8b286e500aceb7"}
+2026-06-15 15:20:57.174 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:57.176 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:57.329 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_80.har
+2026-06-15 15:20:57.333 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:57.337 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:57.339 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:57.340 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 81
+2026-06-15 15:20:57.341 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:57.341 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:57.342 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:57.343 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:57.345 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:57.346 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eacbebe9a6b1047a68"}
+2026-06-15 15:20:57.347 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:57.348 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:57.524 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_81.har
+2026-06-15 15:20:57.527 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:57.529 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:57.530 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:57.531 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 82
+2026-06-15 15:20:57.532 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:57.537 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:57.538 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:57.540 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:57.541 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:57.542 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eafdd1f2b90003478a"}
+2026-06-15 15:20:57.543 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:57.545 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:57.686 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_82.har
+2026-06-15 15:20:57.691 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:57.692 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:57.694 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:57.695 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 83
+2026-06-15 15:20:57.696 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:57.697 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:57.698 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:57.699 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:57.703 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:57.704 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb8"}
+2026-06-15 15:20:57.706 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:57.707 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:57.847 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_83.har
+2026-06-15 15:20:57.855 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:57.856 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:57.857 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:57.858 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 84
+2026-06-15 15:20:57.859 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:57.860 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:57.861 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:57.862 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:57.863 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:57.864 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a69"}
+2026-06-15 15:20:57.865 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:57.867 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.021 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_84.har
+2026-06-15 15:20:58.024 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.025 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.027 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.028 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 85
+2026-06-15 15:20:58.029 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.030 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.031 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.032 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.032 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.036 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478b"}
+2026-06-15 15:20:58.038 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.041 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.189 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_85.har
+2026-06-15 15:20:58.197 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.205 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.206 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.207 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 86
+2026-06-15 15:20:58.208 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.210 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.212 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.213 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.222 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.223 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eb7d8b286e500aceb9"}
+2026-06-15 15:20:58.226 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.228 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.399 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_86.har
+2026-06-15 15:20:58.406 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.406 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.408 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.409 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 87
+2026-06-15 15:20:58.410 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.411 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.412 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.413 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.414 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.415 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebcbebe9a6b1047a6a"}
+2026-06-15 15:20:58.420 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.422 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.556 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_87.har
+2026-06-15 15:20:58.560 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.561 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.562 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.563 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 88
+2026-06-15 15:20:58.565 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.569 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.571 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.572 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.573 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.574 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ebfdd1f2b90003478c"}
+2026-06-15 15:20:58.575 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.577 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.737 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_88.har
+2026-06-15 15:20:58.741 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.742 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.743 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.743 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 89
+2026-06-15 15:20:58.744 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.745 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.746 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.746 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.757 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.758 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500aceba"}
+2026-06-15 15:20:58.760 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.762 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:58.911 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_89.har
+2026-06-15 15:20:58.914 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:58.915 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:58.919 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:58.920 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 90
+2026-06-15 15:20:58.921 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:58.921 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:58.924 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:58.925 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:58.925 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:58.926 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6b"}
+2026-06-15 15:20:58.927 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:58.928 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.075 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_90.har
+2026-06-15 15:20:59.078 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.079 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.080 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.081 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 91
+2026-06-15 15:20:59.081 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.085 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.088 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.090 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.091 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.093 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478d"}
+2026-06-15 15:20:59.094 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.097 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.238 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_91.har
+2026-06-15 15:20:59.241 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.242 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.243 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.244 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 92
+2026-06-15 15:20:59.245 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.245 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.247 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.247 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.255 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.257 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ec7d8b286e500acebb"}
+2026-06-15 15:20:59.258 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.259 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.398 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_92.har
+2026-06-15 15:20:59.404 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.405 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.406 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.407 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 93
+2026-06-15 15:20:59.408 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.408 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.409 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.410 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.412 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.414 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eccbebe9a6b1047a6c"}
+2026-06-15 15:20:59.420 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.422 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.561 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_93.har
+2026-06-15 15:20:59.564 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.568 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.570 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.570 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 94
+2026-06-15 15:20:59.572 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.572 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.573 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.574 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.575 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.576 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ecfdd1f2b90003478e"}
+2026-06-15 15:20:59.578 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.579 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.720 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_94.har
+2026-06-15 15:20:59.723 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.724 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.725 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.726 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 95
+2026-06-15 15:20:59.727 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.727 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.728 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.729 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.730 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.735 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebc"}
+2026-06-15 15:20:59.737 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.738 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:20:59.887 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_95.har
+2026-06-15 15:20:59.891 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:20:59.892 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:20:59.893 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:20:59.894 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 96
+2026-06-15 15:20:59.895 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:20:59.896 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:20:59.897 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:20:59.898 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:20:59.902 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:20:59.903 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edcbebe9a6b1047a6d"}
+2026-06-15 15:20:59.904 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:20:59.906 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:21:00.039 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_96.har
+2026-06-15 15:21:00.043 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:21:00.044 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:21:00.045 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:21:00.046 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 97
+2026-06-15 15:21:00.047 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:21:00.047 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:21:00.052 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:21:00.054 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:21:00.055 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:21:00.056 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5edfdd1f2b90003478f"}
+2026-06-15 15:21:00.057 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:21:00.058 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:21:00.214 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_97.har
+2026-06-15 15:21:00.222 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:21:00.224 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:21:00.225 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:21:00.227 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 98
+2026-06-15 15:21:00.228 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:21:00.229 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:21:00.230 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:21:00.231 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:21:00.236 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:21:00.237 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ed7d8b286e500acebd"}
+2026-06-15 15:21:00.239 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:21:00.240 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:21:00.857 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_98.har
+2026-06-15 15:21:00.861 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:21:00.861 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:21:00.862 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:21:00.863 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 99
+2026-06-15 15:21:00.865 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:21:00.869 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:21:00.870 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:21:00.871 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:21:00.872 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:21:00.873 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5eefdd1f2b900034791"}
+2026-06-15 15:21:00.874 DEBUG testcase.CovFlag6                        - 1: nik = data.getValue("NomorIdentitas", row)
+2026-06-15 15:21:00.875 DEBUG testcase.CovFlag6                        - 2: response = sendRequest(findTestObject("API/Posts/CoveringFlag/CovFlag_26692", ["NomorIdentitas":nik]))
+2026-06-15 15:21:01.013 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\ACER\Katalon Studio\sp3Final-master\Reports\20260615_152007\Test API Sample\testCovering\20260615_152007\requests\main\CovFlag_26692_99.har
+2026-06-15 15:21:01.022 DEBUG testcase.CovFlag6                        - 3: markPassed("Post API FID 26692 berhasil ditambahkan dan data sesuai")
+2026-06-15 15:21:01.023 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Post API FID 26692 berhasil ditambahkan dan data sesuai
+2026-06-15 15:21:01.024 DEBUG testcase.CovFlag6                        - 4: markPassed("Row                : " + row)
+2026-06-15 15:21:01.025 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Row                : 100
+2026-06-15 15:21:01.026 DEBUG testcase.CovFlag6                        - 5: markPassed("NIK                : " + nik)
+2026-06-15 15:21:01.027 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ NIK                : 
+2026-06-15 15:21:01.028 DEBUG testcase.CovFlag6                        - 6: markPassed("HTTP Status        : " + response.getStatusCode())
+2026-06-15 15:21:01.029 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ HTTP Status        : 200
+2026-06-15 15:21:01.031 DEBUG testcase.CovFlag6                        - 7: markPassed("Response Body      : " + response.getResponseBodyContent())
+2026-06-15 15:21:01.032 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Response Body      : {"ResponseCode":"01","ResponseDescription":"Failed : [ERR_COVFLAG_INVALIDPARAM] Parameter NomorIdentitas kosong","ResponseException":"6a2fb5ee7d8b286e500acebf"}
+2026-06-15 15:21:01.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Sample/Test Flag/CovFlag6
+2026-06-15 15:21:01.328 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------

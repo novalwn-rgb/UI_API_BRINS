@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoRekDebitPremi</name>
+   <tag></tag>
+   <elementGuidId>34464a2d-c059-4038-bf95-e7419c5d6dfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NoRekeningDebetPremi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NoRekeningDebetPremi']</value>
+      <webElementGuid>15777741-8790-44e7-9599-871d52184561</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

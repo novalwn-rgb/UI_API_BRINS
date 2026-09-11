@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu Proses</name>
+   <tag></tag>
+   <elementGuidId>dee427de-265c-4f2b-ba02-cc995c589d4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@id='sidebar-wrapper']/ul/li[5]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>227a0937-9819-458c-8423-ad644009d89e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proses</value>
+      <webElementGuid>e36b9565-d7dc-4dba-a693-e8f3e1109b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;nav-link has-dropdown&quot;]/span[1]</value>
+      <webElementGuid>c38f5318-d65f-42e0-b307-60ec6dc79895</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//aside[@id='sidebar-wrapper']/ul/li[5]/a/span</value>
+      <webElementGuid>2368968c-412c-4736-bed1-c8e16cc23f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KMK MITRA'])[3]/following::span[1]</value>
+      <webElementGuid>11dede42-ec57-4d8f-8491-f2ad10028c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRIGUNA CBC'])[1]/following::span[2]</value>
+      <webElementGuid>0519edd8-20a5-4261-ac64-c170febeb689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Covering Confirmation &amp; Feedback'])[1]/preceding::span[1]</value>
+      <webElementGuid>5a66fa3c-ee48-4e59-99af-11a215c7c307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKUA CBC'])[1]/preceding::span[2]</value>
+      <webElementGuid>ea970cf9-250a-4df8-bcc6-cfee7d21be06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proses']/parent::*</value>
+      <webElementGuid>6e2327b5-2a5e-4341-8e91-700b0ee6c86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/ul/li[5]/a/span</value>
+      <webElementGuid>aa865132-e781-4241-8efb-0bde1fcc5a5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Proses' or . = 'Proses')]</value>
+      <webElementGuid>13a433f6-6800-4c2b-8a51-d7ef77ab69c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

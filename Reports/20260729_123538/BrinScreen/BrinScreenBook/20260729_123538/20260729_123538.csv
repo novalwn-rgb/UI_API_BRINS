@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BrinScreenBook,Chrome 150.0.7871.187,,,29-07-2026 12:35:44,29-07-2026 12:37:55,2m - 11.178s,PASSED
+,,,,,,,
+Test Cases/BRINESIA UI/BRINSCREEN/ScreenBook,Chrome 150.0.7871.187,,,29-07-2026 12:35:44,29-07-2026 12:36:33,48.942s,PASSED
+projectDir = getProjectDir(),Chrome 150.0.7871.187,,,29-07-2026 12:35:45,29-07-2026 12:35:45,0.007s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 150.0.7871.187,,,29-07-2026 12:35:45,29-07-2026 12:35:45,0.030s,PASSED
+"openBrowser(""http://192.168.140.18:8005/login/"")",Chrome 150.0.7871.187,,,29-07-2026 12:35:45,29-07-2026 12:35:51,5.981s,PASSED
+maximizeWindow(),Chrome 150.0.7871.187,,,29-07-2026 12:35:51,29-07-2026 12:35:51,0.118s,PASSED
+"setText(findTestObject(""BRINESIA UI/BrinscreenBook/Login/username""), ""test"")",Chrome 150.0.7871.187,,,29-07-2026 12:35:51,29-07-2026 12:35:52,1.347s,PASSED
+"setText(findTestObject(""BRINESIA UI/BrinscreenBook/Login/password""), ""passwordSalah"")",Chrome 150.0.7871.187,,,29-07-2026 12:35:52,29-07-2026 12:35:53,1.024s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Login/btnPortal""))",Chrome 150.0.7871.187,,,29-07-2026 12:35:53,29-07-2026 12:35:54,0.804s,PASSED
+delay(2),Chrome 150.0.7871.187,,,29-07-2026 12:35:54,29-07-2026 12:35:56,2.059s,PASSED
+"loginFailed = verifyTextPresent(""IndexError at /login/"", false, OPTIONAL)",Chrome 150.0.7871.187,,,29-07-2026 12:35:56,29-07-2026 12:35:57,0.520s,PASSED
+if (loginFailed),Chrome 150.0.7871.187,,,29-07-2026 12:35:57,29-07-2026 12:35:57,0.473s,PASSED
+back(),Chrome 150.0.7871.187,,,29-07-2026 12:35:57,29-07-2026 12:35:57,0.119s,PASSED
+delay(3),Chrome 150.0.7871.187,,,29-07-2026 12:35:57,29-07-2026 12:36:00,3.007s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Login/linkForceLogout""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:00,29-07-2026 12:36:01,0.644s,PASSED
+"setText(findTestObject(""BRINESIA UI/BrinscreenBook/Login/userLogout""), ""18891183"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:01,29-07-2026 12:36:02,1.181s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Login/btnForceLogout""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:02,29-07-2026 12:36:03,0.648s,PASSED
+"setText(findTestObject(""BRINESIA UI/BrinscreenBook/Login/username""), ""18891183"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:03,29-07-2026 12:36:04,1.290s,PASSED
+"setText(findTestObject(""BRINESIA UI/BrinscreenBook/Login/password""), ""Raccess#0102"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:04,29-07-2026 12:36:05,1.086s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Login/btnPortal""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:05,29-07-2026 12:36:09,3.663s,PASSED
+delay(3),Chrome 150.0.7871.187,,,29-07-2026 12:36:09,29-07-2026 12:36:12,3.016s,PASSED
+"verifyElementPresent(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook""), 10)",Chrome 150.0.7871.187,,,29-07-2026 12:36:12,29-07-2026 12:36:12,0.361s,PASSED
+delay(1),Chrome 150.0.7871.187,,,29-07-2026 12:36:12,29-07-2026 12:36:13,1.010s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnBrinScreenBook""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:13,29-07-2026 12:36:14,0.746s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnBrinScreen""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:14,29-07-2026 12:36:15,1.371s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnLastPage""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:15,29-07-2026 12:36:16,0.895s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnPilihSuper""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:16,29-07-2026 12:36:21,4.634s,PASSED
+urlSupervisi = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:36:21,29-07-2026 12:36:21,0.387s,PASSED
+"assert urlSupervisi.contains(""DashboardProduksiPerLOA-BranchSupervisi"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:21,29-07-2026 12:36:21,0.019s,PASSED
+"verifyElementPresent(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/judulDash_Super""), 10)",Chrome 150.0.7871.187,,,29-07-2026 12:36:21,29-07-2026 12:36:23,1.393s,PASSED
+screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:36:23,29-07-2026 12:36:23,0.003s,PASSED
+takeScreenshot(screenshotPathSuper),Chrome 150.0.7871.187,,,29-07-2026 12:36:23,29-07-2026 12:36:23,0.384s,PASSED
+delay(1),Chrome 150.0.7871.187,,,29-07-2026 12:36:23,29-07-2026 12:36:24,1.020s,PASSED
+back(),Chrome 150.0.7871.187,,,29-07-2026 12:36:24,29-07-2026 12:36:24,0.132s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnPilihUtama""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:24,29-07-2026 12:36:26,1.791s,PASSED
+urlBranchUtama = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:36:26,29-07-2026 12:36:26,0.031s,PASSED
+"assert urlBranchUtama.contains(""DashboardProduksiPerLOA-BranchUtama"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:26,29-07-2026 12:36:26,0.012s,PASSED
+"verifyElementPresent(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/judulDash_Utama""), 10)",Chrome 150.0.7871.187,,,29-07-2026 12:36:26,29-07-2026 12:36:28,1.527s,PASSED
+screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:36:28,29-07-2026 12:36:28,0.004s,PASSED
+takeScreenshot(screenshotPathUtama),Chrome 150.0.7871.187,,,29-07-2026 12:36:28,29-07-2026 12:36:28,0.376s,PASSED
+delay(1),Chrome 150.0.7871.187,,,29-07-2026 12:36:28,29-07-2026 12:36:29,1.016s,PASSED
+back(),Chrome 150.0.7871.187,,,29-07-2026 12:36:29,29-07-2026 12:36:29,0.074s,PASSED
+"click(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/btnPilihRM""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:29,29-07-2026 12:36:30,1.193s,PASSED
+urlRM = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:36:30,29-07-2026 12:36:30,0.040s,PASSED
+"assert urlRM.contains(""DashboardProduksiPerLOA-RelationshipManager"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:30,29-07-2026 12:36:30,0.003s,PASSED
+"verifyElementPresent(findTestObject(""BRINESIA UI/BrinscreenBook/Menu/judulDash_RM""), 10)",Chrome 150.0.7871.187,,,29-07-2026 12:36:30,29-07-2026 12:36:32,1.301s,PASSED
+screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:36:32,29-07-2026 12:36:32,0.001s,PASSED
+takeScreenshot(screenshotPathRM),Chrome 150.0.7871.187,,,29-07-2026 12:36:32,29-07-2026 12:36:32,0.363s,PASSED
+delay(1),Chrome 150.0.7871.187,,,29-07-2026 12:36:32,29-07-2026 12:36:33,1.020s,PASSED
+back(),Chrome 150.0.7871.187,,,29-07-2026 12:36:33,29-07-2026 12:36:33,0.058s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 150.0.7871.187,,,29-07-2026 12:36:33,29-07-2026 12:36:33,0.368s,PASSED
+,,,,,,,
+Test Cases/BRINESIA UI/BRINSCREEN/Tableau,Chrome 150.0.7871.187,,,29-07-2026 12:36:33,29-07-2026 12:37:54,1m - 20.842s,PASSED
+projectDir = getProjectDir(),Chrome 150.0.7871.187,,,29-07-2026 12:36:34,29-07-2026 12:36:34,0.002s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:34,29-07-2026 12:36:34,0.001s,PASSED
+"openBrowser(""https://mis.brins.co.id/#/signin"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:34,29-07-2026 12:36:39,5.351s,PASSED
+maximizeWindow(),Chrome 150.0.7871.187,,,29-07-2026 12:36:39,29-07-2026 12:36:39,0.126s,PASSED
+"setText(findTestObject(""BRINESIA UI/Tableau/Login/username""), ""test"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:39,29-07-2026 12:36:41,2.053s,PASSED
+"setText(findTestObject(""BRINESIA UI/Tableau/Login/password""), ""passwordSalah"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:41,29-07-2026 12:36:42,1.219s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Login/btnSign""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:42,29-07-2026 12:36:43,0.704s,PASSED
+delay(2),Chrome 150.0.7871.187,,,29-07-2026 12:36:43,29-07-2026 12:36:45,2.012s,PASSED
+"loginFailed = verifyTextPresent(""Invalid username or password"", false, OPTIONAL)",Chrome 150.0.7871.187,,,29-07-2026 12:36:45,29-07-2026 12:36:45,0.335s,PASSED
+if (loginFailed),Chrome 150.0.7871.187,,,29-07-2026 12:36:45,29-07-2026 12:36:46,0.415s,PASSED
+refresh(),Chrome 150.0.7871.187,,,29-07-2026 12:36:46,29-07-2026 12:36:46,0.620s,PASSED
+delay(2),Chrome 150.0.7871.187,,,29-07-2026 12:36:46,29-07-2026 12:36:48,2.017s,PASSED
+"setText(findTestObject(""BRINESIA UI/Tableau/Login/username""), ""administrator"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:48,29-07-2026 12:36:49,0.971s,PASSED
+"setText(findTestObject(""BRINESIA UI/Tableau/Login/password""), ""Tsi_Brins2020"")",Chrome 150.0.7871.187,,,29-07-2026 12:36:49,29-07-2026 12:36:51,1.903s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Login/btnSign""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:51,29-07-2026 12:36:52,0.570s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/MenuDashboard/opsiSearchDOB""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:52,29-07-2026 12:36:53,0.980s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/MenuDashboard/dataDefault""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:53,29-07-2026 12:36:54,1.340s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/dataLOA""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:54,29-07-2026 12:36:55,1.017s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/dataSupervisi""))",Chrome 150.0.7871.187,,,29-07-2026 12:36:55,29-07-2026 12:36:56,1.181s,PASSED
+delay(15),Chrome 150.0.7871.187,,,29-07-2026 12:36:56,29-07-2026 12:37:11,15.011s,PASSED
+urlSupervisi = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:37:11,29-07-2026 12:37:11,0.026s,PASSED
+"assert urlSupervisi.contains(""DashboardProduksiPerLOA-BranchSupervisi"")",Chrome 150.0.7871.187,,,29-07-2026 12:37:11,29-07-2026 12:37:11,0.003s,PASSED
+screenshotPathSuper = $projectDir/Screenshots/Evidence_POSITIVE_DashboardSuperVisi_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:37:11,29-07-2026 12:37:11,0.002s,PASSED
+takeScreenshot(screenshotPathSuper),Chrome 150.0.7871.187,,,29-07-2026 12:37:11,29-07-2026 12:37:12,0.373s,PASSED
+delay(5),Chrome 150.0.7871.187,,,29-07-2026 12:37:12,29-07-2026 12:37:17,5.011s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/btnBack""))",Chrome 150.0.7871.187,,,29-07-2026 12:37:17,29-07-2026 12:37:17,0.532s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/dataBranchUtama""))",Chrome 150.0.7871.187,,,29-07-2026 12:37:17,29-07-2026 12:37:19,1.340s,PASSED
+delay(10),Chrome 150.0.7871.187,,,29-07-2026 12:37:19,29-07-2026 12:37:29,10.013s,PASSED
+urlBranchUtama = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:37:29,29-07-2026 12:37:29,0.032s,PASSED
+"assert urlBranchUtama.contains(""DashboardProduksiPerLOA-BranchUtama"")",Chrome 150.0.7871.187,,,29-07-2026 12:37:29,29-07-2026 12:37:29,0.002s,PASSED
+screenshotPathUtama = $projectDir/Screenshots/Evidence_POSITIVE_DashboardBranchUtama_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:37:29,29-07-2026 12:37:29,0.002s,PASSED
+takeScreenshot(screenshotPathUtama),Chrome 150.0.7871.187,,,29-07-2026 12:37:29,29-07-2026 12:37:29,0.392s,PASSED
+delay(5),Chrome 150.0.7871.187,,,29-07-2026 12:37:29,29-07-2026 12:37:34,5.018s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/btnBack""))",Chrome 150.0.7871.187,,,29-07-2026 12:37:34,29-07-2026 12:37:35,0.561s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/dataRM""))",Chrome 150.0.7871.187,,,29-07-2026 12:37:35,29-07-2026 12:37:37,1.794s,PASSED
+delay(10),Chrome 150.0.7871.187,,,29-07-2026 12:37:37,29-07-2026 12:37:47,10.021s,PASSED
+urlRM = getUrl(),Chrome 150.0.7871.187,,,29-07-2026 12:37:47,29-07-2026 12:37:47,0.032s,PASSED
+"assert urlRM.contains(""DashboardProduksiPerLOA-RelationshipManager"")",Chrome 150.0.7871.187,,,29-07-2026 12:37:47,29-07-2026 12:37:47,0.002s,PASSED
+screenshotPathRM = $projectDir/Screenshots/Evidence_POSITIVE_DashboardRM_$timestamp.png,Chrome 150.0.7871.187,,,29-07-2026 12:37:47,29-07-2026 12:37:47,0.004s,PASSED
+takeScreenshot(screenshotPathRM),Chrome 150.0.7871.187,,,29-07-2026 12:37:47,29-07-2026 12:37:47,0.396s,PASSED
+delay(5),Chrome 150.0.7871.187,,,29-07-2026 12:37:47,29-07-2026 12:37:52,5.016s,PASSED
+"click(findTestObject(""BRINESIA UI/Tableau/Menu Default/btnBack""))",Chrome 150.0.7871.187,,,29-07-2026 12:37:52,29-07-2026 12:37:53,0.570s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 150.0.7871.187,,,29-07-2026 12:37:53,29-07-2026 12:37:54,1.638s,PASSED

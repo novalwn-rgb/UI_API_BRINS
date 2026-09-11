@@ -1,0 +1,198 @@
+2026-06-10 15:28:28.409 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/SP3 Final/SP3 Final Bank Garansi
+2026-06-10 15:28:28.587 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance
+2026-06-10 15:28:28.590 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = sp3Final
+2026-06-10 15:28:28.592 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - DESKTOP-RC89JE8
+2026-06-10 15:28:28.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-06-10 15:28:28.608 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.49.138
+2026-06-10 15:28:28.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2026-06-10 15:28:29.595 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:28:29.595 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker
+2026-06-10 15:28:30.573 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:28:31.190 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:28:31.331 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:28:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:28:35.911 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7a7ac87220a3588db4325e3967a944b6
+2026-06-10 15:28:35.915 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:28:35.916 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:28:35.917 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:28:35.932 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:28:39.656 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "barkah")
+2026-06-10 15:28:40.704 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:28:41.386 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:28:41.817 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)
+2026-06-10 15:28:46.935 DEBUG testcase.01 SP3 Maker                    - 6: click(findTestObject("BRISURF UI/Custom/Welcome Page/Slide"))
+2026-06-10 15:28:47.380 DEBUG testcase.01 SP3 Maker                    - 7: click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu"))
+2026-06-10 15:28:51.421 DEBUG testcase.01 SP3 Maker                    - 8: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/closeBarAjax"))
+2026-06-10 15:28:52.851 DEBUG testcase.01 SP3 Maker                    - 9: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/channelMenu"))
+2026-06-10 15:28:53.306 DEBUG testcase.01 SP3 Maker                    - 10: delay(1)
+2026-06-10 15:28:54.342 DEBUG testcase.01 SP3 Maker                    - 11: executeJavaScript("
+    var dropdowns = document.querySelectorAll('ul.dropdown-menu');
+
+    dropdowns.forEach(function(el){
+        el.style.display='block';
+    });
+", null)
+2026-06-10 15:28:54.472 DEBUG testcase.01 SP3 Maker                    - 12: delay(3)
+2026-06-10 15:28:57.496 DEBUG testcase.01 SP3 Maker                    - 13: scrollToElement(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/bankGaransiMenu"), 0)
+2026-06-10 15:28:57.815 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-06-10 15:29:08.167 DEBUG testcase.01 SP3 Maker                    - 14: click(findTestObject("BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu"))
+2026-06-10 15:29:18.630 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-06-10 15:29:18.811 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at 01 SP3 Maker.run(01 SP3 Maker:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080102201.run(TempTestSuite1781080102201.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=149.0.7827.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7a7ac87220a3588db4325e3967a944b6, clickElement {id=f.80348C28D34BE634204D9CF95559BFBE.d.E736489465F1BD221D9F3DFBFD0F0395.e.391}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.53, chrome: {chromedriverVersion: 149.0.7827.54 (42ce21f112d0..., userDataDir: C:\Users\ACER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53894}, goog:processID: 8904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53894/devtoo..., se:cdpVersion: 149.0.7827.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:41606/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (7a7ac87220a3588db4325e3967a944b6)] -> xpath: //li[.//span[normalize-space()='Bank Garansi']]//a[.//span[normalize-space()='SP3']]]
+Session ID: 7a7ac87220a3588db4325e3967a944b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$f7f6zSuB.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:109)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1774922504196.run(Script1774922504196.groovy:61)
+	... 15 more
+)
+2026-06-10 15:29:18.828 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BRISURF UI/Custom/Menu Channel/Maker/Create Maker/sp3Menu'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at 01 SP3 Maker.run(01 SP3 Maker:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1781080102201.run(TempTestSuite1781080102201.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=149.0.7827.53)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [7a7ac87220a3588db4325e3967a944b6, clickElement {id=f.80348C28D34BE634204D9CF95559BFBE.d.E736489465F1BD221D9F3DFBFD0F0395.e.391}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.53, chrome: {chromedriverVersion: 149.0.7827.54 (42ce21f112d0..., userDataDir: C:\Users\ACER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53894}, goog:processID: 8904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53894/devtoo..., se:cdpVersion: 149.0.7827.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:41606/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (7a7ac87220a3588db4325e3967a944b6)] -> xpath: //li[.//span[normalize-space()='Bank Garansi']]//a[.//span[normalize-space()='SP3']]]
+Session ID: 7a7ac87220a3588db4325e3967a944b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$f7f6zSuB.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:109)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-06-10 15:29:18.845 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/BRISURF UI/Menu Channel/Bank Garansi/01 SP3 Maker
+2026-06-10 15:29:18.860 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-10 15:29:18.860 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/BRISURF UI/Menu Channel/Bank Garansi/02 SP3 Checker
+2026-06-10 15:29:19.302 DEBUG testcase.01 SP3 Maker                    - 1: openBrowser("https://dev-app-brisurf.brins.co.id/")
+2026-06-10 15:29:19.308 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-10 15:29:19.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-10 15:29:19.759 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 10, 2026 3:29:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 10, 2026 3:29:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-10 15:29:21.658 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 445a7bb164a0cf5086b1c9b5fdf199a8
+2026-06-10 15:29:21.660 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.53
+2026-06-10 15:29:21.706 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-10 15:29:21.710 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2026-06-10 15:29:21.715 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-10 15:29:25.471 DEBUG testcase.01 SP3 Maker                    - 2: setText(findTestObject("BRISURF UI/Custom/Login/username"), "tulus")
+2026-06-10 15:29:26.223 DEBUG testcase.01 SP3 Maker                    - 3: setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345")
+2026-06-10 15:29:26.913 DEBUG testcase.01 SP3 Maker                    - 4: click(findTestObject("BRISURF UI/Custom/Login/btn login"))
+2026-06-10 15:29:27.293 DEBUG testcase.01 SP3 Maker                    - 5: delay(5)

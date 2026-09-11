@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IkonDownload_HasilExcel</name>
+   <tag></tag>
+   <elementGuidId>3e6d9b32-83cc-46ba-98aa-480d3b89eecc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table//tr[1]//a[.//i[contains(@class,'fa-download')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table//tr[1]//a[.//i[contains(@class,'fa-download')]]</value>
+      <webElementGuid>ddf77680-f8e1-4686-9a17-478b32317bb1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

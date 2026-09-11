@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputFID</name>
+   <tag></tag>
+   <elementGuidId>79a9ab6f-af28-4112-8bee-764c8b94fe68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@class,'select2-container--open')]//input[contains(@class,'select2-search__field')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@class,'select2-container--open')]//input[contains(@class,'select2-search__field')]</value>
+      <webElementGuid>8da913cc-b62a-44b8-acab-a6ac60c72b76</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

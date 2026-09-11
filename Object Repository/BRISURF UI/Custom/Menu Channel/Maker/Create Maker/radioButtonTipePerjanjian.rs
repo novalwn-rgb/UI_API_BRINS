@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radioButtonTipePerjanjian</name>
+   <tag></tag>
+   <elementGuidId>be393d76-b76a-4c16-b2d2-17ad2937ed00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='inlineradio1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='inlineradio1']</value>
+      <webElementGuid>9b8b57a5-5ae4-418d-be0d-e318ccc66c52</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

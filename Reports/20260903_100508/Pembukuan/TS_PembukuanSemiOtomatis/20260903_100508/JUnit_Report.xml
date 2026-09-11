@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_PembukuanSemiOtomatis" time="138.314" tests="3" failures="0" errors="0">
+   <testsuite name="TS_PembukuanSemiOtomatis" tests="3" failures="0" errors="0" time="138.314" skipped="0" timestamp="2026-09-03T03:05:14.529Z" hostname="TTECH-0251 - NovalWinaNurcahyo.brins.co.id" id="Test Suites/Pembukuan/TS_PembukuanSemiOtomatis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508"/>
+         <property name="logFiles" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\console0.log, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.06.56).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.07.32).png"/>
+         <property name="hostName" value="TTECH-0251 - NovalWinaNurcahyo.brins.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 152.0.7977.65"/>
+         <property name="userFullName" value="Quality Assurance 12"/>
+         <property name="hostAddress" value="10.1.48.19"/>
+         <property name="sessionId" value="0f84b544f9755e781863c54f9a263215"/>
+         <property name="projectName" value="AutoAPI"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker" time="49.519" classname="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker" status="PASSED">
+         <system-out><![CDATA[03-09-2026T10:05:15 - [TEST_CASE][PASSED] - Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker: Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker
+
+03-09-2026T10:05:15 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+03-09-2026T10:05:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-09-2026T10:05:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-09-2026T10:05:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+03-09-2026T10:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "Azkarik"): Text 'Azkarik' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+03-09-2026T10:05:24 - [MESSAGE][PASSED] - Text 'Azkarik' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+03-09-2026T10:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+03-09-2026T10:05:25 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+03-09-2026T10:05:25 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+03-09-2026T10:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+03-09-2026T10:05:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:05:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:05:31 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+03-09-2026T10:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+03-09-2026T10:05:36 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/prosesMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/prosesMenu' is clicked on
+
+03-09-2026T10:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/prosesMenu' is clicked on
+
+03-09-2026T10:05:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"), 0, STOP_ON_FAILURE): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' successfully
+
+03-09-2026T10:05:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+03-09-2026T10:05:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' successfully
+
+03-09-2026T10:05:38 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' is clicked on
+
+03-09-2026T10:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' is clicked on
+
+03-09-2026T10:05:43 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/dropdownBranch")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/dropdownBranch' is clicked on
+
+03-09-2026T10:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/dropdownBranch' is clicked on
+
+03-09-2026T10:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch"), "Makassar"): Text 'Makassar' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch'
+
+03-09-2026T10:05:46 - [MESSAGE][PASSED] - Text 'Makassar' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch'
+
+03-09-2026T10:05:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch'
+
+03-09-2026T10:05:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch'
+
+03-09-2026T10:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputName"), "Automation 3"): Text 'Automation 3' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputName'
+
+03-09-2026T10:05:48 - [MESSAGE][PASSED] - Text 'Automation 3' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputName'
+
+03-09-2026T10:05:48 - [TEST_STEP][PASSED] - uploadFile(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/uploadDok"), "C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Dokumen Test 2\BRINS_038601001055307_SPV_tes13.xlsx"): File 'C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Dokumen Test 2\BRINS_038601001055307_SPV_tes13.xlsx' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/uploadDok'
+
+03-09-2026T10:05:48 - [MESSAGE][PASSED] - File 'C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Dokumen Test 2\BRINS_038601001055307_SPV_tes13.xlsx' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/uploadDok'
+
+03-09-2026T10:05:48 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Product")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Product' is clicked on
+
+03-09-2026T10:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Product' is clicked on
+
+03-09-2026T10:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "Asuransi Mikro BRILINK WIC"): Text 'Asuransi Mikro BRILINK WIC' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:50 - [MESSAGE][PASSED] - Text 'Asuransi Mikro BRILINK WIC' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:51 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account Type")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account Type' is clicked on
+
+03-09-2026T10:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account Type' is clicked on
+
+03-09-2026T10:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "PREMI"): Text 'PREMI' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:54 - [MESSAGE][PASSED] - Text 'PREMI' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:55 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account No")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account No' is clicked on
+
+03-09-2026T10:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account No' is clicked on
+
+03-09-2026T10:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), "020601000102311"): Text '020601000102311' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:57 - [MESSAGE][PASSED] - Text '020601000102311' is set on object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown'
+
+03-09-2026T10:05:58 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/button_Import Excel")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/button_Import Excel' is clicked on
+
+03-09-2026T10:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/button_Import Excel' is clicked on
+
+03-09-2026T10:05:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:06:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:06:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-09-2026T10:06:04 - [MESSAGE][PASSED] - Browser is closed
+
+03-09-2026T10:06:04 - [TEST_STEP][ERROR] - Start listener action : takeScreenshotAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+03-09-2026T10:06:04 - [TEST_STEP][ERROR] - takeScreenshot(fullPath): com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+
+03-09-2026T10:06:04 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+)
+
+03-09-2026T10:06:04 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:3075)
+	at ScreenshotListener.takeScreenshotAfterTestCase(ScreenshotListener.groovy:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer" time="52.535" classname="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer" status="PASSED">
+         <system-out><![CDATA[03-09-2026T10:06:04 - [TEST_CASE][PASSED] - Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer: Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer
+
+03-09-2026T10:06:04 - [TEST_STEP][PASSED] - openBrowser("https://dev-app-brisurf.brins.co.id/"): Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+03-09-2026T10:06:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-09-2026T10:06:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-09-2026T10:06:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app-brisurf.brins.co.id/'
+
+03-09-2026T10:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/username"), "Rexy"): Text 'Rexy' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+03-09-2026T10:06:11 - [MESSAGE][PASSED] - Text 'Rexy' is set on object 'Object Repository/BRISURF UI/Custom/Login/username'
+
+03-09-2026T10:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("BRISURF UI/Custom/Login/password"), "Agan12345"): Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+03-09-2026T10:06:12 - [MESSAGE][PASSED] - Text 'Agan12345' is set on object 'Object Repository/BRISURF UI/Custom/Login/password'
+
+03-09-2026T10:06:12 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Login/btn login")): Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+03-09-2026T10:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Login/btn login' is clicked on
+
+03-09-2026T10:06:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:06:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:06:18 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Welcome Page/opsiMenu")): Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+03-09-2026T10:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Welcome Page/opsiMenu' is clicked on
+
+03-09-2026T10:06:22 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/prosesMenu")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/prosesMenu' is clicked on
+
+03-09-2026T10:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/prosesMenu' is clicked on
+
+03-09-2026T10:06:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran"), 0, STOP_ON_FAILURE): Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' successfully
+
+03-09-2026T10:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+03-09-2026T10:06:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' successfully
+
+03-09-2026T10:06:24 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' is clicked on
+
+03-09-2026T10:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran' is clicked on
+
+03-09-2026T10:06:32 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionCeklis")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionCeklis' is clicked on
+
+03-09-2026T10:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionCeklis' is clicked on
+
+03-09-2026T10:06:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction")): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction' is visible
+
+03-09-2026T10:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction' is visible
+
+03-09-2026T10:06:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CancelProcess")): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CancelProcess' is visible
+
+03-09-2026T10:06:38 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CancelProcess' is visible
+
+03-09-2026T10:06:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/WordingHint_Match"), "The transaction remarks matching process has not been executed yet."): Actual text and expected text of test object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/WordingHint_Match' are matched.
+
+03-09-2026T10:06:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/WordingHint_Match' are matched.
+
+03-09-2026T10:06:38 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction' is clicked on
+
+03-09-2026T10:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction' is clicked on
+
+03-09-2026T10:06:38 - [TEST_STEP][WARNING] - waitForAlert(3): No alert found after 3 second(s).
+
+03-09-2026T10:06:42 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+
+03-09-2026T10:06:42 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Popup_Submit")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Popup_Submit' is clicked on
+
+03-09-2026T10:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Popup_Submit' is clicked on
+
+03-09-2026T10:06:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:06:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:06:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"), 10): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is visible
+
+03-09-2026T10:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is visible
+
+03-09-2026T10:06:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction")): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is visible
+
+03-09-2026T10:06:48 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is visible
+
+03-09-2026T10:06:48 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is clicked on
+
+03-09-2026T10:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' is clicked on
+
+03-09-2026T10:06:48 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction"), 10): Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' located by 'By.xpath: //button[@id='compare-trx']' is not present after '10' second(s)
+
+03-09-2026T10:06:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction' located by 'By.xpath: //button[@id='compare-trx']' is not present after '10' second(s)
+
+03-09-2026T10:06:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:06:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+03-09-2026T10:06:56 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+03-09-2026T10:06:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.06.56).png]]
+
+03-09-2026T10:06:57 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download" time="35.654" classname="Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download" status="PASSED">
+         <system-out><![CDATA[03-09-2026T10:06:57 - [TEST_CASE][PASSED] - Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download: Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download
+
+03-09-2026T10:06:57 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionDownload")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionDownload' is clicked on
+
+03-09-2026T10:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionDownload' is clicked on
+
+03-09-2026T10:06:57 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Dropdown StatusPembukuan")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Dropdown StatusPembukuan' is clicked on
+
+03-09-2026T10:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Dropdown StatusPembukuan' is clicked on
+
+03-09-2026T10:06:59 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Dropdown OpsiGagal")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Dropdown OpsiGagal' is clicked on
+
+03-09-2026T10:07:09 - [MESSAGE][WARNING] - Waiting for element timed out
+
+03-09-2026T10:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Dropdown OpsiGagal' is clicked on
+
+03-09-2026T10:07:09 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Action Download/Btn RequestExcel")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Btn RequestExcel' is clicked on
+
+03-09-2026T10:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Action Download/Btn RequestExcel' is clicked on
+
+03-09-2026T10:07:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:07:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:07:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel"), 10): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel' is visible
+
+03-09-2026T10:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel' is visible
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - click(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel")): Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel' is clicked on
+
+03-09-2026T10:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel' is clicked on
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - isMenunggu = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Menunggu"), 5, OPTIONAL): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Menunggu' is present
+
+03-09-2026T10:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Menunggu' is present
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - println("Status Menunggu Diproses: " + isMenunggu): null
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - maxTry = 10: null
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - isSelesai = false: null
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - for ([i = 0, i < maxTry, (i++)]): null
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - println("Checking status... Percobaan ke-" + i + 1): null
+
+03-09-2026T10:07:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2026T10:07:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2026T10:07:22 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+03-09-2026T10:07:24 - [MESSAGE][PASSED] - Refresh successfully
+
+03-09-2026T10:07:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-09-2026T10:07:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-09-2026T10:07:26 - [TEST_STEP][PASSED] - isSelesai = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Selesai"), 5, OPTIONAL): Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Selesai' is present
+
+03-09-2026T10:07:27 - [MESSAGE][PASSED] - Object 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Selesai' is present
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - if (isSelesai): null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - println("========================================"): null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - println("STATUS SUDAH SELESAI DIPROSES"): null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - println("========================================"): null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - break: null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - if (!(isSelesai)): null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - else: null
+
+03-09-2026T10:07:27 - [TEST_STEP][PASSED] - println("Status proses berhasil menjadi Selesai Diproses"): null
+
+03-09-2026T10:07:27 - [TEST_STEP][WARNING] - isDownloadAvailable = verifyElementPresent(findTestObject("BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel"), 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at PembukuanAutomatic_Download.run(PembukuanAutomatic_Download:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+03-09-2026T10:07:32 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/IkonDownload_HasilExcel' located by 'By.xpath: //table//tr[1]//a[.//i[contains(@class,'fa-download')]]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at PembukuanAutomatic_Download.run(PembukuanAutomatic_Download:133)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1788404708135.run(TempTestSuite1788404708135.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - if (isDownloadAvailable): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - else: null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("========================================"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("IKON DOWNLOAD BELUM TERSEDIA"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("Download dilakukan manual oleh Developer"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("Test tetap dianggap BERHASIL"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("========================================"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+03-09-2026T10:07:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260903_100508\\Pembukuan\\TS_PembukuanSemiOtomatis\\20260903_100508\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_03.09.2026_(10.07.32).png]]
+
+03-09-2026T10:07:32 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-09-2026T10:05:14 - [TEST_SUITE][PASSED] - TS_PembukuanSemiOtomatis: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

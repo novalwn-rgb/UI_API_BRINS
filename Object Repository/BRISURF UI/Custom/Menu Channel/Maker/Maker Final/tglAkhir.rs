@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tglAkhir</name>
+   <tag></tag>
+   <elementGuidId>af8cc1f1-a359-405b-a4a6-3204e9fa449c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='TglAkhirIndemnityAgreement']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='TglAkhirIndemnityAgreement']</value>
+      <webElementGuid>bf4e79f3-8160-4a03-83ca-fec1e99cf28b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

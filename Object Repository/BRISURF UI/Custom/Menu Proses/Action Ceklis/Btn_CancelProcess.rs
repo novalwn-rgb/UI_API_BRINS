@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_CancelProcess</name>
+   <tag></tag>
+   <elementGuidId>7d03b895-f2d1-4535-b1a0-8799e685367c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='cancel-trx']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='cancel-trx']</value>
+      <webElementGuid>1f8cd251-379a-48b5-9948-15d20973161e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

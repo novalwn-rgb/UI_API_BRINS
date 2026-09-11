@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>CovVal_Medan_1000</name>
+   <tag></tag>
+   <elementGuidId>32f8ae11-10e1-4256-8045-867ed82375a2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>false</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>true</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;RequestId\&quot;: \&quot;038113341571\&quot;,\n    \&quot;FIDProgram\&quot;: 26687,\n    \&quot;NamaProgram\&quot;: \&quot;Cash In Transit BRILink - BRINS.\&quot;,\n    \&quot;FIDKategoriAsuransi\&quot;: 31,\n    \&quot;FIDJenisAsuransi\&quot;: 10,\n    \&quot;NomorRekeningPinjaman\&quot;: \&quot;\&quot;,\n    \&quot;CIFRekeningPinjaman\&quot;: \&quot;\&quot;,\n    \&quot;LoanType\&quot;: \&quot;\&quot;,\n    \&quot;LoanTypeDesc\&quot;: \&quot;\&quot;,\n    \&quot;JangkaWaktuBulan\&quot;: 0,\n    \&quot;JangkaWaktuPilihan\&quot;: 0,\n    \&quot;SukuBungaPinjamanTahun\&quot;: 0,\n    \&quot;Plafon\&quot;: 0,\n    \&quot;Outstanding\&quot;: 0,\n    \&quot;TotalEksposure\&quot;: 0,\n    \&quot;FlagCorona\&quot;: 0,\n    \&quot;FlagRestruk\&quot;: 0,\n    \&quot;Kolektabilitas\&quot;: 0,\n    \&quot;TanggalAkadKreditRestruk\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;TanggalKreditRestruk\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;TanggalAkadKredit\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;TanggalRealisasi\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;TanggalJatuhTempo\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;TanggalPembentukanRekening\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;UnitCode\&quot;: \&quot;0635\&quot;,\n    \&quot;UnitDesc\&quot;: \&quot;BRI KCP KAPTEN MUSLIM\&quot;,\n    \&quot;BranchCode\&quot;: \&quot;0404\&quot;,\n    \&quot;BranchDesc\&quot;: \&quot;BRI CABANG GATOT SUBROTO\&quot;,\n    \&quot;RegionCode\&quot;: \&quot;B\&quot;,\n    \&quot;RegionDesc\&quot;: \&quot;MEDAN\&quot;,\n    \&quot;MakerBranch\&quot;: \&quot;0635\&quot;,\n    \&quot;MakerID\&quot;: \&quot;5049891\&quot;,\n    \&quot;NomorPerjanjianKredit\&quot;: \&quot;\&quot;,\n    \&quot;NilaiLikuiditas\&quot;: 0,\n    \&quot;SektorEkonomi\&quot;: \&quot;\&quot;,\n    \&quot;FIDKategoriJenisFasilitas\&quot;: 0,\n    \&quot;NamaPeserta\&quot;: \&quot;\&quot;,\n    \&quot;NomorIdentitas\&quot;: \&quot;1000000000000488\&quot;,\n    \&quot;NPWP\&quot;: \&quot;\&quot;,\n    \&quot;Email\&quot;: \&quot;\&quot;,\n    \&quot;TanggalLahir\&quot;: \&quot;02\\/10\\/1985\&quot;,\n    \&quot;TempatLahir\&quot;: \&quot;\&quot;,\n    \&quot;FIDJenisKelamin\&quot;: 0,\n    \&quot;JenisKelamin\&quot;: \&quot;\&quot;,\n    \&quot;FIDPendidikan\&quot;: 0,\n    \&quot;Pendidikan\&quot;: \&quot;\&quot;,\n    \&quot;FIDPekerjaan\&quot;: 0,\n    \&quot;Pekerjaan\&quot;: \&quot;\&quot;,\n    \&quot;FIDStatusPernikahan\&quot;: 0,\n    \&quot;StatusPernikahan\&quot;: \&quot;\&quot;,\n    \&quot;NomorHP\&quot;: \&quot;085212223331\&quot;,\n    \&quot;Alamat1\&quot;: \&quot;\&quot;,\n    \&quot;Alamat2\&quot;: \&quot;\&quot;,\n    \&quot;Alamat3\&quot;: \&quot;\&quot;,\n    \&quot;Alamat4\&quot;: \&quot;\&quot;,\n    \&quot;KodePos\&quot;: 0,\n    \&quot;KodeKabupatenKota\&quot;: \&quot;\&quot;,\n    \&quot;NamaPerusahaanInti\&quot;: \&quot;\&quot;,\n    \&quot;TanggalMulaiUsaha\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;NomorIjinUsaha\&quot;: \&quot;\&quot;,\n    \&quot;ModalUsaha\&quot;: 0,\n    \&quot;AlamatUsaha\&quot;: \&quot;\&quot;,\n    \&quot;JumlahTenagaKerja\&quot;: 0,\n    \&quot;NomorRekeningPinjamanSebelumnya\&quot;: \&quot;\&quot;,\n    \&quot;NomorPesertaSebelumnya\&quot;: \&quot;\&quot;,\n    \&quot;NominalPremiSebelumnya\&quot;: 0,\n    \&quot;FIDJenisAgunan\&quot;: 0,\n    \&quot;FIDAgunan\&quot;: 0,\n    \&quot;KodeJenisPenggunaan\&quot;: \&quot;\&quot;,\n    \&quot;KodePosAgunan\&quot;: \&quot;\&quot;,\n    \&quot;AlamatAgunan\&quot;: \&quot;\&quot;,\n    \&quot;TahunAgunan\&quot;: 0,\n    \&quot;KodeOkupasi\&quot;: \&quot;\&quot;,\n    \&quot;FlagPasar\&quot;: 2,\n    \&quot;KodePasar\&quot;: \&quot;\&quot;,\n    \&quot;RangkaBangunan\&quot;: \&quot;\&quot;,\n    \&quot;PenutupAtap\&quot;: \&quot;\&quot;,\n    \&quot;BahanLantai\&quot;: \&quot;\&quot;,\n    \&quot;BahanDinding\&quot;: \&quot;\&quot;,\n    \&quot;JumlahLantai\&quot;: 0,\n    \&quot;PlatNomorKendaraan\&quot;: \&quot;\&quot;,\n    \&quot;NomorBuktiKepemilikan\&quot;: \&quot;\&quot;,\n    \&quot;NomorRangka\&quot;: \&quot;\&quot;,\n    \&quot;NomorSeri\&quot;: \&quot;\&quot;,\n    \&quot;NomorMesin\&quot;: \&quot;\&quot;,\n    \&quot;Warna\&quot;: \&quot;\&quot;,\n    \&quot;MerkKendaraan\&quot;: \&quot;\&quot;,\n    \&quot;MerkTipeKendaraan\&quot;: \&quot;\&quot;,\n    \&quot;KodeJenisKendaraan\&quot;: \&quot;RODA2\&quot;,\n    \&quot;NominalObjekPertanggungan\&quot;: 15000000.00,\n    \&quot;DeskripsiAgunan\&quot;: \&quot;\&quot;,\n    \&quot;TanggalMulaiChannel\&quot;: \&quot;31\\/07\\/2025\&quot;,\n    \&quot;TanggalAkhirChannel\&quot;: \&quot;01\\/08\\/2025\&quot;,\n    \&quot;FIDCashVault\&quot;: \&quot;\&quot;,\n    \&quot;FIDCashPickup\&quot;: 1000000000000488,\n    \&quot;LokasiResiko\&quot;: \&quot;jln medan\&quot;,\n    \&quot;KodePosResiko\&quot;: \&quot;\&quot;,\n    \&quot;NamaAhliWaris\&quot;: \&quot;\&quot;,\n    \&quot;TanggalLahirAhliWaris\&quot;: \&quot;01\\/01\\/1900\&quot;,\n    \&quot;FIDJenisKelaminAhliWaris\&quot;: 0,\n    \&quot;JenisKelaminAhliWaris\&quot;: \&quot;\&quot;,\n    \&quot;AlamatAhliWaris\&quot;: \&quot;\&quot;,\n    \&quot;NomorTelpAhliWaris\&quot;: \&quot;\&quot;,\n    \&quot;FIDHubunganAhliWaris\&quot;: 0,\n    \&quot;HubunganAhliWaris\&quot;: \&quot;\&quot;,\n    \&quot;NomorRekeningSimpanan\&quot;: \&quot;\&quot;,\n    \&quot;CIFRekeningSimpanan\&quot;: \&quot;\&quot;,\n    \&quot;PromoCode\&quot;: \&quot;\&quot;,\n    \&quot;FIDScheduleCoveringNextPremium\&quot;: 0,\n    \&quot;NominalObjekPertanggunganValas\&quot;: 0,\n    \&quot;Currency\&quot;: \&quot;IDR\&quot;,\n    \&quot;NilaiKurs\&quot;: 0,\n    \&quot;TanggalKurs\&quot;: \&quot;01\\/01\\/1900 00:00:00\&quot;,\n    \&quot;NomorRekeningDebet\&quot;: \&quot;504901024550531\&quot;,\n    \&quot;FIDChannelCovering\&quot;: \&quot;WBNK\&quot;,\n    \&quot;ChannelCovering\&quot;: \&quot;BRILINK\&quot;,\n    \&quot;PNReferal\&quot;: \&quot;12225280\&quot;,\n    \&quot;ChannelUniqueKeyId\&quot;: \&quot;${ChannelUniqueKeyId}\&quot;,\n    \&quot;ChannelUniqueKey\&quot;: \&quot;FIDCashPickup\&quot;,\n    \&quot;AdditionalInformation1\&quot;: \&quot;7313020210850001|TESTING QA|085212223331|LAKI-LAKI\&quot;,\n    \&quot;AdditionalInformation2\&quot;: \&quot;jln medan|ULUGALUNG|02\\/10\\/1985\&quot;,\n    \&quot;AdditionalInformation3\&quot;: \&quot;PEDAGANG|KAWIN|001262\&quot;,\n    \&quot;AdditionalInformation4\&quot;: \&quot;15000000.00\&quot;,\n    \&quot;OutstandingRestruk\&quot;: 0,\n    \&quot;PlafonRestruk\&quot;: 0,\n    \&quot;UrutanRestruk\&quot;: 0,\n    \&quot;ProductCode\&quot;: \&quot;\&quot;,\n    \&quot;ProductCodeDesc\&quot;: \&quot;\&quot;,\n    \&quot;OmzetPenjualan\&quot;: 0,\n    \&quot;NomorReferensiDokumen\&quot;: \&quot;0\&quot;,\n    \&quot;JenisHadiah\&quot;: \&quot;\&quot;,\n    \&quot;HargaSatuanHadiah\&quot;: 0,\n    \&quot;JumlahHadiah\&quot;: 0,\n    \&quot;KategoriHadiah\&quot;: \&quot;\&quot;,\n    \&quot;NamaPartner\&quot;: \&quot;BRI INSURANCE\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>f774c59c-ed9a-4fac-9639-068bf606dd66</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>User-Agent</name>
+      <type>Main</type>
+      <value>PostmanRuntime/7.32.2</value>
+      <webElementGuid>8e99f1b3-3b46-4913-8bc6-1383ac8cdcd1</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>*/*</value>
+      <webElementGuid>0ca52a9b-bfe6-4c64-be99-d991a7f56ac0</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Encoding</name>
+      <type>Main</type>
+      <value>gzip, deflate, br</value>
+      <webElementGuid>70b4e187-ed86-4791-9d27-1f531a4abba4</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Connection</name>
+      <type>Main</type>
+      <value>keep-alive</value>
+      <webElementGuid>7c710bec-6bcd-4dc0-b788-502e203a47ab</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.3.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://dev-brisurf.brins.co.id/BRISURF/CoveringValidation</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

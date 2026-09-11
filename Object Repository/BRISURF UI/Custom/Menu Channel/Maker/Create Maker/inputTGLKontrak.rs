@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputTGLKontrak</name>
+   <tag></tag>
+   <elementGuidId>1fb52020-d575-419a-a14b-a0ac8b7cf1a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='TanggalKontrak']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='TanggalKontrak']</value>
+      <webElementGuid>e680d80c-33d8-43f8-bf07-def07990d85f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

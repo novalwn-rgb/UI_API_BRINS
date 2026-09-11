@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ShowAllEntry</name>
+   <tag></tag>
+   <elementGuidId>0d14f5f3-c0af-4cb4-bb2b-b170c7d8aeb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='tableImportCms_length']/option[normalize-space()='All']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='tableImportCms_length']/option[normalize-space()='All']</value>
+      <webElementGuid>a3e9fee5-6fa3-4055-8f44-a1748f42f903</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>closeBarAjax</name>
+   <tag></tag>
+   <elementGuidId>cbe0572e-8657-48d5-be5f-354a97362361</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@class,'phpdebugbar-close-btn')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@class,'phpdebugbar-close-btn')]</value>
+      <webElementGuid>e8468c2b-ec6e-4a72-96cf-55d723437f27</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

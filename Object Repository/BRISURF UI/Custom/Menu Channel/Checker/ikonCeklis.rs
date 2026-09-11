@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ikonCeklis</name>
+   <tag></tag>
+   <elementGuidId>cb32c0a3-6e69-49a1-bbba-99a2b3a04373</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//button[contains(@class,'btn-pengecekan')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//button[contains(@class,'btn-pengecekan')])[1]</value>
+      <webElementGuid>b22b8f14-76fc-4e2c-84b4-fea08a58568a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputTGLPermohonanBG</name>
+   <tag></tag>
+   <elementGuidId>7b13f864-cef4-44e8-ba20-fa46bd87f21d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='TanggalPermohonanBankGaransi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='TanggalPermohonanBankGaransi']</value>
+      <webElementGuid>6781aa14-0806-4b17-b309-bb40d7e30eb4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

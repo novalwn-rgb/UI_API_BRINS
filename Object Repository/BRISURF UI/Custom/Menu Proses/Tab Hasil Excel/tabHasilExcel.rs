@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tabHasilExcel</name>
+   <tag></tag>
+   <elementGuidId>14926d69-4d7f-45cf-aa50-79af76cc83ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id='export-cms-tab']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@id='export-cms-tab']</value>
+      <webElementGuid>3e965051-0022-4d8c-a751-f3a825814226</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

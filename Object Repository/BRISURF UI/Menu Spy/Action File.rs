@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action File</name>
+   <tag></tag>
+   <elementGuidId>91370763-74ac-4461-b374-0a7d9c203a25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-info.btn-view.ml-1.mr-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tableImportCms']/tbody/tr[8]/td/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c2d3a2c3-744a-4da5-b154-06e064f3b228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://dev-app-brisurf.brins.co.id/cash-management-system/view-transaction/eyJpdiI6InVSdlFLMHh1Zmkvc1A4YXVIMUdFRGc9PSIsInZhbHVlIjoiUDFMenE4RnRFckc3VzNham41WEpFZz09IiwibWFjIjoiNzhkMTg2M2NiOWM1ZGZmYWY2ZjcwZTk5N2ExYTVkNTE2MDBlMjk5ZmRhYWUxZDk1MmQzMWJhMDczMzU3Njc3MSIsInRhZyI6IiJ9</value>
+      <webElementGuid>7a78a334-a5bd-4760-a399-dcfcf1a726e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-info btn-view ml-1 mr-1</value>
+      <webElementGuid>9557eb35-519f-48f3-a002-6e6f9f43ca6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>View Transaction</value>
+      <webElementGuid>5a3aec99-73d9-4875-a75b-211fb765af37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tableImportCms&quot;)/tbody[1]/tr[@class=&quot;cell-padding even&quot;]/td[1]/div[@class=&quot;d-flex justify-content-between align-items-center px-2&quot;]/a[@class=&quot;btn btn-sm btn-info btn-view ml-1 mr-1&quot;]</value>
+      <webElementGuid>caa231fa-2d32-416e-b9a4-45db50ac6c30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tableImportCms']/tbody/tr[8]/td/div/a[2]</value>
+      <webElementGuid>57c13002-f9e4-481b-b31b-fc4fcd568369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REXY'])[4]/following::a[2]</value>
+      <webElementGuid>a46277a9-dff4-48e2-b720-fb70b9f0e7d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KPRS KCU JANUARI 26 (2).xls'])[1]/following::a[2]</value>
+      <webElementGuid>5863d96b-718a-4c17-81d7-2dcd2f7d4f5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/preceding::a[1]</value>
+      <webElementGuid>dffb9288-cea1-46fe-b27b-1224f8e164bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KPRS KCU JANUARI 26.xls'])[1]/preceding::a[1]</value>
+      <webElementGuid>4f4d862c-dd92-4ec5-9a98-e45d7f16e092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://dev-app-brisurf.brins.co.id/cash-management-system/view-transaction/eyJpdiI6InVSdlFLMHh1Zmkvc1A4YXVIMUdFRGc9PSIsInZhbHVlIjoiUDFMenE4RnRFckc3VzNham41WEpFZz09IiwibWFjIjoiNzhkMTg2M2NiOWM1ZGZmYWY2ZjcwZTk5N2ExYTVkNTE2MDBlMjk5ZmRhYWUxZDk1MmQzMWJhMDczMzU3Njc3MSIsInRhZyI6IiJ9')]</value>
+      <webElementGuid>ae0dce11-343e-44e6-b675-172caeccd6f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/a[2]</value>
+      <webElementGuid>dd0229fa-67db-4347-8a68-67321e93de63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://dev-app-brisurf.brins.co.id/cash-management-system/view-transaction/eyJpdiI6InVSdlFLMHh1Zmkvc1A4YXVIMUdFRGc9PSIsInZhbHVlIjoiUDFMenE4RnRFckc3VzNham41WEpFZz09IiwibWFjIjoiNzhkMTg2M2NiOWM1ZGZmYWY2ZjcwZTk5N2ExYTVkNTE2MDBlMjk5ZmRhYWUxZDk1MmQzMWJhMDczMzU3Njc3MSIsInRhZyI6IiJ9' and @title = 'View Transaction']</value>
+      <webElementGuid>3e042d43-c772-4e2b-a901-425105261a3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_PembukuanSemiOtomatis,Chrome 152.0.7977.65,,,03-09-2026 10:05:14,03-09-2026 10:07:33,2m - 18.952s,PASSED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Maker,Chrome 152.0.7977.65,,,03-09-2026 10:05:15,03-09-2026 10:06:04,49.519s,PASSED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:15,03-09-2026 10:05:23,8.271s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""Azkarik"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:23,03-09-2026 10:05:24,1.302s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:24,03-09-2026 10:05:25,1.019s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:25,03-09-2026 10:05:26,0.518s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:05:26,03-09-2026 10:05:31,5.052s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:31,03-09-2026 10:05:36,4.575s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/prosesMenu""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:36,03-09-2026 10:05:37,1.728s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran""), 0, STOP_ON_FAILURE)",Chrome 152.0.7977.65,,,03-09-2026 10:05:37,03-09-2026 10:05:38,0.505s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:38,03-09-2026 10:05:43,5.610s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/dropdownBranch""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:43,03-09-2026 10:05:45,1.415s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch""), ""Makassar"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:45,03-09-2026 10:05:46,1.201s,PASSED
+"sendKeys(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputBranch""), Keys.chord(ENTER))",Chrome 152.0.7977.65,,,03-09-2026 10:05:46,03-09-2026 10:05:47,0.610s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputName""), ""Automation 3"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:47,03-09-2026 10:05:48,1.222s,PASSED
+"uploadFile(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/uploadDok""), ""C:\Users\TTECH-0251\OneDrive - brins.co.id\personal\noval_wina_nurcahyo_work_brins_co_id\Brins\Report Project\BRISURF\Lunar\Pembukuan\All Program 100 Data\Dokumen Test 2\BRINS_038601001055307_SPV_tes13.xlsx"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:48,03-09-2026 10:05:48,0.336s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Product""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:48,03-09-2026 10:05:49,0.474s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), ""Asuransi Mikro BRILINK WIC"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:49,03-09-2026 10:05:50,1.798s,PASSED
+"sendKeys(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), Keys.chord(ENTER))",Chrome 152.0.7977.65,,,03-09-2026 10:05:50,03-09-2026 10:05:51,0.676s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account Type""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:51,03-09-2026 10:05:52,0.999s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), ""PREMI"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:52,03-09-2026 10:05:54,1.748s,PASSED
+"sendKeys(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), Keys.chord(ENTER))",Chrome 152.0.7977.65,,,03-09-2026 10:05:54,03-09-2026 10:05:55,0.670s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/Dropdown Account No""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:55,03-09-2026 10:05:55,0.849s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), ""020601000102311"")",Chrome 152.0.7977.65,,,03-09-2026 10:05:55,03-09-2026 10:05:57,1.624s,PASSED
+"sendKeys(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/InputAllDropdown""), Keys.chord(ENTER))",Chrome 152.0.7977.65,,,03-09-2026 10:05:57,03-09-2026 10:05:58,0.633s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/button_Import Excel""))",Chrome 152.0.7977.65,,,03-09-2026 10:05:58,03-09-2026 10:05:58,0.716s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:05:58,03-09-2026 10:06:03,5.010s,PASSED
+closeBrowser(),Chrome 152.0.7977.65,,,03-09-2026 10:06:03,03-09-2026 10:06:04,0.601s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.65,,,03-09-2026 10:06:04,03-09-2026 10:06:04,0.122s,ERROR
+,,,,,,,
+Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Signer,Chrome 152.0.7977.65,,,03-09-2026 10:06:04,03-09-2026 10:06:57,52.535s,PASSED
+"openBrowser(""https://dev-app-brisurf.brins.co.id/"")",Chrome 152.0.7977.65,,,03-09-2026 10:06:04,03-09-2026 10:06:10,5.420s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/username""), ""Rexy"")",Chrome 152.0.7977.65,,,03-09-2026 10:06:10,03-09-2026 10:06:11,0.982s,PASSED
+"setText(findTestObject(""BRISURF UI/Custom/Login/password""), ""Agan12345"")",Chrome 152.0.7977.65,,,03-09-2026 10:06:11,03-09-2026 10:06:12,1.325s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Login/btn login""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:12,03-09-2026 10:06:13,0.508s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:06:13,03-09-2026 10:06:18,5.013s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Welcome Page/opsiMenu""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:18,03-09-2026 10:06:22,4.702s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/prosesMenu""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:22,03-09-2026 10:06:23,1.056s,PASSED
+"scrollToElement(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran""), 0, STOP_ON_FAILURE)",Chrome 152.0.7977.65,,,03-09-2026 10:06:23,03-09-2026 10:06:24,0.522s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Menu/MenuUploadRekKoran""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:24,03-09-2026 10:06:32,7.913s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionCeklis""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:32,03-09-2026 10:06:36,4.068s,PASSED
+"verifyElementVisible(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:36,03-09-2026 10:06:37,1.097s,PASSED
+"verifyElementVisible(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CancelProcess""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:37,03-09-2026 10:06:38,0.693s,PASSED
+"verifyElementText(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/WordingHint_Match""), ""The transaction remarks matching process has not been executed yet."")",Chrome 152.0.7977.65,,,03-09-2026 10:06:38,03-09-2026 10:06:38,0.331s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_MatchTransaction""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:38,03-09-2026 10:06:38,0.447s,PASSED
+waitForAlert(3),Chrome 152.0.7977.65,,,03-09-2026 10:06:38,03-09-2026 10:06:42,3.131s,WARNING
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Popup_Submit""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:42,03-09-2026 10:06:42,0.459s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:06:42,03-09-2026 10:06:47,5.004s,PASSED
+"waitForElementVisible(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction""), 10)",Chrome 152.0.7977.65,,,03-09-2026 10:06:47,03-09-2026 10:06:47,0.438s,PASSED
+"verifyElementVisible(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:47,03-09-2026 10:06:48,0.292s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:48,03-09-2026 10:06:48,0.438s,PASSED
+"waitForElementNotPresent(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Ceklis/Btn_CompareTransaction""), 10)",Chrome 152.0.7977.65,,,03-09-2026 10:06:48,03-09-2026 10:06:51,3.036s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:06:51,03-09-2026 10:06:56,5.011s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.65,,,03-09-2026 10:06:56,03-09-2026 10:06:57,0.433s,PASSED
+,,,,,,,
+Test Cases/BRISURF UI/Menu Proses/Upload Rekening Koran/PembukuanAutomatic_Download,Chrome 152.0.7977.65,,,03-09-2026 10:06:57,03-09-2026 10:07:32,35.654s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Import CMS/ActionDownload""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:57,03-09-2026 10:06:57,0.460s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Download/Dropdown StatusPembukuan""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:57,03-09-2026 10:06:59,1.235s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Download/Dropdown OpsiGagal""))",Chrome 152.0.7977.65,,,03-09-2026 10:06:59,03-09-2026 10:07:09,10.075s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Action Download/Btn RequestExcel""))",Chrome 152.0.7977.65,,,03-09-2026 10:07:09,03-09-2026 10:07:11,2.581s,PASSED
+delay(5),Chrome 152.0.7977.65,,,03-09-2026 10:07:11,03-09-2026 10:07:16,5.014s,PASSED
+"waitForElementVisible(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel""), 10)",Chrome 152.0.7977.65,,,03-09-2026 10:07:16,03-09-2026 10:07:17,0.341s,PASSED
+"click(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/tabHasilExcel""))",Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:17,0.477s,PASSED
+"isMenunggu = verifyElementPresent(findTestObject(""BRISURF UI/Custom/Menu Proses/Tab Hasil Excel/StatusProses_Menunggu""), 5, OPTIONAL)",Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:17,0.337s,PASSED
+"println(""Status Menunggu Diproses: "" + isMenunggu)",Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:17,0.010s,PASSED
+maxTry = 10,Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:17,0.001s,PASSED
+isSelesai = false,Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:17,0.001s,PASSED
+"for ([i = 0, i < maxTry, (i++)])",Chrome 152.0.7977.65,,,03-09-2026 10:07:17,03-09-2026 10:07:27,9.252s,PASSED
+if (!(isSelesai)),Chrome 152.0.7977.65,,,03-09-2026 10:07:27,03-09-2026 10:07:27,0.002s,PASSED
+else,Chrome 152.0.7977.65,,,03-09-2026 10:07:27,03-09-2026 10:07:32,5.187s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.65,,,03-09-2026 10:07:32,03-09-2026 10:07:32,0.449s,PASSED

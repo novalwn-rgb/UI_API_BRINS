@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PeriodeAwal</name>
+   <tag></tag>
+   <elementGuidId>dd1c2e75-2276-4cfc-99e8-2535e0d86d88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='id_start_date']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='id_start_date']</value>
+      <webElementGuid>f0f49496-162e-4038-a504-a61c8f761576</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

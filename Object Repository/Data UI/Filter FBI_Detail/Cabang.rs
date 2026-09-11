@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cabang</name>
+   <tag></tag>
+   <elementGuidId>ce7d1aad-a357-4cab-a9eb-bc3926d2dcbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='id_cabang_bri']/option[@value='ALL']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='id_cabang_bri']/option[@value='ALL']</value>
+      <webElementGuid>e6d8fa20-5849-44f4-b21b-22570e2c2022</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

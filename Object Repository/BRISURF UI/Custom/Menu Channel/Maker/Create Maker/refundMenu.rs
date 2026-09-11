@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>refundMenu</name>
+   <tag></tag>
+   <elementGuidId>df755b6a-0d7f-437a-ae37-76b53932c314</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.//span[normalize-space()='Refund']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.//span[normalize-space()='Refund']]</value>
+      <webElementGuid>567e62a5-16d7-4372-b8a2-dd236a47bf8a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

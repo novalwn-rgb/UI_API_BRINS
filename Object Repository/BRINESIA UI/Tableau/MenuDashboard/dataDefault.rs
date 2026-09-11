@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dataDefault</name>
+   <tag></tag>
+   <elementGuidId>406c6c3a-ee10-4e55-ac37-da97ff75d570</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[normalize-space()='Default']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[normalize-space()='Default']</value>
+      <webElementGuid>67c664be-fcb8-45e7-a9c7-00af3a9fddbd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

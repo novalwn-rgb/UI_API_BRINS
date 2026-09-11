@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNoPermohonanBG</name>
+   <tag></tag>
+   <elementGuidId>72f15a88-5d06-461f-93df-866c40fc5b62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='NomorPermohonanBankGaransi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='NomorPermohonanBankGaransi']</value>
+      <webElementGuid>6bfa66d4-96cd-4e8e-b5e3-254a00dbb1c8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputKeterangan</name>
+   <tag></tag>
+   <elementGuidId>f12503fa-bb00-4006-ab72-5f56bc1702c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div/div[3]/div[4]/div/div/div[2]/div/div/form/div[3]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div/div[3]/div[4]/div/div/div[2]/div/div/form/div[3]/textarea</value>
+      <webElementGuid>aabe6705-b043-4793-bb52-af468f5d2ea8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tglAwal</name>
+   <tag></tag>
+   <elementGuidId>280d2ef8-62b6-4751-8e67-c25ef9c548b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='TglAwalIndemnityAgreement']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='TglAwalIndemnityAgreement']</value>
+      <webElementGuid>1c650a7b-f9d8-4ac0-98a1-d674248784f0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

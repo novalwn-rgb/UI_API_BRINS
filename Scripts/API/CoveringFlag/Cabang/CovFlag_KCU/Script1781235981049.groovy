@@ -1,0 +1,33 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.testobject.ResponseObject
+
+TestData data = TestDataFactory.findTestData('Data Files/Cabang/CoveringFlag/CoveringFlag')
+
+int totalRow = data.getRowNumbers()
+
+println("Total Data : " + totalRow)
+
+for (int row = 1; row <= totalRow; row++) {
+
+	String nik = data.getValue('NomorIdentitas', row)
+
+	ResponseObject response = WS.sendRequest(
+		findTestObject(
+			'API/Posts/CoveringFlag/Cabang/CovFlag_KCU',
+			[
+				('NomorIdentitas') : nik
+			]
+		)
+	)
+
+	println("==============================")
+	println("Row                : " + row)
+	println("Channel Unique Key Id     : " + nik)
+	println("HTTP Status        : " + response.getStatusCode())
+	println("Response Body      : " + response.getResponseBodyContent())
+}
