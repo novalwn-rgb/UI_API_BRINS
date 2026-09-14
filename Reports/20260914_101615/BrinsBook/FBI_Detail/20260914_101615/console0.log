@@ -1,0 +1,181 @@
+2026-09-14 10:16:20.673 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\TTECH-0251\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-09-14 10:16:20.678 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\TTECH-0251\git\AutoAPI\Include\config\log.properties
+2026-09-14 10:16:21.500 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/BrinsBook/FBI_Detail
+2026-09-14 10:16:21.583 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance 12
+2026-09-14 10:16:21.584 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutoAPI
+2026-09-14 10:16:21.584 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = TTECH-0251 - NovalWinaNurcahyo.brins.co.id
+2026-09-14 10:16:21.585 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-09-14 10:16:21.586 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.156
+2026-09-14 10:16:21.587 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-09-14 10:16:22.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 10:16:22.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Login/Login_BrinsBook
+2026-09-14 10:16:22.356 DEBUG testcase.Login_BrinsBook                 - 1: projectDir = getProjectDir()
+2026-09-14 10:16:22.359 DEBUG testcase.Login_BrinsBook                 - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 10:16:22.386 DEBUG testcase.Login_BrinsBook                 - 3: openBrowser("http://192.168.140.18:8000/login/")
+2026-09-14 10:16:22.700 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-14 10:16:22.760 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 14, 2026 10:16:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 14, 2026 10:16:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-14 10:16:25.908 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ccfe64e6b3ff0c54bfad489371e65e89
+2026-09-14 10:16:25.909 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.83
+2026-09-14 10:16:25.910 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-09-14 10:16:25.910 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-09-14 10:16:25.922 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-14 10:16:27.400 DEBUG testcase.Login_BrinsBook                 - 4: setText(findTestObject("Data UI/Login/inputUsername"), "test")
+2026-09-14 10:16:28.832 DEBUG testcase.Login_BrinsBook                 - 5: setText(findTestObject("Data UI/Login/inputPassword"), "passwordSalah")
+2026-09-14 10:16:29.804 DEBUG testcase.Login_BrinsBook                 - 6: click(findTestObject("Data UI/Login/btnPortal"))
+2026-09-14 10:16:31.019 DEBUG testcase.Login_BrinsBook                 - 7: delay(2)
+2026-09-14 10:16:33.070 DEBUG testcase.Login_BrinsBook                 - 8: loginFailed = verifyTextPresent("Akun kamu sudah login di perangkat lain nih/login/", false, OPTIONAL)
+2026-09-14 10:16:33.449 WARN  c.k.k.core.keyword.internal.KeywordMain  - Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at Login_BrinsBook.run(Login_BrinsBook:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1789355775771.run(TempTestSuite1789355775771.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-09-14 10:16:33.452 DEBUG testcase.Login_BrinsBook                 - 9: if (loginFailed)
+2026-09-14 10:16:33.453 DEBUG testcase.Login_BrinsBook                 - 10: else
+2026-09-14 10:16:33.455 DEBUG testcase.Login_BrinsBook                 - 1: println("Pesan gagal login tidak ditemukan")
+Pesan gagal login tidak ditemukan
+2026-09-14 10:16:33.460 DEBUG testcase.Login_BrinsBook                 - 11: back()
+2026-09-14 10:16:33.583 DEBUG testcase.Login_BrinsBook                 - 12: delay(3)
+2026-09-14 10:16:36.601 DEBUG testcase.Login_BrinsBook                 - 13: click(findTestObject("Data UI/Login/btnForceLogout1"))
+2026-09-14 10:16:37.200 DEBUG testcase.Login_BrinsBook                 - 14: setText(findTestObject("Data UI/Login/inputUsernameForce"), "TTECH-0251")
+2026-09-14 10:16:38.373 DEBUG testcase.Login_BrinsBook                 - 15: click(findTestObject("Data UI/Login/btnForceLogout2"))
+2026-09-14 10:16:39.028 DEBUG testcase.Login_BrinsBook                 - 16: setText(findTestObject("Data UI/Login/inputUsername"), "TTECH-0251")
+2026-09-14 10:16:40.237 DEBUG testcase.Login_BrinsBook                 - 17: setText(findTestObject("Data UI/Login/inputPassword"), "qwerty123")
+2026-09-14 10:16:41.201 DEBUG testcase.Login_BrinsBook                 - 18: click(findTestObject("Data UI/Login/btnPortal"))
+2026-09-14 10:16:43.016 DEBUG testcase.Login_BrinsBook                 - 19: delay(3)
+2026-09-14 10:16:46.038 DEBUG testcase.Login_BrinsBook                 - 20: verifyElementPresent(findTestObject("Data UI/Menu/Brinsbook"), 10)
+2026-09-14 10:16:46.339 DEBUG testcase.Login_BrinsBook                 - 21: delay(1)
+2026-09-14 10:16:47.352 DEBUG testcase.Login_BrinsBook                 - 22: screenshotPathFailed2 = $projectDir/Screenshots/Evidence_POSITIVE_Menu BRINS Book_$timestamp.png
+2026-09-14 10:16:47.384 DEBUG testcase.Login_BrinsBook                 - 23: takeScreenshot(screenshotPathFailed2)
+2026-09-14 10:16:47.771 DEBUG testcase.Login_BrinsBook                 - 24: click(findTestObject("Data UI/Menu/Brinsbook"))
+2026-09-14 10:16:48.375 DEBUG testcase.Login_BrinsBook                 - 25: delay(2)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.16.50).png
+2026-09-14 10:16:50.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Login/Login_BrinsBook
+2026-09-14 10:16:50.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 10:16:50.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail
+2026-09-14 10:16:50.952 DEBUG testcase.Filter_FBI_Detail               - 1: projectDir = getProjectDir()
+2026-09-14 10:16:50.953 DEBUG testcase.Filter_FBI_Detail               - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 10:16:50.955 DEBUG testcase.Filter_FBI_Detail               - 3: click(findTestObject("Data UI/Menu/ReportingPortal"))
+2026-09-14 10:16:53.276 DEBUG testcase.Filter_FBI_Detail               - 4: scrollToElement(findTestObject("Data UI/Menu/btnPilih"), 0)
+2026-09-14 10:16:53.306 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 10:16:53.741 DEBUG testcase.Filter_FBI_Detail               - 5: click(findTestObject("Data UI/Menu/btnPilih"))
+2026-09-14 10:16:54.857 DEBUG testcase.Filter_FBI_Detail               - 6: delay(3)
+2026-09-14 10:16:57.869 DEBUG testcase.Filter_FBI_Detail               - 7: urlFBI_Detail = getUrl()
+2026-09-14 10:16:57.904 DEBUG testcase.Filter_FBI_Detail               - 8: assert urlFBI_Detail.contains("mng_proman_fbi_detail")
+2026-09-14 10:16:57.913 DEBUG testcase.Filter_FBI_Detail               - 9: verifyElementPresent(findTestObject("Data UI/Filter FBI_Detail/Headline"), 0)
+2026-09-14 10:16:57.924 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 10:16:58.237 DEBUG testcase.Filter_FBI_Detail               - 10: screenshotPathFilter = $projectDir/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_$timestamp.png
+2026-09-14 10:16:58.240 DEBUG testcase.Filter_FBI_Detail               - 11: takeScreenshot(screenshotPathFilter)
+2026-09-14 10:16:58.609 DEBUG testcase.Filter_FBI_Detail               - 12: delay(1)
+2026-09-14 10:16:59.617 DEBUG testcase.Filter_FBI_Detail               - 13: setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAwal"), "01012026")
+2026-09-14 10:17:00.597 DEBUG testcase.Filter_FBI_Detail               - 14: setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAkhir"), "28022026")
+2026-09-14 10:17:01.549 DEBUG testcase.Filter_FBI_Detail               - 15: click(findTestObject("Data UI/Filter FBI_Detail/Product"))
+2026-09-14 10:17:11.597 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 10:17:11.644 DEBUG testcase.Filter_FBI_Detail               - 16: click(findTestObject("Data UI/Filter FBI_Detail/Uker"))
+2026-09-14 10:17:21.698 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 10:17:21.761 DEBUG testcase.Filter_FBI_Detail               - 17: click(findTestObject("Data UI/Filter FBI_Detail/Cabang"))
+2026-09-14 10:17:31.817 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 10:17:31.860 DEBUG testcase.Filter_FBI_Detail               - 18: click(findTestObject("Data UI/Filter FBI_Detail/Type"))
+2026-09-14 10:17:41.911 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 10:17:41.945 DEBUG testcase.Filter_FBI_Detail               - 19: click(findTestObject("Data UI/Filter FBI_Detail/btnProses"))
+2026-09-14 10:17:42.417 DEBUG testcase.Filter_FBI_Detail               - 20: delay(3)
+2026-09-14 10:17:45.438 DEBUG testcase.Filter_FBI_Detail               - 21: verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0)
+2026-09-14 10:17:45.448 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.17.45).png
+2026-09-14 10:17:46.099 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail
+2026-09-14 10:17:46.105 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 10:17:46.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Download/ProsesDownload
+2026-09-14 10:17:46.793 DEBUG testcase.ProsesDownload                  - 1: projectDir = getProjectDir()
+2026-09-14 10:17:46.796 DEBUG testcase.ProsesDownload                  - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 10:17:46.798 DEBUG testcase.ProsesDownload                  - 3: click(findTestObject("Data UI/Download/btnDownload"))
+2026-09-14 10:17:47.327 DEBUG testcase.ProsesDownload                  - 4: screenshotPathDownload = $projectDir/Screenshots/Evidence_POSITIVE_Popup_Download_$timestamp.png
+2026-09-14 10:17:47.328 DEBUG testcase.ProsesDownload                  - 5: takeScreenshot(screenshotPathDownload)
+2026-09-14 10:17:47.930 DEBUG testcase.ProsesDownload                  - 6: verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0)
+2026-09-14 10:17:47.943 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 10:17:48.224 DEBUG testcase.ProsesDownload                  - 7: comment("Klik format Excel")
+2026-09-14 10:17:48.237 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Klik format Excel
+2026-09-14 10:17:48.239 DEBUG testcase.ProsesDownload                  - 8: click(findTestObject("Data UI/Download/formatExcel"))
+2026-09-14 10:17:49.433 DEBUG testcase.ProsesDownload                  - 9: delay(5)
+2026-09-14 10:17:54.458 DEBUG testcase.ProsesDownload                  - 10: downloadPath = System.getProperty("user.home") + "\Downloads"
+2026-09-14 10:17:54.471 DEBUG testcase.ProsesDownload                  - 11: downloadFolder = new java.io.File(downloadPath)
+2026-09-14 10:17:54.473 DEBUG testcase.ProsesDownload                  - 12: logInfo("Mengecek folder download: " + downloadPath)
+2026-09-14 10:17:54.480 INFO  com.kms.katalon.core.util.KeywordUtil    - Mengecek folder download: C:\Users\TTECH-0251\Downloads
+2026-09-14 10:17:54.482 DEBUG testcase.ProsesDownload                  - 13: downloadedFile = null
+2026-09-14 10:17:54.484 DEBUG testcase.ProsesDownload                  - 14: for ([i = 0, i < 30, (i++)])
+2026-09-14 10:17:54.486 DEBUG testcase.ProsesDownload                  - 1: files = downloadFolder.listFiles()
+2026-09-14 10:17:54.489 DEBUG testcase.ProsesDownload                  - 2: if (files != null)
+2026-09-14 10:17:54.492 DEBUG testcase.ProsesDownload                  - 1: excelFiles = files.findAll({ java.io.File file -> ... })
+2026-09-14 10:17:54.509 DEBUG testcase.ProsesDownload                  - 2: if (!(excelFiles.isEmpty()))
+2026-09-14 10:17:54.512 DEBUG testcase.ProsesDownload                  - 1: downloadedFile = excelFiles.max({ -> ... })
+2026-09-14 10:17:54.521 DEBUG testcase.ProsesDownload                  - 2: logInfo("File Excel ditemukan: " + absolutePath)
+2026-09-14 10:17:54.522 INFO  com.kms.katalon.core.util.KeywordUtil    - File Excel ditemukan: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+2026-09-14 10:17:54.523 DEBUG testcase.ProsesDownload                  - 3: break
+2026-09-14 10:17:54.524 DEBUG testcase.ProsesDownload                  - 15: if (downloadedFile == null)
+2026-09-14 10:17:54.526 DEBUG testcase.ProsesDownload                  - 16: else
+2026-09-14 10:17:54.528 DEBUG testcase.ProsesDownload                  - 1: logInfo("Download Excel berhasil: " + absolutePath)
+2026-09-14 10:17:54.530 INFO  com.kms.katalon.core.util.KeywordUtil    - Download Excel berhasil: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+2026-09-14 10:17:54.532 DEBUG testcase.ProsesDownload                  - 2: logInfo("Nama file: " + name)
+2026-09-14 10:17:54.533 INFO  com.kms.katalon.core.util.KeywordUtil    - Nama file: Report FBI Detail.xlsx
+2026-09-14 10:17:54.536 DEBUG testcase.ProsesDownload                  - 3: logInfo("Ukuran file: " + downloadedFile.length() + " bytes")
+2026-09-14 10:17:54.539 INFO  com.kms.katalon.core.util.KeywordUtil    - Ukuran file: 7187 bytes
+2026-09-14 10:17:54.540 DEBUG testcase.ProsesDownload                  - 17: comment("Membuka file Excel/WPS...")
+2026-09-14 10:17:54.545 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Membuka file Excel/WPS...
+2026-09-14 10:17:54.546 DEBUG testcase.ProsesDownload                  - 18: excelPath = absolutePath
+2026-09-14 10:17:54.549 DEBUG testcase.ProsesDownload                  - 19: excelProcess = ProcessBuilder(cmd, /c, start, , excelPath).start()
+2026-09-14 10:17:54.616 DEBUG testcase.ProsesDownload                  - 20: delay(10)
+2026-09-14 10:18:04.631 DEBUG testcase.ProsesDownload                  - 21: comment("Menunggu window Excel/WPS aktif...")
+2026-09-14 10:18:04.638 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Menunggu window Excel/WPS aktif...
+2026-09-14 10:18:04.638 DEBUG testcase.ProsesDownload                  - 22: activateProcess = MainWindowHandle)
+    }
+    ).start()
+2026-09-14 10:18:04.693 DEBUG testcase.ProsesDownload                  - 23: activateProcess.waitFor()
+2026-09-14 10:18:07.165 DEBUG testcase.ProsesDownload                  - 24: delay(3)
+2026-09-14 10:18:10.182 DEBUG testcase.ProsesDownload                  - 25: comment("Mengambil screenshot Excel/WPS...")
+2026-09-14 10:18:10.187 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Mengambil screenshot Excel/WPS...
+2026-09-14 10:18:10.190 DEBUG testcase.ProsesDownload                  - 26: screenshotExcel = $projectDir\Screenshots\EVIDENCE_POSITIVE_Excel_$timestamp.png
+2026-09-14 10:18:10.193 DEBUG testcase.ProsesDownload                  - 27: screenshotDir = new java.io.File($projectDir\Screenshots)
+2026-09-14 10:18:10.211 DEBUG testcase.ProsesDownload                  - 28: if (!(screenshotDir.exists()))
+2026-09-14 10:18:10.214 DEBUG testcase.ProsesDownload                  - 29: robot = new java.awt.Robot()
+2026-09-14 10:18:10.348 DEBUG testcase.ProsesDownload                  - 30: screenRect = new java.awt.Rectangle(java.awt.Toolkit.getDefaultToolkit().getScreenSize())
+2026-09-14 10:18:10.459 DEBUG testcase.ProsesDownload                  - 31: screenshot = robot.createScreenCapture(screenRect)
+2026-09-14 10:18:10.529 DEBUG testcase.ProsesDownload                  - 32: screenshotFile = new java.io.File(screenshotExcel)
+2026-09-14 10:18:10.531 DEBUG testcase.ProsesDownload                  - 33: screenshotCreated = ImageIO.write(screenshot, "png", screenshotFile)
+2026-09-14 10:18:10.776 DEBUG testcase.ProsesDownload                  - 34: verifyEqual(screenshotCreated, true, STOP_ON_FAILURE)
+2026-09-14 10:18:10.825 DEBUG testcase.ProsesDownload                  - 35: verifyEqual(screenshotFile.exists(), true, STOP_ON_FAILURE)
+2026-09-14 10:18:10.836 DEBUG testcase.ProsesDownload                  - 36: verifyGreaterThan(screenshotFile.length(), 0, STOP_ON_FAILURE)
+2026-09-14 10:18:10.864 DEBUG testcase.ProsesDownload                  - 37: comment("Screenshot Excel/WPS berhasil dibuat")
+2026-09-14 10:18:10.876 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Screenshot Excel/WPS berhasil dibuat
+2026-09-14 10:18:10.878 DEBUG testcase.ProsesDownload                  - 38: comment("File: " + absolutePath)
+2026-09-14 10:18:10.885 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - File: C:\Users\TTECH-0251\git\AutoAPI\Screenshots\EVIDENCE_POSITIVE_Excel_14.09.2026_(10.17.46).png
+2026-09-14 10:18:10.887 DEBUG testcase.ProsesDownload                  - 39: comment("Ukuran: " + screenshotFile.length() + " bytes")
+2026-09-14 10:18:10.894 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Ukuran: 118807 bytes
+2026-09-14 10:18:10.895 DEBUG testcase.ProsesDownload                  - 40: delay(2)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.18.12).png
+2026-09-14 10:18:13.318 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Download/ProsesDownload
+2026-09-14 10:18:14.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-14 10:18:14.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/BrinsBook/FBI_Detail
+2026-09-14 10:18:14.033 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

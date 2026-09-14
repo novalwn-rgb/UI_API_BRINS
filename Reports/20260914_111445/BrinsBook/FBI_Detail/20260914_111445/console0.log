@@ -1,0 +1,667 @@
+2026-09-14 11:14:51.604 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\TTECH-0251\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-09-14 11:14:51.609 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\TTECH-0251\git\AutoAPI\Include\config\log.properties
+2026-09-14 11:14:52.721 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/BrinsBook/FBI_Detail
+2026-09-14 11:14:52.853 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance 12
+2026-09-14 11:14:52.855 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutoAPI
+2026-09-14 11:14:52.855 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = TTECH-0251 - NovalWinaNurcahyo.brins.co.id
+2026-09-14 11:14:52.857 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-09-14 11:14:52.857 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.156
+2026-09-14 11:14:52.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-09-14 11:14:53.709 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 11:14:53.709 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Login/Login_BrinsBook
+2026-09-14 11:14:54.001 DEBUG testcase.Login_BrinsBook                 - 1: projectDir = getProjectDir()
+2026-09-14 11:14:54.007 DEBUG testcase.Login_BrinsBook                 - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 11:14:54.043 DEBUG testcase.Login_BrinsBook                 - 3: openBrowser("http://192.168.140.18:8000/login/")
+2026-09-14 11:14:54.475 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-14 11:14:54.561 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 14, 2026 11:14:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 14, 2026 11:14:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-14 11:14:58.750 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b805efa7a12fec60a9bdbf1c8ee37c58
+2026-09-14 11:14:58.752 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.83
+2026-09-14 11:14:58.754 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-09-14 11:14:58.755 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-09-14 11:14:58.777 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-14 11:15:01.408 DEBUG testcase.Login_BrinsBook                 - 4: setText(findTestObject("Data UI/Login/inputUsername"), "test")
+2026-09-14 11:15:03.328 DEBUG testcase.Login_BrinsBook                 - 5: setText(findTestObject("Data UI/Login/inputPassword"), "passwordSalah")
+2026-09-14 11:15:04.807 DEBUG testcase.Login_BrinsBook                 - 6: click(findTestObject("Data UI/Login/btnPortal"))
+2026-09-14 11:15:06.301 DEBUG testcase.Login_BrinsBook                 - 7: delay(2)
+2026-09-14 11:15:08.376 DEBUG testcase.Login_BrinsBook                 - 8: loginFailed = verifyTextPresent("Akun kamu sudah login di perangkat lain nih/login/", false, OPTIONAL)
+2026-09-14 11:15:08.853 WARN  c.k.k.core.keyword.internal.KeywordMain  - Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at Login_BrinsBook.run(Login_BrinsBook:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1789359285563.run(TempTestSuite1789359285563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-09-14 11:15:08.859 DEBUG testcase.Login_BrinsBook                 - 9: if (loginFailed)
+2026-09-14 11:15:08.863 DEBUG testcase.Login_BrinsBook                 - 10: else
+2026-09-14 11:15:08.867 DEBUG testcase.Login_BrinsBook                 - 1: println("Pesan gagal login tidak ditemukan")
+Pesan gagal login tidak ditemukan
+2026-09-14 11:15:08.880 DEBUG testcase.Login_BrinsBook                 - 11: back()
+2026-09-14 11:15:09.095 DEBUG testcase.Login_BrinsBook                 - 12: delay(3)
+2026-09-14 11:15:12.123 DEBUG testcase.Login_BrinsBook                 - 13: click(findTestObject("Data UI/Login/btnForceLogout1"))
+2026-09-14 11:15:12.999 DEBUG testcase.Login_BrinsBook                 - 14: setText(findTestObject("Data UI/Login/inputUsernameForce"), "TTECH-0251")
+2026-09-14 11:15:14.446 DEBUG testcase.Login_BrinsBook                 - 15: click(findTestObject("Data UI/Login/btnForceLogout2"))
+2026-09-14 11:15:15.394 DEBUG testcase.Login_BrinsBook                 - 16: setText(findTestObject("Data UI/Login/inputUsername"), "TTECH-0251")
+2026-09-14 11:15:17.035 DEBUG testcase.Login_BrinsBook                 - 17: setText(findTestObject("Data UI/Login/inputPassword"), "qwerty123")
+2026-09-14 11:15:18.485 DEBUG testcase.Login_BrinsBook                 - 18: click(findTestObject("Data UI/Login/btnPortal"))
+2026-09-14 11:15:20.412 DEBUG testcase.Login_BrinsBook                 - 19: delay(3)
+2026-09-14 11:15:23.424 DEBUG testcase.Login_BrinsBook                 - 20: verifyElementPresent(findTestObject("Data UI/Menu/Brinsbook"), 10)
+2026-09-14 11:15:23.848 DEBUG testcase.Login_BrinsBook                 - 21: delay(1)
+2026-09-14 11:15:24.870 DEBUG testcase.Login_BrinsBook                 - 22: screenshotPathFailed2 = $projectDir/Screenshots/Evidence_POSITIVE_Menu BRINS Book_$timestamp.png
+2026-09-14 11:15:24.958 DEBUG testcase.Login_BrinsBook                 - 23: takeScreenshot(screenshotPathFailed2)
+2026-09-14 11:15:25.455 DEBUG testcase.Login_BrinsBook                 - 24: click(findTestObject("Data UI/Menu/Brinsbook"))
+2026-09-14 11:15:26.425 DEBUG testcase.Login_BrinsBook                 - 25: delay(2)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(11.15.28).png
+2026-09-14 11:15:28.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Login/Login_BrinsBook
+2026-09-14 11:15:28.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 11:15:28.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail
+2026-09-14 11:15:29.308 DEBUG testcase.Filter_FBI_Detail               - 1: projectDir = getProjectDir()
+2026-09-14 11:15:29.313 DEBUG testcase.Filter_FBI_Detail               - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 11:15:29.318 DEBUG testcase.Filter_FBI_Detail               - 3: click(findTestObject("Data UI/Menu/ReportingPortal"))
+2026-09-14 11:15:31.445 DEBUG testcase.Filter_FBI_Detail               - 4: scrollToElement(findTestObject("Data UI/Menu/btnPilih"), 0)
+2026-09-14 11:15:31.486 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 11:15:32.000 DEBUG testcase.Filter_FBI_Detail               - 5: click(findTestObject("Data UI/Menu/btnPilih"))
+2026-09-14 11:15:33.912 DEBUG testcase.Filter_FBI_Detail               - 6: delay(3)
+2026-09-14 11:15:36.927 DEBUG testcase.Filter_FBI_Detail               - 7: urlFBI_Detail = getUrl()
+2026-09-14 11:15:36.998 DEBUG testcase.Filter_FBI_Detail               - 8: assert urlFBI_Detail.contains("mng_proman_fbi_detail")
+2026-09-14 11:15:37.019 DEBUG testcase.Filter_FBI_Detail               - 9: verifyElementPresent(findTestObject("Data UI/Filter FBI_Detail/Headline"), 0)
+2026-09-14 11:15:37.034 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 11:15:37.395 DEBUG testcase.Filter_FBI_Detail               - 10: screenshotPathFilter = $projectDir/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_$timestamp.png
+2026-09-14 11:15:37.397 DEBUG testcase.Filter_FBI_Detail               - 11: takeScreenshot(screenshotPathFilter)
+2026-09-14 11:15:37.801 DEBUG testcase.Filter_FBI_Detail               - 12: delay(1)
+2026-09-14 11:15:38.824 DEBUG testcase.Filter_FBI_Detail               - 13: setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAwal"), "01012026")
+2026-09-14 11:15:40.273 DEBUG testcase.Filter_FBI_Detail               - 14: setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAkhir"), "28022026")
+2026-09-14 11:15:41.686 DEBUG testcase.Filter_FBI_Detail               - 15: click(findTestObject("Data UI/Filter FBI_Detail/Product"))
+2026-09-14 11:15:51.763 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 11:15:51.859 DEBUG testcase.Filter_FBI_Detail               - 16: click(findTestObject("Data UI/Filter FBI_Detail/Uker"))
+2026-09-14 11:16:01.938 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 11:16:02.033 DEBUG testcase.Filter_FBI_Detail               - 17: click(findTestObject("Data UI/Filter FBI_Detail/Cabang"))
+2026-09-14 11:16:12.105 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 11:16:12.199 DEBUG testcase.Filter_FBI_Detail               - 18: click(findTestObject("Data UI/Filter FBI_Detail/Type"))
+2026-09-14 11:16:22.267 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-09-14 11:16:22.347 DEBUG testcase.Filter_FBI_Detail               - 19: click(findTestObject("Data UI/Filter FBI_Detail/btnProses"))
+2026-09-14 11:16:23.393 DEBUG testcase.Filter_FBI_Detail               - 20: delay(3)
+2026-09-14 11:16:26.405 DEBUG testcase.Filter_FBI_Detail               - 21: verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0)
+2026-09-14 11:16:26.424 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(11.16.26).png
+2026-09-14 11:16:27.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail
+2026-09-14 11:16:27.171 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 11:16:27.172 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Download/ProsesDownload
+2026-09-14 11:16:28.359 DEBUG testcase.ProsesDownload                  - 1: projectDir = getProjectDir()
+2026-09-14 11:16:28.364 DEBUG testcase.ProsesDownload                  - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 11:16:28.369 DEBUG testcase.ProsesDownload                  - 3: click(findTestObject("Data UI/Download/btnDownload"))
+2026-09-14 11:16:29.037 DEBUG testcase.ProsesDownload                  - 4: screenshotPathDownload = $projectDir/Screenshots/Evidence_POSITIVE_Popup_Download_$timestamp.png
+2026-09-14 11:16:29.042 DEBUG testcase.ProsesDownload                  - 5: takeScreenshot(screenshotPathDownload)
+2026-09-14 11:16:29.590 DEBUG testcase.ProsesDownload                  - 6: verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0)
+2026-09-14 11:16:29.609 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-09-14 11:16:29.954 DEBUG testcase.ProsesDownload                  - 7: comment("Klik format Excel")
+2026-09-14 11:16:29.976 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Klik format Excel
+2026-09-14 11:16:29.979 DEBUG testcase.ProsesDownload                  - 8: click(findTestObject("Data UI/Download/formatExcel"))
+2026-09-14 11:16:31.028 DEBUG testcase.ProsesDownload                  - 9: delay(5)
+2026-09-14 11:16:36.042 DEBUG testcase.ProsesDownload                  - 10: downloadPath = System.getProperty("user.home") + "\Downloads"
+2026-09-14 11:16:36.057 DEBUG testcase.ProsesDownload                  - 11: downloadFolder = new java.io.File(downloadPath)
+2026-09-14 11:16:36.060 DEBUG testcase.ProsesDownload                  - 12: logInfo("Mengecek folder download: " + downloadPath)
+2026-09-14 11:16:36.078 INFO  com.kms.katalon.core.util.KeywordUtil    - Mengecek folder download: C:\Users\TTECH-0251\Downloads
+2026-09-14 11:16:36.081 DEBUG testcase.ProsesDownload                  - 13: downloadedFile = null
+2026-09-14 11:16:36.084 DEBUG testcase.ProsesDownload                  - 14: for ([i = 0, i < 30, (i++)])
+2026-09-14 11:16:36.087 DEBUG testcase.ProsesDownload                  - 1: files = downloadFolder.listFiles()
+2026-09-14 11:16:36.092 DEBUG testcase.ProsesDownload                  - 2: if (files != null)
+2026-09-14 11:16:36.095 DEBUG testcase.ProsesDownload                  - 1: excelFiles = files.findAll({ java.io.File file -> ... })
+2026-09-14 11:16:36.130 DEBUG testcase.ProsesDownload                  - 2: if (!(excelFiles.isEmpty()))
+2026-09-14 11:16:36.136 DEBUG testcase.ProsesDownload                  - 1: downloadedFile = excelFiles.max({ -> ... })
+2026-09-14 11:16:36.150 DEBUG testcase.ProsesDownload                  - 2: logInfo("File Excel ditemukan: " + absolutePath)
+2026-09-14 11:16:36.155 INFO  com.kms.katalon.core.util.KeywordUtil    - File Excel ditemukan: C:\Users\TTECH-0251\Downloads\Report FBI Detail (2).xlsx
+2026-09-14 11:16:36.158 DEBUG testcase.ProsesDownload                  - 3: break
+2026-09-14 11:16:36.160 DEBUG testcase.ProsesDownload                  - 15: if (downloadedFile == null)
+2026-09-14 11:16:36.164 DEBUG testcase.ProsesDownload                  - 16: else
+2026-09-14 11:16:36.167 DEBUG testcase.ProsesDownload                  - 1: logInfo("Download Excel berhasil: " + absolutePath)
+2026-09-14 11:16:36.170 INFO  com.kms.katalon.core.util.KeywordUtil    - Download Excel berhasil: C:\Users\TTECH-0251\Downloads\Report FBI Detail (2).xlsx
+2026-09-14 11:16:36.173 DEBUG testcase.ProsesDownload                  - 2: logInfo("Nama file: " + name)
+2026-09-14 11:16:36.176 INFO  com.kms.katalon.core.util.KeywordUtil    - Nama file: Report FBI Detail (2).xlsx
+2026-09-14 11:16:36.178 DEBUG testcase.ProsesDownload                  - 3: logInfo("Ukuran file: " + downloadedFile.length() + " bytes")
+2026-09-14 11:16:36.182 INFO  com.kms.katalon.core.util.KeywordUtil    - Ukuran file: 7167 bytes
+2026-09-14 11:16:36.184 DEBUG testcase.ProsesDownload                  - 17: comment("Membuka file Excel/WPS...")
+2026-09-14 11:16:36.192 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Membuka file Excel/WPS...
+2026-09-14 11:16:36.194 DEBUG testcase.ProsesDownload                  - 18: excelPath = absolutePath
+2026-09-14 11:16:36.197 DEBUG testcase.ProsesDownload                  - 19: excelProcess = ProcessBuilder(cmd, /c, start, , excelPath).start()
+2026-09-14 11:16:36.282 DEBUG testcase.ProsesDownload                  - 20: delay(10)
+2026-09-14 11:16:46.303 DEBUG testcase.ProsesDownload                  - 21: comment("Menunggu window Excel/WPS aktif...")
+2026-09-14 11:16:46.308 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Menunggu window Excel/WPS aktif...
+2026-09-14 11:16:46.310 DEBUG testcase.ProsesDownload                  - 22: activateProcess = MainWindowHandle)
+    }
+    ).start()
+2026-09-14 11:16:46.367 DEBUG testcase.ProsesDownload                  - 23: activateProcess.waitFor()
+2026-09-14 11:16:48.879 DEBUG testcase.ProsesDownload                  - 24: delay(3)
+2026-09-14 11:16:51.890 DEBUG testcase.ProsesDownload                  - 25: comment("==============================================")
+2026-09-14 11:16:51.897 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ==============================================
+2026-09-14 11:16:51.899 DEBUG testcase.ProsesDownload                  - 26: comment("MULAI SCREENSHOT WINDOW WPS / EXCEL")
+2026-09-14 11:16:51.904 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - MULAI SCREENSHOT WINDOW WPS / EXCEL
+2026-09-14 11:16:51.907 DEBUG testcase.ProsesDownload                  - 27: comment("==============================================")
+2026-09-14 11:16:51.913 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ==============================================
+2026-09-14 11:16:51.915 DEBUG testcase.ProsesDownload                  - 28: if (downloadedFile == null)
+2026-09-14 11:16:51.917 DEBUG testcase.ProsesDownload                  - 29: if (!(downloadedFile.exists()))
+2026-09-14 11:16:51.921 DEBUG testcase.ProsesDownload                  - 30: comment("File download: " + absolutePath)
+2026-09-14 11:16:51.952 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - File download: C:\Users\TTECH-0251\Downloads\Report FBI Detail (2).xlsx
+2026-09-14 11:16:51.957 DEBUG testcase.ProsesDownload                  - 31: comment("Nama file: " + name)
+2026-09-14 11:16:51.966 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Nama file: Report FBI Detail (2).xlsx
+2026-09-14 11:16:51.968 DEBUG testcase.ProsesDownload                  - 32: excelFileNameForPS = name.replace("'", "''")
+2026-09-14 11:16:51.972 DEBUG testcase.ProsesDownload                  - 33: screenshotDirPath = $projectDir\Screenshots\EVIDENCE_POSITIVE_Excel
+2026-09-14 11:16:51.974 DEBUG testcase.ProsesDownload                  - 34: screenshotDir = new java.io.File(screenshotDirPath)
+2026-09-14 11:16:51.974 DEBUG testcase.ProsesDownload                  - 35: if (!(screenshotDir.exists()))
+2026-09-14 11:16:51.981 DEBUG testcase.ProsesDownload                  - 36: screenshotExcel = $screenshotDirPath\Excel_$timestamp.png
+2026-09-14 11:16:51.984 DEBUG testcase.ProsesDownload                  - 37: comment("Target screenshot: " + screenshotExcel)
+2026-09-14 11:16:51.990 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Target screenshot: C:/Users/TTECH-0251/git/AutoAPI\Screenshots\EVIDENCE_POSITIVE_Excel\Excel_14.09.2026_(11.16.28).png
+2026-09-14 11:16:51.993 DEBUG testcase.ProsesDownload                  - 38: comment("Menunggu window WPS/Excel terbuka...")
+2026-09-14 11:16:51.996 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Menunggu window WPS/Excel terbuka...
+2026-09-14 11:16:51.996 DEBUG testcase.ProsesDownload                  - 39: delay(3)
+2026-09-14 11:16:55.012 DEBUG testcase.ProsesDownload                  - 40: psScript = "
+$processes = Get-Process
+
+foreach ($p in $processes) {
+
+    if ($p.MainWindowHandle -ne 0) {
+
+        $title = $p.MainWindowTitle
+
+        if ($title) {
+
+            Write-Output ("HWND=" + $p.MainWindowHandle)
+
+            Write-Output ("TITLE=" + $title)
+        }
+    }
+}
+"
+2026-09-14 11:16:55.016 DEBUG testcase.ProsesDownload                  - 41: psProcess = redirectErrorStream(true).start()
+2026-09-14 11:16:55.097 DEBUG testcase.ProsesDownload                  - 42: psResult = text.trim()
+2026-09-14 11:17:01.853 DEBUG testcase.ProsesDownload                  - 43: psExitCode = psProcess.waitFor()
+2026-09-14 11:17:01.866 DEBUG testcase.ProsesDownload                  - 44: comment("PowerShell exit code: " + psExitCode)
+2026-09-14 11:17:01.874 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - PowerShell exit code: 1
+2026-09-14 11:17:01.875 DEBUG testcase.ProsesDownload                  - 45: comment("==============================================")
+2026-09-14 11:17:01.881 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ==============================================
+2026-09-14 11:17:01.883 DEBUG testcase.ProsesDownload                  - 46: comment("DAFTAR WINDOW YANG DITEMUKAN:")
+2026-09-14 11:17:01.888 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - DAFTAR WINDOW YANG DITEMUKAN:
+2026-09-14 11:17:01.890 DEBUG testcase.ProsesDownload                  - 47: comment(psResult)
+2026-09-14 11:17:01.895 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+2026-09-14 11:17:01.900 DEBUG testcase.ProsesDownload                  - 48: comment("==============================================")
+2026-09-14 11:17:01.905 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ==============================================
+2026-09-14 11:17:01.907 DEBUG testcase.ProsesDownload                  - 49: if (psExitCode != 0)
+2026-09-14 11:17:01.911 DEBUG testcase.ProsesDownload                  - 1: markFailed("PowerShell gagal dijalankan. Exit code: " + psExitCode + ". Hasil: " + psResult)
+2026-09-14 11:17:01.913 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ PowerShell gagal dijalankan. Exit code: 1. Hasil: HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+2026-09-14 11:17:01.921 DEBUG testcase.ProsesDownload                  - 2: return null
+2026-09-14 11:17:01.925 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/DATA UI/Download/ProsesDownload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: PowerShell gagal dijalankan. Exit code: 1. Hasil: HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+HWND= : The term 'HWND=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:12 char:27
++             Write-Output (HWND= + $p.MainWindowHandle)
++                           ~~~~~
+    + CategoryInfo          : ObjectNotFound: (HWND=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+TITLE= : The term 'TITLE=' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:14 char:27
++             Write-Output (TITLE= + $title)
++                           ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TITLE=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at ProsesDownload.run(ProsesDownload:534)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1789359285563.run(TempTestSuite1789359285563.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_FAILED_14.09.2026_(11.17.01).png
+2026-09-14 11:17:02.411 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/Download/ProsesDownload
+2026-09-14 11:17:02.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-14 11:17:02.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/Download/ProsesDownload
+2026-09-14 11:17:02.527 DEBUG testcase.ProsesDownload                  - 1: projectDir = getProjectDir()
+2026-09-14 11:17:02.530 DEBUG testcase.ProsesDownload                  - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-14 11:17:02.534 DEBUG testcase.ProsesDownload                  - 3: click(findTestObject("Data UI/Download/btnDownload"))

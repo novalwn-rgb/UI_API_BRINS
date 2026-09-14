@@ -26,7 +26,7 @@ String timestamp = new Date().format('dd.MM.yyyy_(HH.mm.ss)')
 // ============================
 WebUI.openBrowser('http://192.168.140.18:8000/login/')
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Data UI/Login/inputUsername'), 'test')
 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Data UI/Login/btnPortal'))
 WebUI.delay(2)
 
 // Validasi pesan gagal login
-boolean loginFailed = WebUI.verifyTextPresent('IndexError at /login/', false, FailureHandling.OPTIONAL)
+boolean loginFailed = WebUI.verifyTextPresent('Akun kamu sudah login di perangkat lain nih/login/', false, FailureHandling.OPTIONAL)
 
 if (loginFailed) {
     String screenshotPathFailed1 = "${projectDir}/Screenshots/Evidence_NEGATIVE_Login Gagal_${timestamp}.png"

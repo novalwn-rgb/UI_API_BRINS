@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FBI_Detail" time="111.758" tests="3" failures="0" errors="0">
+   <testsuite name="FBI_Detail" tests="3" failures="0" errors="0" time="111.758" skipped="0" timestamp="2026-09-14T03:16:21.560Z" hostname="TTECH-0251 - NovalWinaNurcahyo.brins.co.id" id="Test Suites/BrinsBook/FBI_Detail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615"/>
+         <property name="logFiles" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\console0.log, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Menu BRINS Book_14.09.2026_(10.16.22).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.16.50).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_14.09.2026_(10.16.50).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.17.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Popup_Download_14.09.2026_(10.17.46).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.18.12).png"/>
+         <property name="hostName" value="TTECH-0251 - NovalWinaNurcahyo.brins.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 152.0.7977.83"/>
+         <property name="userFullName" value="Quality Assurance 12"/>
+         <property name="hostAddress" value="10.1.48.156"/>
+         <property name="sessionId" value="ccfe64e6b3ff0c54bfad489371e65e89"/>
+         <property name="projectName" value="AutoAPI"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DATA UI/Login/Login_BrinsBook" time="28.635" classname="Test Cases/DATA UI/Login/Login_BrinsBook" status="PASSED">
+         <system-out><![CDATA[14-09-2026T10:16:22 - [TEST_CASE][PASSED] - Test Cases/DATA UI/Login/Login_BrinsBook: Test Cases/DATA UI/Login/Login_BrinsBook
+
+14-09-2026T10:16:22 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:16:22 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:16:22 - [TEST_STEP][PASSED] - openBrowser("http://192.168.140.18:8000/login/"): Browser is opened with url: 'http://192.168.140.18:8000/login/'
+
+14-09-2026T10:16:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2026T10:16:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2026T10:16:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.140.18:8000/login/'
+
+14-09-2026T10:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Login/inputUsername"), "test"): Text 'test' is set on object 'Object Repository/Data UI/Login/inputUsername'
+
+14-09-2026T10:16:28 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Data UI/Login/inputUsername'
+
+14-09-2026T10:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Login/inputPassword"), "passwordSalah"): Text 'passwordSalah' is set on object 'Object Repository/Data UI/Login/inputPassword'
+
+14-09-2026T10:16:29 - [MESSAGE][PASSED] - Text 'passwordSalah' is set on object 'Object Repository/Data UI/Login/inputPassword'
+
+14-09-2026T10:16:29 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Login/btnPortal")): Object: 'Object Repository/Data UI/Login/btnPortal' is clicked on
+
+14-09-2026T10:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Login/btnPortal' is clicked on
+
+14-09-2026T10:16:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-09-2026T10:16:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-09-2026T10:16:33 - [TEST_STEP][WARNING] - loginFailed = verifyTextPresent("Akun kamu sudah login di perangkat lain nih/login/", false, OPTIONAL): Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at Login_BrinsBook.run(Login_BrinsBook:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1789355775771.run(TempTestSuite1789355775771.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2026T10:16:33 - [MESSAGE][WARNING] - Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Akun kamu sudah login di perangkat lain nih/login/' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at Login_BrinsBook.run(Login_BrinsBook:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1789355775771.run(TempTestSuite1789355775771.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2026T10:16:33 - [TEST_STEP][PASSED] - if (loginFailed): null
+
+14-09-2026T10:16:33 - [TEST_STEP][PASSED] - else: null
+
+14-09-2026T10:16:33 - [TEST_STEP][PASSED] - println("Pesan gagal login tidak ditemukan"): null
+
+14-09-2026T10:16:33 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+14-09-2026T10:16:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+14-09-2026T10:16:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-09-2026T10:16:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-09-2026T10:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Login/btnForceLogout1")): Object: 'Object Repository/Data UI/Login/btnForceLogout1' is clicked on
+
+14-09-2026T10:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Login/btnForceLogout1' is clicked on
+
+14-09-2026T10:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Login/inputUsernameForce"), "TTECH-0251"): Text 'TTECH-0251' is set on object 'Object Repository/Data UI/Login/inputUsernameForce'
+
+14-09-2026T10:16:38 - [MESSAGE][PASSED] - Text 'TTECH-0251' is set on object 'Object Repository/Data UI/Login/inputUsernameForce'
+
+14-09-2026T10:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Login/btnForceLogout2")): Object: 'Object Repository/Data UI/Login/btnForceLogout2' is clicked on
+
+14-09-2026T10:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Login/btnForceLogout2' is clicked on
+
+14-09-2026T10:16:39 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Login/inputUsername"), "TTECH-0251"): Text 'TTECH-0251' is set on object 'Object Repository/Data UI/Login/inputUsername'
+
+14-09-2026T10:16:40 - [MESSAGE][PASSED] - Text 'TTECH-0251' is set on object 'Object Repository/Data UI/Login/inputUsername'
+
+14-09-2026T10:16:40 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Login/inputPassword"), "qwerty123"): Text 'qwerty123' is set on object 'Object Repository/Data UI/Login/inputPassword'
+
+14-09-2026T10:16:41 - [MESSAGE][PASSED] - Text 'qwerty123' is set on object 'Object Repository/Data UI/Login/inputPassword'
+
+14-09-2026T10:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Login/btnPortal")): Object: 'Object Repository/Data UI/Login/btnPortal' is clicked on
+
+14-09-2026T10:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Login/btnPortal' is clicked on
+
+14-09-2026T10:16:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-09-2026T10:16:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-09-2026T10:16:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Data UI/Menu/Brinsbook"), 10): Object 'Object Repository/Data UI/Menu/Brinsbook' is present
+
+14-09-2026T10:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Data UI/Menu/Brinsbook' is present
+
+14-09-2026T10:16:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+14-09-2026T10:16:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+14-09-2026T10:16:47 - [TEST_STEP][PASSED] - screenshotPathFailed2 = $projectDir/Screenshots/Evidence_POSITIVE_Menu BRINS Book_$timestamp.png: null
+
+14-09-2026T10:16:47 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFailed2): Taking screenshot successfully
+
+14-09-2026T10:16:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Menu BRINS Book_14.09.2026_(10.16.22).png]]
+
+14-09-2026T10:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Menu/Brinsbook")): Object: 'Object Repository/Data UI/Menu/Brinsbook' is clicked on
+
+14-09-2026T10:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Menu/Brinsbook' is clicked on
+
+14-09-2026T10:16:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-09-2026T10:16:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+14-09-2026T10:16:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.16.50).png]]
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail" time="55.332" classname="Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail" status="PASSED">
+         <system-out><![CDATA[14-09-2026T10:16:50 - [TEST_CASE][PASSED] - Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail: Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Menu/ReportingPortal")): Object: 'Object Repository/Data UI/Menu/ReportingPortal' is clicked on
+
+14-09-2026T10:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Menu/ReportingPortal' is clicked on
+
+14-09-2026T10:16:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Data UI/Menu/btnPilih"), 0): Scroll to object 'Object Repository/Data UI/Menu/btnPilih' successfully
+
+14-09-2026T10:16:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+14-09-2026T10:16:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Data UI/Menu/btnPilih' successfully
+
+14-09-2026T10:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Menu/btnPilih")): Object: 'Object Repository/Data UI/Menu/btnPilih' is clicked on
+
+14-09-2026T10:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Menu/btnPilih' is clicked on
+
+14-09-2026T10:16:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-09-2026T10:16:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-09-2026T10:16:57 - [TEST_STEP][PASSED] - urlFBI_Detail = getUrl(): Current window's url is: 'http://192.168.140.18:8000/mng_proman_fbi_detail/'
+
+14-09-2026T10:16:57 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.140.18:8000/mng_proman_fbi_detail/'
+
+14-09-2026T10:16:57 - [TEST_STEP][PASSED] - assert urlFBI_Detail.contains("mng_proman_fbi_detail"): null
+
+14-09-2026T10:16:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Data UI/Filter FBI_Detail/Headline"), 0): Object 'Object Repository/Data UI/Filter FBI_Detail/Headline' is present
+
+14-09-2026T10:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+14-09-2026T10:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/Data UI/Filter FBI_Detail/Headline' is present
+
+14-09-2026T10:16:58 - [TEST_STEP][PASSED] - screenshotPathFilter = $projectDir/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_$timestamp.png: null
+
+14-09-2026T10:16:58 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFilter): Taking screenshot successfully
+
+14-09-2026T10:16:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_14.09.2026_(10.16.50).png]]
+
+14-09-2026T10:16:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+14-09-2026T10:16:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+14-09-2026T10:16:59 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAwal"), "01012026"): Text '01012026' is set on object 'Object Repository/Data UI/Filter FBI_Detail/PeriodeAwal'
+
+14-09-2026T10:17:00 - [MESSAGE][PASSED] - Text '01012026' is set on object 'Object Repository/Data UI/Filter FBI_Detail/PeriodeAwal'
+
+14-09-2026T10:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/Filter FBI_Detail/PeriodeAkhir"), "28022026"): Text '28022026' is set on object 'Object Repository/Data UI/Filter FBI_Detail/PeriodeAkhir'
+
+14-09-2026T10:17:01 - [MESSAGE][PASSED] - Text '28022026' is set on object 'Object Repository/Data UI/Filter FBI_Detail/PeriodeAkhir'
+
+14-09-2026T10:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Filter FBI_Detail/Product")): Object: 'Object Repository/Data UI/Filter FBI_Detail/Product' is clicked on
+
+14-09-2026T10:17:11 - [MESSAGE][WARNING] - Waiting for element timed out
+
+14-09-2026T10:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Filter FBI_Detail/Product' is clicked on
+
+14-09-2026T10:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Filter FBI_Detail/Uker")): Object: 'Object Repository/Data UI/Filter FBI_Detail/Uker' is clicked on
+
+14-09-2026T10:17:21 - [MESSAGE][WARNING] - Waiting for element timed out
+
+14-09-2026T10:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Filter FBI_Detail/Uker' is clicked on
+
+14-09-2026T10:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Filter FBI_Detail/Cabang")): Object: 'Object Repository/Data UI/Filter FBI_Detail/Cabang' is clicked on
+
+14-09-2026T10:17:31 - [MESSAGE][WARNING] - Waiting for element timed out
+
+14-09-2026T10:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Filter FBI_Detail/Cabang' is clicked on
+
+14-09-2026T10:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Filter FBI_Detail/Type")): Object: 'Object Repository/Data UI/Filter FBI_Detail/Type' is clicked on
+
+14-09-2026T10:17:41 - [MESSAGE][WARNING] - Waiting for element timed out
+
+14-09-2026T10:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Filter FBI_Detail/Type' is clicked on
+
+14-09-2026T10:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Filter FBI_Detail/btnProses")): Object: 'Object Repository/Data UI/Filter FBI_Detail/btnProses' is clicked on
+
+14-09-2026T10:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Filter FBI_Detail/btnProses' is clicked on
+
+14-09-2026T10:17:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-09-2026T10:17:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0): Object 'Object Repository/Data UI/Download/popupDownload' is present
+
+14-09-2026T10:17:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+14-09-2026T10:17:45 - [MESSAGE][PASSED] - Object 'Object Repository/Data UI/Download/popupDownload' is present
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+14-09-2026T10:17:45 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+14-09-2026T10:17:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.17.45).png]]
+
+14-09-2026T10:17:46 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DATA UI/Download/ProsesDownload" time="27.212" classname="Test Cases/DATA UI/Download/ProsesDownload" status="PASSED">
+         <system-out><![CDATA[14-09-2026T10:17:46 - [TEST_CASE][PASSED] - Test Cases/DATA UI/Download/ProsesDownload: Test Cases/DATA UI/Download/ProsesDownload
+
+14-09-2026T10:17:46 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:17:46 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Download/btnDownload")): Object: 'Object Repository/Data UI/Download/btnDownload' is clicked on
+
+14-09-2026T10:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Download/btnDownload' is clicked on
+
+14-09-2026T10:17:47 - [TEST_STEP][PASSED] - screenshotPathDownload = $projectDir/Screenshots/Evidence_POSITIVE_Popup_Download_$timestamp.png: null
+
+14-09-2026T10:17:47 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathDownload): Taking screenshot successfully
+
+14-09-2026T10:17:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Popup_Download_14.09.2026_(10.17.46).png]]
+
+14-09-2026T10:17:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Data UI/Download/popupDownload"), 0): Object 'Object Repository/Data UI/Download/popupDownload' is present
+
+14-09-2026T10:17:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+14-09-2026T10:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/Data UI/Download/popupDownload' is present
+
+14-09-2026T10:17:48 - [TEST_STEP][PASSED] - comment("Klik format Excel"): Klik format Excel
+
+14-09-2026T10:17:48 - [MESSAGE][INFO] - Klik format Excel
+
+14-09-2026T10:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/Download/formatExcel")): Object: 'Object Repository/Data UI/Download/formatExcel' is clicked on
+
+14-09-2026T10:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/Download/formatExcel' is clicked on
+
+14-09-2026T10:17:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-09-2026T10:17:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - downloadPath = System.getProperty("user.home") + "\Downloads": null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - downloadFolder = new java.io.File(downloadPath): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - logInfo("Mengecek folder download: " + downloadPath): Mengecek folder download: C:\Users\TTECH-0251\Downloads
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - Mengecek folder download: C:\Users\TTECH-0251\Downloads
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - downloadedFile = null: null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - for ([i = 0, i < 30, (i++)]): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - files = downloadFolder.listFiles(): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - if (files != null): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - excelFiles = files.findAll({ java.io.File file -> ... }): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - if (!(excelFiles.isEmpty())): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - downloadedFile = excelFiles.max({ -> ... }): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - logInfo("File Excel ditemukan: " + absolutePath): File Excel ditemukan: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - File Excel ditemukan: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - break: null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - if (downloadedFile == null): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - else: Ukuran file: 7187 bytes
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - logInfo("Download Excel berhasil: " + absolutePath): Download Excel berhasil: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - Download Excel berhasil: C:\Users\TTECH-0251\Downloads\Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - logInfo("Nama file: " + name): Nama file: Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - Nama file: Report FBI Detail.xlsx
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - logInfo("Ukuran file: " + downloadedFile.length() + " bytes"): Ukuran file: 7187 bytes
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - Ukuran file: 7187 bytes
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - comment("Membuka file Excel/WPS..."): Membuka file Excel/WPS...
+
+14-09-2026T10:17:54 - [MESSAGE][INFO] - Membuka file Excel/WPS...
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - excelPath = absolutePath: null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - excelProcess = ProcessBuilder(cmd, /c, start, , excelPath).start(): null
+
+14-09-2026T10:17:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-09-2026T10:18:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-09-2026T10:18:04 - [TEST_STEP][PASSED] - comment("Menunggu window Excel/WPS aktif..."): Menunggu window Excel/WPS aktif...
+
+14-09-2026T10:18:04 - [MESSAGE][INFO] - Menunggu window Excel/WPS aktif...
+
+14-09-2026T10:18:04 - [TEST_STEP][PASSED] - activateProcess = MainWindowHandle)
+    }
+    ).start(): null
+
+14-09-2026T10:18:04 - [TEST_STEP][PASSED] - activateProcess.waitFor(): null
+
+14-09-2026T10:18:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-09-2026T10:18:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - comment("Mengambil screenshot Excel/WPS..."): Mengambil screenshot Excel/WPS...
+
+14-09-2026T10:18:10 - [MESSAGE][INFO] - Mengambil screenshot Excel/WPS...
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenshotExcel = $projectDir\Screenshots\EVIDENCE_POSITIVE_Excel_$timestamp.png: null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenshotDir = new java.io.File($projectDir\Screenshots): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - if (!(screenshotDir.exists())): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenRect = new java.awt.Rectangle(java.awt.Toolkit.getDefaultToolkit().getScreenSize()): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenshot = robot.createScreenCapture(screenRect): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenshotFile = new java.io.File(screenshotExcel): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - screenshotCreated = ImageIO.write(screenshot, "png", screenshotFile): null
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - verifyEqual(screenshotCreated, true, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+14-09-2026T10:18:10 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - verifyEqual(screenshotFile.exists(), true, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+14-09-2026T10:18:10 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - verifyGreaterThan(screenshotFile.length(), 0, STOP_ON_FAILURE): Actual number '118,807' is greater than expected number '0'
+
+14-09-2026T10:18:10 - [MESSAGE][PASSED] - Actual number '118,807' is greater than expected number '0'
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - comment("Screenshot Excel/WPS berhasil dibuat"): Screenshot Excel/WPS berhasil dibuat
+
+14-09-2026T10:18:10 - [MESSAGE][INFO] - Screenshot Excel/WPS berhasil dibuat
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - comment("File: " + absolutePath): File: C:\Users\TTECH-0251\git\AutoAPI\Screenshots\EVIDENCE_POSITIVE_Excel_14.09.2026_(10.17.46).png
+
+14-09-2026T10:18:10 - [MESSAGE][INFO] - File: C:\Users\TTECH-0251\git\AutoAPI\Screenshots\EVIDENCE_POSITIVE_Excel_14.09.2026_(10.17.46).png
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - comment("Ukuran: " + screenshotFile.length() + " bytes"): Ukuran: 118807 bytes
+
+14-09-2026T10:18:10 - [MESSAGE][INFO] - Ukuran: 118807 bytes
+
+14-09-2026T10:18:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-09-2026T10:18:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+14-09-2026T10:18:12 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+14-09-2026T10:18:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260914_101615\\BrinsBook\\FBI_Detail\\20260914_101615\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_14.09.2026_(10.18.12).png]]
+
+14-09-2026T10:18:13 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2026T10:16:21 - [TEST_SUITE][PASSED] - FBI_Detail: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

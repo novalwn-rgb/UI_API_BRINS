@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//a[@href='/mng_proman_fbi_detail/' and normalize-space()='Pilih'])[8]</value>
+         <value>(//tr[.//a[normalize-space()='Pilih']])[8]//a[@href='/mng_proman_fbi_detail/' and normalize-space()='Pilih']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//a[@href='/mng_proman_fbi_detail/' and normalize-space()='Pilih'])[8]</value>
-      <webElementGuid>99812df1-1c4a-407f-8c79-328047968be6</webElementGuid>
+      <value>(//tr[.//a[normalize-space()='Pilih']])[8]//a[@href='/mng_proman_fbi_detail/' and normalize-space()='Pilih']</value>
+      <webElementGuid>30b4fb22-c0b4-4003-8e75-4fab4983f176</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

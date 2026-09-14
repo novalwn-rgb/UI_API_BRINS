@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FBI_Detail,Chrome 152.0.7977.83,,,14-09-2026 08:58:30,14-09-2026 09:00:26,1m - 56.022s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Login/Login_BrinsBook,Chrome 152.0.7977.83,,,14-09-2026 08:58:31,14-09-2026 08:59:04,32.771s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 08:58:31,14-09-2026 08:58:31,0.006s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:31,14-09-2026 08:58:31,0.031s,PASSED
+"openBrowser(""http://192.168.140.18:8000/login/"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:31,14-09-2026 08:58:37,5.828s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsername""), ""test"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:37,14-09-2026 08:58:39,1.870s,PASSED
+"setText(findTestObject(""Data UI/Login/inputPassword""), ""passwordSalah"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:39,14-09-2026 08:58:40,1.416s,PASSED
+"click(findTestObject(""Data UI/Login/btnPortal""))",Chrome 152.0.7977.83,,,14-09-2026 08:58:40,14-09-2026 08:58:42,1.274s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 08:58:42,14-09-2026 08:58:44,2.078s,PASSED
+"loginFailed = verifyTextPresent(""IndexError at /login/"", false, OPTIONAL)",Chrome 152.0.7977.83,,,14-09-2026 08:58:44,14-09-2026 08:58:44,0.466s,WARNING
+if (loginFailed),Chrome 152.0.7977.83,,,14-09-2026 08:58:44,14-09-2026 08:58:44,0.004s,PASSED
+else,Chrome 152.0.7977.83,,,14-09-2026 08:58:44,14-09-2026 08:58:44,0.017s,PASSED
+back(),Chrome 152.0.7977.83,,,14-09-2026 08:58:44,14-09-2026 08:58:44,0.169s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 08:58:44,14-09-2026 08:58:47,3.022s,PASSED
+"click(findTestObject(""Data UI/Login/btnForceLogout1""))",Chrome 152.0.7977.83,,,14-09-2026 08:58:47,14-09-2026 08:58:48,0.795s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsernameForce""), ""TTECH-0251"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:48,14-09-2026 08:58:50,1.527s,PASSED
+"click(findTestObject(""Data UI/Login/btnForceLogout2""))",Chrome 152.0.7977.83,,,14-09-2026 08:58:50,14-09-2026 08:58:51,0.877s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsername""), ""TTECH-0251"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:51,14-09-2026 08:58:52,1.559s,PASSED
+"setText(findTestObject(""Data UI/Login/inputPassword""), ""qwerty123"")",Chrome 152.0.7977.83,,,14-09-2026 08:58:52,14-09-2026 08:58:53,1.374s,PASSED
+"click(findTestObject(""Data UI/Login/btnPortal""))",Chrome 152.0.7977.83,,,14-09-2026 08:58:53,14-09-2026 08:58:55,1.853s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 08:58:55,14-09-2026 08:58:58,3.020s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Menu/Brinsbook""), 10)",Chrome 152.0.7977.83,,,14-09-2026 08:58:58,14-09-2026 08:58:59,0.366s,PASSED
+delay(1),Chrome 152.0.7977.83,,,14-09-2026 08:58:59,14-09-2026 08:59:00,1.011s,PASSED
+screenshotPathFailed2 = $projectDir/Screenshots/Evidence_POSITIVE_Menu BRINS Book_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 08:59:00,14-09-2026 08:59:00,0.075s,PASSED
+takeScreenshot(screenshotPathFailed2),Chrome 152.0.7977.83,,,14-09-2026 08:59:00,14-09-2026 08:59:00,0.466s,PASSED
+"click(findTestObject(""Data UI/Menu/Brinsbook""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:00,14-09-2026 08:59:01,0.896s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 08:59:01,14-09-2026 08:59:03,2.010s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 08:59:03,14-09-2026 08:59:04,0.471s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail,Chrome 152.0.7977.83,,,14-09-2026 08:59:04,14-09-2026 09:00:01,57.549s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 08:59:04,14-09-2026 08:59:04,0.003s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 08:59:04,14-09-2026 08:59:04,0.003s,PASSED
+"click(findTestObject(""Data UI/Menu/ReportingPortal""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:04,14-09-2026 08:59:05,1.389s,PASSED
+"scrollToElement(findTestObject(""Data UI/Menu/btnPilih""), 0)",Chrome 152.0.7977.83,,,14-09-2026 08:59:05,14-09-2026 08:59:06,0.565s,PASSED
+"click(findTestObject(""Data UI/Menu/btnPilih""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:06,14-09-2026 08:59:08,1.548s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 08:59:08,14-09-2026 08:59:11,3.021s,PASSED
+urlFBI_Detail = getUrl(),Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:11,0.058s,PASSED
+"assert urlFBI_Detail.contains(""mng_proman_fbi_detail"")",Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:11,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Filter FBI_Detail/Headline""), 0)",Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:11,0.347s,PASSED
+screenshotPathFilter = $projectDir/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:11,0.006s,PASSED
+takeScreenshot(screenshotPathFilter),Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:11,0.390s,PASSED
+delay(1),Chrome 152.0.7977.83,,,14-09-2026 08:59:11,14-09-2026 08:59:12,1.021s,PASSED
+"setText(findTestObject(""Data UI/Filter FBI_Detail/PeriodeAwal""), ""01012026"")",Chrome 152.0.7977.83,,,14-09-2026 08:59:12,14-09-2026 08:59:14,1.408s,PASSED
+"setText(findTestObject(""Data UI/Filter FBI_Detail/PeriodeAkhir""), ""28022026"")",Chrome 152.0.7977.83,,,14-09-2026 08:59:14,14-09-2026 08:59:15,1.366s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Product""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:15,14-09-2026 08:59:25,10.160s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Uker""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:25,14-09-2026 08:59:36,10.159s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Cabang""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:36,14-09-2026 08:59:46,10.160s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Type""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:46,14-09-2026 08:59:56,10.152s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/btnProses""))",Chrome 152.0.7977.83,,,14-09-2026 08:59:56,14-09-2026 08:59:57,1.587s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 08:59:57,14-09-2026 09:00:00,3.019s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Download/popupDownload""), 0)",Chrome 152.0.7977.83,,,14-09-2026 09:00:00,14-09-2026 09:00:01,0.357s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 09:00:01,14-09-2026 09:00:01,0.394s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Download/ProsesDownload,Chrome 152.0.7977.83,,,14-09-2026 09:00:01,14-09-2026 09:00:25,23.305s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 09:00:03,14-09-2026 09:00:03,0.003s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 09:00:03,14-09-2026 09:00:03,0.004s,PASSED
+"click(findTestObject(""Data UI/Download/btnDownload""))",Chrome 152.0.7977.83,,,14-09-2026 09:00:03,14-09-2026 09:00:03,0.697s,PASSED
+screenshotPathDownload = $projectDir/Screenshots/Evidence_POSITIVE_Popup_Download_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 09:00:03,14-09-2026 09:00:03,0.004s,PASSED
+takeScreenshot(screenshotPathDownload),Chrome 152.0.7977.83,,,14-09-2026 09:00:03,14-09-2026 09:00:04,0.624s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Download/popupDownload""), 0)",Chrome 152.0.7977.83,,,14-09-2026 09:00:04,14-09-2026 09:00:04,0.311s,PASSED
+"comment(""Klik format Excel"")",Chrome 152.0.7977.83,,,14-09-2026 09:00:04,14-09-2026 09:00:04,0.027s,PASSED
+"click(findTestObject(""Data UI/Download/formatExcel""))",Chrome 152.0.7977.83,,,14-09-2026 09:00:04,14-09-2026 09:00:05,1.101s,PASSED
+delay(5),Chrome 152.0.7977.83,,,14-09-2026 09:00:05,14-09-2026 09:00:10,5.023s,PASSED
+"downloadPath = System.getProperty(""user.home"") + ""\Downloads""",Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.016s,PASSED
+downloadFolder = new java.io.File(downloadPath),Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.003s,PASSED
+"logInfo(""Mengecek folder download: "" + downloadPath)",Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.023s,PASSED
+downloadedFile = null,Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.003s,PASSED
+"for ([i = 0, i < 30, (i++)])",Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.081s,PASSED
+if (downloadedFile == null),Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:10,0.002s,PASSED
+else,Chrome 152.0.7977.83,,,14-09-2026 09:00:10,14-09-2026 09:00:11,0.020s,PASSED
+if (downloadedFile != null),Chrome 152.0.7977.83,,,14-09-2026 09:00:11,14-09-2026 09:00:22,11.384s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 09:00:22,14-09-2026 09:00:24,2.014s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 09:00:24,14-09-2026 09:00:25,0.605s,PASSED

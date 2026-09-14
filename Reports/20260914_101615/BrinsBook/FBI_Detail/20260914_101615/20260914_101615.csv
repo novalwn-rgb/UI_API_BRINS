@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FBI_Detail,Chrome 152.0.7977.83,,,14-09-2026 10:16:21,14-09-2026 10:18:14,1m - 52.473s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Login/Login_BrinsBook,Chrome 152.0.7977.83,,,14-09-2026 10:16:22,14-09-2026 10:16:50,28.635s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 10:16:22,14-09-2026 10:16:22,0.005s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:22,14-09-2026 10:16:22,0.024s,PASSED
+"openBrowser(""http://192.168.140.18:8000/login/"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:22,14-09-2026 10:16:27,5.015s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsername""), ""test"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:27,14-09-2026 10:16:28,1.431s,PASSED
+"setText(findTestObject(""Data UI/Login/inputPassword""), ""passwordSalah"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:28,14-09-2026 10:16:29,0.971s,PASSED
+"click(findTestObject(""Data UI/Login/btnPortal""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:29,14-09-2026 10:16:31,1.215s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 10:16:31,14-09-2026 10:16:33,2.050s,PASSED
+"loginFailed = verifyTextPresent(""Akun kamu sudah login di perangkat lain nih/login/"", false, OPTIONAL)",Chrome 152.0.7977.83,,,14-09-2026 10:16:33,14-09-2026 10:16:33,0.381s,WARNING
+if (loginFailed),Chrome 152.0.7977.83,,,14-09-2026 10:16:33,14-09-2026 10:16:33,0.001s,PASSED
+else,Chrome 152.0.7977.83,,,14-09-2026 10:16:33,14-09-2026 10:16:33,0.008s,PASSED
+back(),Chrome 152.0.7977.83,,,14-09-2026 10:16:33,14-09-2026 10:16:33,0.124s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 10:16:33,14-09-2026 10:16:36,3.016s,PASSED
+"click(findTestObject(""Data UI/Login/btnForceLogout1""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:36,14-09-2026 10:16:37,0.598s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsernameForce""), ""TTECH-0251"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:37,14-09-2026 10:16:38,1.173s,PASSED
+"click(findTestObject(""Data UI/Login/btnForceLogout2""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:38,14-09-2026 10:16:39,0.655s,PASSED
+"setText(findTestObject(""Data UI/Login/inputUsername""), ""TTECH-0251"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:39,14-09-2026 10:16:40,1.209s,PASSED
+"setText(findTestObject(""Data UI/Login/inputPassword""), ""qwerty123"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:40,14-09-2026 10:16:41,0.963s,PASSED
+"click(findTestObject(""Data UI/Login/btnPortal""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:41,14-09-2026 10:16:43,1.816s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 10:16:43,14-09-2026 10:16:46,3.020s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Menu/Brinsbook""), 10)",Chrome 152.0.7977.83,,,14-09-2026 10:16:46,14-09-2026 10:16:46,0.300s,PASSED
+delay(1),Chrome 152.0.7977.83,,,14-09-2026 10:16:46,14-09-2026 10:16:47,1.013s,PASSED
+screenshotPathFailed2 = $projectDir/Screenshots/Evidence_POSITIVE_Menu BRINS Book_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 10:16:47,14-09-2026 10:16:47,0.033s,PASSED
+takeScreenshot(screenshotPathFailed2),Chrome 152.0.7977.83,,,14-09-2026 10:16:47,14-09-2026 10:16:47,0.386s,PASSED
+"click(findTestObject(""Data UI/Menu/Brinsbook""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:47,14-09-2026 10:16:48,0.604s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 10:16:48,14-09-2026 10:16:50,2.006s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 10:16:50,14-09-2026 10:16:50,0.368s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Filter FBI_Detail/Filter_FBI_Detail,Chrome 152.0.7977.83,,,14-09-2026 10:16:50,14-09-2026 10:17:46,55.332s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 10:16:50,14-09-2026 10:16:50,0.001s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:50,14-09-2026 10:16:50,0.002s,PASSED
+"click(findTestObject(""Data UI/Menu/ReportingPortal""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:50,14-09-2026 10:16:53,2.320s,PASSED
+"scrollToElement(findTestObject(""Data UI/Menu/btnPilih""), 0)",Chrome 152.0.7977.83,,,14-09-2026 10:16:53,14-09-2026 10:16:53,0.465s,PASSED
+"click(findTestObject(""Data UI/Menu/btnPilih""))",Chrome 152.0.7977.83,,,14-09-2026 10:16:53,14-09-2026 10:16:54,1.115s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 10:16:54,14-09-2026 10:16:57,3.012s,PASSED
+urlFBI_Detail = getUrl(),Chrome 152.0.7977.83,,,14-09-2026 10:16:57,14-09-2026 10:16:57,0.035s,PASSED
+"assert urlFBI_Detail.contains(""mng_proman_fbi_detail"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:57,14-09-2026 10:16:57,0.008s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Filter FBI_Detail/Headline""), 0)",Chrome 152.0.7977.83,,,14-09-2026 10:16:57,14-09-2026 10:16:58,0.323s,PASSED
+screenshotPathFilter = $projectDir/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 10:16:58,14-09-2026 10:16:58,0.002s,PASSED
+takeScreenshot(screenshotPathFilter),Chrome 152.0.7977.83,,,14-09-2026 10:16:58,14-09-2026 10:16:58,0.370s,PASSED
+delay(1),Chrome 152.0.7977.83,,,14-09-2026 10:16:58,14-09-2026 10:16:59,1.007s,PASSED
+"setText(findTestObject(""Data UI/Filter FBI_Detail/PeriodeAwal""), ""01012026"")",Chrome 152.0.7977.83,,,14-09-2026 10:16:59,14-09-2026 10:17:00,0.980s,PASSED
+"setText(findTestObject(""Data UI/Filter FBI_Detail/PeriodeAkhir""), ""28022026"")",Chrome 152.0.7977.83,,,14-09-2026 10:17:00,14-09-2026 10:17:01,0.951s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Product""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:01,14-09-2026 10:17:11,10.095s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Uker""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:11,14-09-2026 10:17:21,10.116s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Cabang""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:21,14-09-2026 10:17:31,10.099s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/Type""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:31,14-09-2026 10:17:41,10.085s,PASSED
+"click(findTestObject(""Data UI/Filter FBI_Detail/btnProses""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:41,14-09-2026 10:17:42,0.471s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 10:17:42,14-09-2026 10:17:45,3.020s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Download/popupDownload""), 0)",Chrome 152.0.7977.83,,,14-09-2026 10:17:45,14-09-2026 10:17:45,0.293s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 10:17:45,14-09-2026 10:17:46,0.365s,PASSED
+,,,,,,,
+Test Cases/DATA UI/Download/ProsesDownload,Chrome 152.0.7977.83,,,14-09-2026 10:17:46,14-09-2026 10:18:13,27.212s,PASSED
+projectDir = getProjectDir(),Chrome 152.0.7977.83,,,14-09-2026 10:17:46,14-09-2026 10:17:46,0.003s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 152.0.7977.83,,,14-09-2026 10:17:46,14-09-2026 10:17:46,0.002s,PASSED
+"click(findTestObject(""Data UI/Download/btnDownload""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:46,14-09-2026 10:17:47,0.527s,PASSED
+screenshotPathDownload = $projectDir/Screenshots/Evidence_POSITIVE_Popup_Download_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 10:17:47,14-09-2026 10:17:47,0.001s,PASSED
+takeScreenshot(screenshotPathDownload),Chrome 152.0.7977.83,,,14-09-2026 10:17:47,14-09-2026 10:17:47,0.601s,PASSED
+"verifyElementPresent(findTestObject(""Data UI/Download/popupDownload""), 0)",Chrome 152.0.7977.83,,,14-09-2026 10:17:47,14-09-2026 10:17:48,0.293s,PASSED
+"comment(""Klik format Excel"")",Chrome 152.0.7977.83,,,14-09-2026 10:17:48,14-09-2026 10:17:48,0.016s,PASSED
+"click(findTestObject(""Data UI/Download/formatExcel""))",Chrome 152.0.7977.83,,,14-09-2026 10:17:48,14-09-2026 10:17:49,1.194s,PASSED
+delay(5),Chrome 152.0.7977.83,,,14-09-2026 10:17:49,14-09-2026 10:17:54,5.024s,PASSED
+"downloadPath = System.getProperty(""user.home"") + ""\Downloads""",Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.012s,PASSED
+downloadFolder = new java.io.File(downloadPath),Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.001s,PASSED
+"logInfo(""Mengecek folder download: "" + downloadPath)",Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.009s,PASSED
+downloadedFile = null,Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.002s,PASSED
+"for ([i = 0, i < 30, (i++)])",Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.041s,PASSED
+if (downloadedFile == null),Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.000s,PASSED
+else,Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.013s,PASSED
+"comment(""Membuka file Excel/WPS..."")",Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.005s,PASSED
+excelPath = absolutePath,Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.001s,PASSED
+"excelProcess = ProcessBuilder(cmd, /c, start, , excelPath).start()",Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:17:54,0.066s,PASSED
+delay(10),Chrome 152.0.7977.83,,,14-09-2026 10:17:54,14-09-2026 10:18:04,10.015s,PASSED
+"comment(""Menunggu window Excel/WPS aktif..."")",Chrome 152.0.7977.83,,,14-09-2026 10:18:04,14-09-2026 10:18:04,0.006s,PASSED
+"activateProcess = MainWindowHandle)
+    }
+    ).start()",Chrome 152.0.7977.83,,,14-09-2026 10:18:04,14-09-2026 10:18:04,0.055s,PASSED
+activateProcess.waitFor(),Chrome 152.0.7977.83,,,14-09-2026 10:18:04,14-09-2026 10:18:07,2.467s,PASSED
+delay(3),Chrome 152.0.7977.83,,,14-09-2026 10:18:07,14-09-2026 10:18:10,3.017s,PASSED
+"comment(""Mengambil screenshot Excel/WPS..."")",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.008s,PASSED
+screenshotExcel = $projectDir\Screenshots\EVIDENCE_POSITIVE_Excel_$timestamp.png,Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.003s,PASSED
+screenshotDir = new java.io.File($projectDir\Screenshots),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.018s,PASSED
+if (!(screenshotDir.exists())),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.003s,PASSED
+robot = new java.awt.Robot(),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.133s,PASSED
+screenRect = new java.awt.Rectangle(java.awt.Toolkit.getDefaultToolkit().getScreenSize()),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.110s,PASSED
+screenshot = robot.createScreenCapture(screenRect),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.069s,PASSED
+screenshotFile = new java.io.File(screenshotExcel),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.001s,PASSED
+"screenshotCreated = ImageIO.write(screenshot, ""png"", screenshotFile)",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.245s,PASSED
+"verifyEqual(screenshotCreated, true, STOP_ON_FAILURE)",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.049s,PASSED
+"verifyEqual(screenshotFile.exists(), true, STOP_ON_FAILURE)",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.010s,PASSED
+"verifyGreaterThan(screenshotFile.length(), 0, STOP_ON_FAILURE)",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.027s,PASSED
+"comment(""Screenshot Excel/WPS berhasil dibuat"")",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.010s,PASSED
+"comment(""File: "" + absolutePath)",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.009s,PASSED
+"comment(""Ukuran: "" + screenshotFile.length() + "" bytes"")",Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:10,0.007s,PASSED
+delay(2),Chrome 152.0.7977.83,,,14-09-2026 10:18:10,14-09-2026 10:18:12,2.005s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 152.0.7977.83,,,14-09-2026 10:18:12,14-09-2026 10:18:13,0.414s,PASSED
