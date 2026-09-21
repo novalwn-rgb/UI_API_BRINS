@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+
+String projectDir = RunConfiguration.getProjectDir()
+
+String timestamp = new Date().format('dd.MM.yyyy_(HH.mm.ss)')
 
 WebUI.delay(3)
 
@@ -25,8 +32,32 @@ WebUI.click(findTestObject('Data UI/BrinsAsmik/Menu/pilihDOB'))
 
 WebUI.delay(2)
 
+String screenshotPathDOB = "${projectDir}/Screenshots/Evidence_POSITIVE_Menu Site DOB_${timestamp}.png"
+
+WebUI.takeScreenshot(screenshotPathDOB)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Data UI/BrinsAsmik/Menu/dataDevelopment'))
+
+String screenshotPathDevelopment = "${projectDir}/Screenshots/Evidence_POSITIVE_Data Development_${timestamp}.png"
+
+WebUI.takeScreenshot(screenshotPathDevelopment)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Data UI/BrinsAsmik/Menu/dataPerformance'))
 
+String screenshotPathPerformance = "${projectDir}/Screenshots/Evidence_POSITIVE_Data Performance_${timestamp}.png"
+
+WebUI.takeScreenshot(screenshotPathPerformance)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Data UI/BrinsAsmik/Menu/dataAsmik'))
+
+String screenshotPathAsmik = "${projectDir}/Screenshots/Evidence_POSITIVE_Data ASMIK_${timestamp}.png"
+
+WebUI.takeScreenshot(screenshotPathAsmik)
+
+WebUI.delay(2)

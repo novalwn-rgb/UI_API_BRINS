@@ -17,24 +17,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String projectDir = RunConfiguration.getProjectDir()
 
 String timestamp = new Date().format('dd.MM.yyyy_(HH.mm.ss)')
 
-WebUI.openBrowser('https://mis.brins.co.id/')
+WebUI.click(findTestObject('Data UI/BrinsBook/Menu/ReportingPortal'))
 
-WebUI.setText(findTestObject('Data UI/BrinsAsmik/Login/inputUsername'), 'testing')
+WebUI.scrollToElement(findTestObject('Data UI/BrinsBook/Menu/btnPilih'), 0)
 
-WebUI.setText(findTestObject('Data UI/BrinsAsmik/Login/inputPassword'), 'passwordSalah')
-
-WebUI.click(findTestObject('Data UI/BrinsAsmik/Login/btnSignIn'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Menu/btnPilih'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('Data UI/BrinsAsmik/Login/secInvalidLogin'))
+String urlFBI_Detail = WebUI.getUrl()
 
-String screenshotPathFailed = "${projectDir}/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_${timestamp}.png"
+assert urlFBI_Detail.contains('mng_proman_fbi_detail')
 
-WebUI.takeScreenshot(screenshotPathFailed)
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Headline'), 0)
+
+String screenshotPathFilter = "${projectDir}/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_${timestamp}.png"
+
+WebUI.takeScreenshot(screenshotPathFilter)
+
+// {projectDir} dan {timestamp}
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/PeriodeAwal'), '01012026')
+
+WebUI.setText(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/PeriodeAkhir'), '28022026')
+
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Product'))
+
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Uker'))
+
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Cabang'))
+
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Type'))
+
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/btnProses'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Download/popupDownload'), 0)
