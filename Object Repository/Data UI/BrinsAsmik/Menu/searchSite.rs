@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchSite</name>
+   <tag></tag>
+   <elementGuidId>780db61c-d1e8-4f5d-8395-75a8da5d208b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-tb-test-id='site-picker-filter-TextInput']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@data-tb-test-id='site-picker-filter-TextInput']</value>
+      <webElementGuid>648d119b-df2b-4251-87db-6574252424a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

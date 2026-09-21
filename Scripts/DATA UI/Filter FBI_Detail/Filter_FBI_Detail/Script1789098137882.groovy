@@ -22,11 +22,11 @@ String projectDir = RunConfiguration.getProjectDir()
 
 String timestamp = new Date().format('dd.MM.yyyy_(HH.mm.ss)')
 
-WebUI.click(findTestObject('Data UI/Menu/ReportingPortal'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Menu/ReportingPortal'))
 
-WebUI.scrollToElement(findTestObject('Data UI/Menu/btnPilih'), 0)
+WebUI.scrollToElement(findTestObject('Data UI/BrinsBook/Menu/btnPilih'), 0)
 
-WebUI.click(findTestObject('Data UI/Menu/btnPilih'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Menu/btnPilih'))
 
 WebUI.delay(3)
 
@@ -34,7 +34,7 @@ String urlFBI_Detail = WebUI.getUrl()
 
 assert urlFBI_Detail.contains('mng_proman_fbi_detail')
 
-WebUI.verifyElementPresent(findTestObject('Data UI/Filter FBI_Detail/Headline'), 0)
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Headline'), 0)
 
 String screenshotPathFilter = "${projectDir}/Screenshots/Evidence_POSITIVE_DashboardFBI_Detail_${timestamp}.png"
 
@@ -44,21 +44,21 @@ WebUI.takeScreenshot(screenshotPathFilter)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Data UI/Filter FBI_Detail/PeriodeAwal'), '01012026')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/PeriodeAwal'), '01012026')
 
-WebUI.setText(findTestObject('Data UI/Filter FBI_Detail/PeriodeAkhir'), '28022026')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/PeriodeAkhir'), '28022026')
 
-WebUI.click(findTestObject('Data UI/Filter FBI_Detail/Product'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Product'))
 
-WebUI.click(findTestObject('Data UI/Filter FBI_Detail/Uker'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Uker'))
 
-WebUI.click(findTestObject('Data UI/Filter FBI_Detail/Cabang'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Cabang'))
 
-WebUI.click(findTestObject('Data UI/Filter FBI_Detail/Type'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/Type'))
 
-WebUI.click(findTestObject('Data UI/Filter FBI_Detail/btnProses'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Filter FBI_Detail/btnProses'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Data UI/Download/popupDownload'), 0)
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Download/popupDownload'), 0)
 

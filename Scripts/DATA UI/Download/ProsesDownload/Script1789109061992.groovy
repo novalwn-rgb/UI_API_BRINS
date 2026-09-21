@@ -31,13 +31,13 @@ String projectDir = RunConfiguration.getProjectDir()
 
 String timestamp = new Date().format('dd.MM.yyyy_(HH.mm.ss)')
 
-WebUI.click(findTestObject('Data UI/Download/btnDownload'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Download/btnDownload'))
 
 String screenshotPathDownload = "${projectDir}/Screenshots/Evidence_POSITIVE_Popup_Download_${timestamp}.png"
 
 WebUI.takeScreenshot(screenshotPathDownload)
 
-WebUI.verifyElementPresent(findTestObject('Data UI/Download/popupDownload'), 0)
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Download/popupDownload'), 0)
 
 //String downloadDir = System.getProperty('user.home') + '/Downloads'
 //File downloadFolder = new File(downloadDir)
@@ -45,7 +45,7 @@ WebUI.verifyElementPresent(findTestObject('Data UI/Download/popupDownload'), 0)
 //long startDownload = System.currentTimeMillis()
 
 // ====== btn download
-//WebUI.click(findTestObject('Data UI/Download/formatExcel'))
+//WebUI.click(findTestObject('Data UI/BrinsBook/Download/formatExcel'))
 //=======
 //// Tunggu maksimal 30 detik
 //File downloadedFile = null
@@ -94,7 +94,7 @@ WebUI.verifyElementPresent(findTestObject('Data UI/Download/popupDownload'), 0)
 
 WebUI.comment("Klik format Excel")
 
-WebUI.click(findTestObject('Data UI/Download/formatExcel'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Download/formatExcel'))
 
 //==== sementara
 WebUI.delay(5)

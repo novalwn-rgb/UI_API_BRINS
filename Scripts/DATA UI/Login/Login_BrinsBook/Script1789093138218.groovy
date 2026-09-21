@@ -28,11 +28,11 @@ WebUI.openBrowser('http://192.168.140.18:8000/login/')
 
 //WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Data UI/Login/inputUsername'), 'test')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Login/inputUsername'), 'test')
 
-WebUI.setText(findTestObject('Data UI/Login/inputPassword'), 'passwordSalah')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Login/inputPassword'), 'passwordSalah')
 
-WebUI.click(findTestObject('Data UI/Login/btnPortal'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Login/btnPortal'))
 
 WebUI.delay(2)
 
@@ -54,26 +54,26 @@ WebUI.back()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Data UI/Login/btnForceLogout1'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Login/btnForceLogout1'))
 
-WebUI.setText(findTestObject('Data UI/Login/inputUsernameForce'), 'TTECH-0251')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Login/inputUsernameForce'), 'TTECH-0251')
 
-WebUI.click(findTestObject('Data UI/Login/btnForceLogout2'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Login/btnForceLogout2'))
 
 // ============================
 // POSITIVE LOGIN
 // ============================
 // isi ulang login benar
-WebUI.setText(findTestObject('Data UI/Login/inputUsername'), 'TTECH-0251')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Login/inputUsername'), 'TTECH-0251')
 
-WebUI.setText(findTestObject('Data UI/Login/inputPassword'), 'qwerty123')
+WebUI.setText(findTestObject('Data UI/BrinsBook/Login/inputPassword'), 'qwerty123')
 
-WebUI.click(findTestObject('Data UI/Login/btnPortal'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Login/btnPortal'))
 
 WebUI.delay(3)
 
 // Validasi berhasil login
-WebUI.verifyElementPresent(findTestObject('Data UI/Menu/Brinsbook'), 10)
+WebUI.verifyElementPresent(findTestObject('Data UI/BrinsBook/Menu/Brinsbook'), 10)
 
 //WebUI.takeScreenshot("${projectDir}/Screenshots/Evidence_POSITIVE_${timestamp}.png")
 WebUI.delay(1)
@@ -82,6 +82,6 @@ String screenshotPathFailed2 = "${projectDir}/Screenshots/Evidence_POSITIVE_Menu
 
 WebUI.takeScreenshot(screenshotPathFailed2)
 
-WebUI.click(findTestObject('Data UI/Menu/Brinsbook'))
+WebUI.click(findTestObject('Data UI/BrinsBook/Menu/Brinsbook'))
 
 WebUI.delay(2)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dataAsmik</name>
+   <tag></tag>
+   <elementGuidId>1f686256-a700-4b1f-9680-94d3e36c7e25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='ASMIK']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='ASMIK']</value>
+      <webElementGuid>414abcfe-b61a-472d-a00d-f0cef7e265e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
