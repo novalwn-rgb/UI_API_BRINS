@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@data-tb-test-id='auth-component-sign-in-button-Button']</value>
+         <value>//div[@data-tb-test-id='tabbed-auth-dialog-test-id-Dialog-Content']//button[@data-tb-test-id='auth-component-sign-in-button-Button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@data-tb-test-id='auth-component-sign-in-button-Button']</value>
-      <webElementGuid>58f47f0b-8d14-41e9-a636-0b094d86cd7a</webElementGuid>
+      <value>//div[@data-tb-test-id='tabbed-auth-dialog-test-id-Dialog-Content']//button[@data-tb-test-id='auth-component-sign-in-button-Button']</value>
+      <webElementGuid>257bd910-8d86-4e39-b818-cd6d6fcd6c30</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

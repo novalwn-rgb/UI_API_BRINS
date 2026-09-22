@@ -1,0 +1,89 @@
+2026-09-22 11:37:30.494 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\TTECH-0251\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-09-22 11:37:30.498 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\TTECH-0251\git\AutoAPI\Include\config\log.properties
+2026-09-22 11:37:31.355 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/BrinscreenAll/BrinsAsmik/Dashboard_Performance_Asmik
+2026-09-22 11:37:31.460 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Quality Assurance 12
+2026-09-22 11:37:31.461 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = AutoAPI
+2026-09-22 11:37:31.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = TTECH-0251 - NovalWinaNurcahyo.brins.co.id
+2026-09-22 11:37:31.463 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-09-22 11:37:31.464 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.1.48.183
+2026-09-22 11:37:31.465 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-09-22 11:37:32.059 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-22 11:37:32.059 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik
+2026-09-22 11:37:32.266 DEBUG testcase.Login_Asmik                     - 1: projectDir = getProjectDir()
+2026-09-22 11:37:32.271 DEBUG testcase.Login_Asmik                     - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-22 11:37:32.301 DEBUG testcase.Login_Asmik                     - 3: openBrowser("https://mis.brins.co.id/")
+2026-09-22 11:37:32.675 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-22 11:37:32.752 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 22, 2026 11:37:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 153
+Sep 22, 2026 11:37:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 153.0.8010.48. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-22 11:37:35.845 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 00030fc385bbaad44786ba199556d9e0
+2026-09-22 11:37:35.848 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 153.0.8010.48
+2026-09-22 11:37:35.850 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-09-22 11:37:35.853 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-09-22 11:37:35.864 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-22 11:37:41.868 DEBUG testcase.Login_Asmik                     - 4: setText(findTestObject("Data UI/BrinsAsmik/Login/inputUsername"), "testing")
+2026-09-22 11:37:44.634 DEBUG testcase.Login_Asmik                     - 5: setText(findTestObject("Data UI/BrinsAsmik/Login/inputPassword"), "passwordSalah")
+2026-09-22 11:37:45.851 DEBUG testcase.Login_Asmik                     - 6: click(findTestObject("Data UI/BrinsAsmik/Login/btnSignIn"))
+2026-09-22 11:37:46.497 DEBUG testcase.Login_Asmik                     - 7: delay(50)
+2026-09-22 11:38:36.556 DEBUG testcase.Login_Asmik                     - 8: verifyElementVisible(findTestObject("Data UI/BrinsAsmik/Login/secInvalidLogin"))
+2026-09-22 11:38:36.943 DEBUG testcase.Login_Asmik                     - 9: screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_$timestamp.png
+2026-09-22 11:38:36.975 DEBUG testcase.Login_Asmik                     - 10: takeScreenshot(screenshotPathFailed)
+2026-09-22 11:38:37.379 DEBUG testcase.Login_Asmik                     - 11: refresh()
+2026-09-22 11:38:38.117 DEBUG testcase.Login_Asmik                     - 12: click(findTestObject("Data UI/BrinsAsmik/Login/inputUsername"))
+2026-09-22 11:38:39.018 DEBUG testcase.Login_Asmik                     - 13: setText(findTestObject("Data UI/BrinsAsmik/Login/inputUsername"), "creator_2")
+2026-09-22 11:38:40.393 DEBUG testcase.Login_Asmik                     - 14: setText(findTestObject("Data UI/BrinsAsmik/Login/inputPassword"), "Tsi_Brins2020")
+2026-09-22 11:38:41.680 DEBUG testcase.Login_Asmik                     - 15: click(findTestObject("Data UI/BrinsAsmik/Login/btnSignIn"))
+2026-09-22 11:38:42.374 DEBUG testcase.Login_Asmik                     - 16: delay(3)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.38.45).png
+2026-09-22 11:38:46.204 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik
+2026-09-22 11:38:46.213 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-22 11:38:46.213 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB
+2026-09-22 11:38:46.377 DEBUG testcase.Menu_Site_DOB                   - 1: projectDir = getProjectDir()
+2026-09-22 11:38:46.379 DEBUG testcase.Menu_Site_DOB                   - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-22 11:38:46.382 DEBUG testcase.Menu_Site_DOB                   - 3: delay(3)
+2026-09-22 11:38:49.395 DEBUG testcase.Menu_Site_DOB                   - 4: setText(findTestObject("Data UI/BrinsAsmik/Menu/searchSite"), "DEVELOPMENT AND OPERATIONAL BUSSINES DIVISION (DOB)")
+2026-09-22 11:38:50.540 DEBUG testcase.Menu_Site_DOB                   - 5: click(findTestObject("Data UI/BrinsAsmik/Menu/pilihDOB"))
+2026-09-22 11:38:51.146 DEBUG testcase.Menu_Site_DOB                   - 6: delay(2)
+2026-09-22 11:38:53.165 DEBUG testcase.Menu_Site_DOB                   - 7: screenshotPathDOB = $projectDir/Screenshots/Evidence_POSITIVE_Menu Site DOB_$timestamp.png
+2026-09-22 11:38:53.169 DEBUG testcase.Menu_Site_DOB                   - 8: takeScreenshot(screenshotPathDOB)
+2026-09-22 11:38:53.550 DEBUG testcase.Menu_Site_DOB                   - 9: delay(2)
+2026-09-22 11:38:55.566 DEBUG testcase.Menu_Site_DOB                   - 10: click(findTestObject("Data UI/BrinsAsmik/Menu/dataDevelopment"))
+2026-09-22 11:38:56.103 DEBUG testcase.Menu_Site_DOB                   - 11: screenshotPathDevelopment = $projectDir/Screenshots/Evidence_POSITIVE_Data Development_$timestamp.png
+2026-09-22 11:38:56.105 DEBUG testcase.Menu_Site_DOB                   - 12: takeScreenshot(screenshotPathDevelopment)
+2026-09-22 11:38:57.168 DEBUG testcase.Menu_Site_DOB                   - 13: delay(2)
+2026-09-22 11:38:59.186 DEBUG testcase.Menu_Site_DOB                   - 14: click(findTestObject("Data UI/BrinsAsmik/Menu/dataPerformance"))
+2026-09-22 11:38:59.810 DEBUG testcase.Menu_Site_DOB                   - 15: screenshotPathPerformance = $projectDir/Screenshots/Evidence_POSITIVE_Data Performance_$timestamp.png
+2026-09-22 11:38:59.812 DEBUG testcase.Menu_Site_DOB                   - 16: takeScreenshot(screenshotPathPerformance)
+2026-09-22 11:39:01.125 DEBUG testcase.Menu_Site_DOB                   - 17: delay(2)
+2026-09-22 11:39:03.131 DEBUG testcase.Menu_Site_DOB                   - 18: click(findTestObject("Data UI/BrinsAsmik/Menu/dataAsmik"))
+2026-09-22 11:39:03.561 DEBUG testcase.Menu_Site_DOB                   - 19: screenshotPathAsmik = $projectDir/Screenshots/Evidence_POSITIVE_Data ASMIK_$timestamp.png
+2026-09-22 11:39:03.564 DEBUG testcase.Menu_Site_DOB                   - 20: takeScreenshot(screenshotPathAsmik)
+2026-09-22 11:39:04.352 DEBUG testcase.Menu_Site_DOB                   - 21: delay(2)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.06).png
+2026-09-22 11:39:06.715 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB
+2026-09-22 11:39:06.720 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-22 11:39:06.721 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data
+2026-09-22 11:39:06.884 DEBUG testcase.Dashboard Data                  - 1: projectDir = getProjectDir()
+2026-09-22 11:39:06.886 DEBUG testcase.Dashboard Data                  - 2: timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)")
+2026-09-22 11:39:06.888 DEBUG testcase.Dashboard Data                  - 3: delay(5)
+2026-09-22 11:39:11.907 DEBUG testcase.Dashboard Data                  - 4: screenshotPathCanvas = $projectDir/Screenshots/Evidence_POSITIVE_DashCanvas_$timestamp.png
+2026-09-22 11:39:11.911 DEBUG testcase.Dashboard Data                  - 5: takeScreenshot(screenshotPathCanvas)
+2026-09-22 11:39:12.279 DEBUG testcase.Dashboard Data                  - 6: delay(5)
+2026-09-22 11:39:17.299 DEBUG testcase.Dashboard Data                  - 7: screenshotPathFBranch = $projectDir/Screenshots/Evidence_POSITIVE_FilterBranch_$timestamp.png
+2026-09-22 11:39:17.301 DEBUG testcase.Dashboard Data                  - 8: takeScreenshot(screenshotPathFBranch)
+2026-09-22 11:39:17.677 DEBUG testcase.Dashboard Data                  - 9: delay(5)
+2026-09-22 11:39:22.693 DEBUG testcase.Dashboard Data                  - 10: screenshotPathFTahun = $projectDir/Screenshots/Evidence_POSITIVE_FilterTahun_$timestamp.png
+2026-09-22 11:39:22.696 DEBUG testcase.Dashboard Data                  - 11: takeScreenshot(screenshotPathFTahun)
+2026-09-22 11:39:23.077 DEBUG testcase.Dashboard Data                  - 12: delay(5)
+2026-09-22 11:39:28.098 DEBUG testcase.Dashboard Data                  - 13: screenshotPathFBulan = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulan_$timestamp.png
+2026-09-22 11:39:28.101 DEBUG testcase.Dashboard Data                  - 14: takeScreenshot(screenshotPathFBulan)
+2026-09-22 11:39:28.477 DEBUG testcase.Dashboard Data                  - 15: delay(5)
+2026-09-22 11:39:33.496 DEBUG testcase.Dashboard Data                  - 16: screenshotPathFApril = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulanApril26_$timestamp.png
+2026-09-22 11:39:33.499 DEBUG testcase.Dashboard Data                  - 17: takeScreenshot(screenshotPathFApril)
+Screenshot disimpan: C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.33).png
+2026-09-22 11:39:34.207 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data
+2026-09-22 11:39:35.104 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-22 11:39:35.104 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/BrinscreenAll/BrinsAsmik/Dashboard_Performance_Asmik
+2026-09-22 11:39:35.104 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

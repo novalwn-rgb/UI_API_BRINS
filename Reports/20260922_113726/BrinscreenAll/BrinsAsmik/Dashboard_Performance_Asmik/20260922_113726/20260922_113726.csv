@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dashboard_Performance_Asmik,Chrome 153.0.8010.48,,,22-09-2026 11:37:31,22-09-2026 11:39:35,2m - 3.666s,PASSED
+,,,,,,,
+Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik,Chrome 153.0.8010.48,,,22-09-2026 11:37:32,22-09-2026 11:38:46,1m - 14.145s,PASSED
+projectDir = getProjectDir(),Chrome 153.0.8010.48,,,22-09-2026 11:37:32,22-09-2026 11:37:32,0.006s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 153.0.8010.48,,,22-09-2026 11:37:32,22-09-2026 11:37:32,0.028s,PASSED
+"openBrowser(""https://mis.brins.co.id/"")",Chrome 153.0.8010.48,,,22-09-2026 11:37:32,22-09-2026 11:37:41,9.565s,PASSED
+"setText(findTestObject(""Data UI/BrinsAsmik/Login/inputUsername""), ""testing"")",Chrome 153.0.8010.48,,,22-09-2026 11:37:41,22-09-2026 11:37:44,2.766s,PASSED
+"setText(findTestObject(""Data UI/BrinsAsmik/Login/inputPassword""), ""passwordSalah"")",Chrome 153.0.8010.48,,,22-09-2026 11:37:44,22-09-2026 11:37:45,1.217s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Login/btnSignIn""))",Chrome 153.0.8010.48,,,22-09-2026 11:37:45,22-09-2026 11:37:46,0.644s,PASSED
+delay(50),Chrome 153.0.8010.48,,,22-09-2026 11:37:46,22-09-2026 11:38:36,50.060s,PASSED
+"verifyElementVisible(findTestObject(""Data UI/BrinsAsmik/Login/secInvalidLogin""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:36,22-09-2026 11:38:36,0.386s,PASSED
+screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:38:36,22-09-2026 11:38:36,0.033s,PASSED
+takeScreenshot(screenshotPathFailed),Chrome 153.0.8010.48,,,22-09-2026 11:38:36,22-09-2026 11:38:37,0.403s,PASSED
+refresh(),Chrome 153.0.8010.48,,,22-09-2026 11:38:37,22-09-2026 11:38:38,0.737s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Login/inputUsername""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:38,22-09-2026 11:38:39,0.901s,PASSED
+"setText(findTestObject(""Data UI/BrinsAsmik/Login/inputUsername""), ""creator_2"")",Chrome 153.0.8010.48,,,22-09-2026 11:38:39,22-09-2026 11:38:40,1.375s,PASSED
+"setText(findTestObject(""Data UI/BrinsAsmik/Login/inputPassword""), ""Tsi_Brins2020"")",Chrome 153.0.8010.48,,,22-09-2026 11:38:40,22-09-2026 11:38:41,1.286s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Login/btnSignIn""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:41,22-09-2026 11:38:42,0.693s,PASSED
+delay(3),Chrome 153.0.8010.48,,,22-09-2026 11:38:42,22-09-2026 11:38:45,3.008s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 153.0.8010.48,,,22-09-2026 11:38:45,22-09-2026 11:38:46,0.817s,PASSED
+,,,,,,,
+Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB,Chrome 153.0.8010.48,,,22-09-2026 11:38:46,22-09-2026 11:39:06,20.502s,PASSED
+projectDir = getProjectDir(),Chrome 153.0.8010.48,,,22-09-2026 11:38:46,22-09-2026 11:38:46,0.003s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 153.0.8010.48,,,22-09-2026 11:38:46,22-09-2026 11:38:46,0.002s,PASSED
+delay(3),Chrome 153.0.8010.48,,,22-09-2026 11:38:46,22-09-2026 11:38:49,3.013s,PASSED
+"setText(findTestObject(""Data UI/BrinsAsmik/Menu/searchSite""), ""DEVELOPMENT AND OPERATIONAL BUSSINES DIVISION (DOB)"")",Chrome 153.0.8010.48,,,22-09-2026 11:38:49,22-09-2026 11:38:50,1.144s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Menu/pilihDOB""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:50,22-09-2026 11:38:51,0.605s,PASSED
+delay(2),Chrome 153.0.8010.48,,,22-09-2026 11:38:51,22-09-2026 11:38:53,2.018s,PASSED
+screenshotPathDOB = $projectDir/Screenshots/Evidence_POSITIVE_Menu Site DOB_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:38:53,22-09-2026 11:38:53,0.004s,PASSED
+takeScreenshot(screenshotPathDOB),Chrome 153.0.8010.48,,,22-09-2026 11:38:53,22-09-2026 11:38:53,0.381s,PASSED
+delay(2),Chrome 153.0.8010.48,,,22-09-2026 11:38:53,22-09-2026 11:38:55,2.016s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Menu/dataDevelopment""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:55,22-09-2026 11:38:56,0.536s,PASSED
+screenshotPathDevelopment = $projectDir/Screenshots/Evidence_POSITIVE_Data Development_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:38:56,22-09-2026 11:38:56,0.002s,PASSED
+takeScreenshot(screenshotPathDevelopment),Chrome 153.0.8010.48,,,22-09-2026 11:38:56,22-09-2026 11:38:57,1.064s,PASSED
+delay(2),Chrome 153.0.8010.48,,,22-09-2026 11:38:57,22-09-2026 11:38:59,2.018s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Menu/dataPerformance""))",Chrome 153.0.8010.48,,,22-09-2026 11:38:59,22-09-2026 11:38:59,0.623s,PASSED
+screenshotPathPerformance = $projectDir/Screenshots/Evidence_POSITIVE_Data Performance_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:38:59,22-09-2026 11:38:59,0.001s,PASSED
+takeScreenshot(screenshotPathPerformance),Chrome 153.0.8010.48,,,22-09-2026 11:38:59,22-09-2026 11:39:01,1.315s,PASSED
+delay(2),Chrome 153.0.8010.48,,,22-09-2026 11:39:01,22-09-2026 11:39:03,2.004s,PASSED
+"click(findTestObject(""Data UI/BrinsAsmik/Menu/dataAsmik""))",Chrome 153.0.8010.48,,,22-09-2026 11:39:03,22-09-2026 11:39:03,0.429s,PASSED
+screenshotPathAsmik = $projectDir/Screenshots/Evidence_POSITIVE_Data ASMIK_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:03,22-09-2026 11:39:03,0.002s,PASSED
+takeScreenshot(screenshotPathAsmik),Chrome 153.0.8010.48,,,22-09-2026 11:39:03,22-09-2026 11:39:04,0.787s,PASSED
+delay(2),Chrome 153.0.8010.48,,,22-09-2026 11:39:04,22-09-2026 11:39:06,2.014s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 153.0.8010.48,,,22-09-2026 11:39:06,22-09-2026 11:39:06,0.345s,PASSED
+,,,,,,,
+Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data,Chrome 153.0.8010.48,,,22-09-2026 11:39:06,22-09-2026 11:39:34,27.486s,PASSED
+projectDir = getProjectDir(),Chrome 153.0.8010.48,,,22-09-2026 11:39:06,22-09-2026 11:39:06,0.002s,PASSED
+"timestamp = Date().format(""dd.MM.yyyy_(HH.mm.ss)"")",Chrome 153.0.8010.48,,,22-09-2026 11:39:06,22-09-2026 11:39:06,0.002s,PASSED
+delay(5),Chrome 153.0.8010.48,,,22-09-2026 11:39:06,22-09-2026 11:39:11,5.020s,PASSED
+screenshotPathCanvas = $projectDir/Screenshots/Evidence_POSITIVE_DashCanvas_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:11,22-09-2026 11:39:11,0.002s,PASSED
+takeScreenshot(screenshotPathCanvas),Chrome 153.0.8010.48,,,22-09-2026 11:39:11,22-09-2026 11:39:12,0.369s,PASSED
+delay(5),Chrome 153.0.8010.48,,,22-09-2026 11:39:12,22-09-2026 11:39:17,5.019s,PASSED
+screenshotPathFBranch = $projectDir/Screenshots/Evidence_POSITIVE_FilterBranch_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:17,22-09-2026 11:39:17,0.001s,PASSED
+takeScreenshot(screenshotPathFBranch),Chrome 153.0.8010.48,,,22-09-2026 11:39:17,22-09-2026 11:39:17,0.375s,PASSED
+delay(5),Chrome 153.0.8010.48,,,22-09-2026 11:39:17,22-09-2026 11:39:22,5.015s,PASSED
+screenshotPathFTahun = $projectDir/Screenshots/Evidence_POSITIVE_FilterTahun_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:22,22-09-2026 11:39:22,0.003s,PASSED
+takeScreenshot(screenshotPathFTahun),Chrome 153.0.8010.48,,,22-09-2026 11:39:22,22-09-2026 11:39:23,0.381s,PASSED
+delay(5),Chrome 153.0.8010.48,,,22-09-2026 11:39:23,22-09-2026 11:39:28,5.020s,PASSED
+screenshotPathFBulan = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulan_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:28,22-09-2026 11:39:28,0.003s,PASSED
+takeScreenshot(screenshotPathFBulan),Chrome 153.0.8010.48,,,22-09-2026 11:39:28,22-09-2026 11:39:28,0.375s,PASSED
+delay(5),Chrome 153.0.8010.48,,,22-09-2026 11:39:28,22-09-2026 11:39:33,5.019s,PASSED
+screenshotPathFApril = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulanApril26_$timestamp.png,Chrome 153.0.8010.48,,,22-09-2026 11:39:33,22-09-2026 11:39:33,0.002s,PASSED
+takeScreenshot(screenshotPathFApril),Chrome 153.0.8010.48,,,22-09-2026 11:39:33,22-09-2026 11:39:33,0.370s,PASSED
+Start listener action : takeScreenshotAfterTestCase,Chrome 153.0.8010.48,,,22-09-2026 11:39:33,22-09-2026 11:39:34,0.336s,PASSED

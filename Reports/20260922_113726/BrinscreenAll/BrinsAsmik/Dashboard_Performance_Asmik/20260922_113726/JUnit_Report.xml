@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dashboard_Performance_Asmik" time="122.769" tests="3" failures="0" errors="0">
+   <testsuite name="Dashboard_Performance_Asmik" tests="3" failures="0" errors="0" time="122.769" skipped="0" timestamp="2026-09-22T04:37:31.438Z" hostname="TTECH-0251 - NovalWinaNurcahyo.brins.co.id" id="Test Suites/BrinscreenAll/BrinsAsmik/Dashboard_Performance_Asmik">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726"/>
+         <property name="logFiles" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\console0.log, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_22.09.2026_(11.37.32).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.38.45).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Menu Site DOB_22.09.2026_(11.38.46).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data Development_22.09.2026_(11.38.46).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data Performance_22.09.2026_(11.38.46).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data ASMIK_22.09.2026_(11.38.46).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashCanvas_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBranch_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterTahun_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBulan_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBulanApril26_22.09.2026_(11.39.06).png, C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.33).png"/>
+         <property name="hostName" value="TTECH-0251 - NovalWinaNurcahyo.brins.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 153.0.8010.48"/>
+         <property name="userFullName" value="Quality Assurance 12"/>
+         <property name="hostAddress" value="10.1.48.183"/>
+         <property name="sessionId" value="00030fc385bbaad44786ba199556d9e0"/>
+         <property name="projectName" value="AutoAPI"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik" time="74.145" classname="Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik" status="PASSED">
+         <system-out><![CDATA[22-09-2026T11:37:32 - [TEST_CASE][PASSED] - Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik: Test Cases/DATA UI/BrinsAsmik/Login/Login_Asmik
+
+22-09-2026T11:37:32 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:37:32 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:37:32 - [TEST_STEP][PASSED] - openBrowser("https://mis.brins.co.id/"): Browser is opened with url: 'https://mis.brins.co.id/'
+
+22-09-2026T11:37:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-09-2026T11:37:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-09-2026T11:37:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mis.brins.co.id/'
+
+22-09-2026T11:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/BrinsAsmik/Login/inputUsername"), "testing"): Text 'testing' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername'
+
+22-09-2026T11:37:44 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername'
+
+22-09-2026T11:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/BrinsAsmik/Login/inputPassword"), "passwordSalah"): Text 'passwordSalah' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputPassword'
+
+22-09-2026T11:37:45 - [MESSAGE][PASSED] - Text 'passwordSalah' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputPassword'
+
+22-09-2026T11:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Login/btnSignIn")): Object: 'Object Repository/Data UI/BrinsAsmik/Login/btnSignIn' is clicked on
+
+22-09-2026T11:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Login/btnSignIn' is clicked on
+
+22-09-2026T11:37:46 - [TEST_STEP][PASSED] - delay(50): Delayed 50 second(s)
+
+22-09-2026T11:38:36 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+22-09-2026T11:38:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Data UI/BrinsAsmik/Login/secInvalidLogin")): Object 'Object Repository/Data UI/BrinsAsmik/Login/secInvalidLogin' is visible
+
+22-09-2026T11:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Data UI/BrinsAsmik/Login/secInvalidLogin' is visible
+
+22-09-2026T11:38:36 - [TEST_STEP][PASSED] - screenshotPathFailed = $projectDir/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_$timestamp.png: null
+
+22-09-2026T11:38:36 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFailed): Taking screenshot successfully
+
+22-09-2026T11:38:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_22.09.2026_(11.37.32).png]]
+
+22-09-2026T11:38:37 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+22-09-2026T11:38:38 - [MESSAGE][PASSED] - Refresh successfully
+
+22-09-2026T11:38:38 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Login/inputUsername")): Object: 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername' is clicked on
+
+22-09-2026T11:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername' is clicked on
+
+22-09-2026T11:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/BrinsAsmik/Login/inputUsername"), "creator_2"): Text 'creator_2' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername'
+
+22-09-2026T11:38:40 - [MESSAGE][PASSED] - Text 'creator_2' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputUsername'
+
+22-09-2026T11:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/BrinsAsmik/Login/inputPassword"), "Tsi_Brins2020"): Text 'Tsi_Brins2020' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputPassword'
+
+22-09-2026T11:38:41 - [MESSAGE][PASSED] - Text 'Tsi_Brins2020' is set on object 'Object Repository/Data UI/BrinsAsmik/Login/inputPassword'
+
+22-09-2026T11:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Login/btnSignIn")): Object: 'Object Repository/Data UI/BrinsAsmik/Login/btnSignIn' is clicked on
+
+22-09-2026T11:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Login/btnSignIn' is clicked on
+
+22-09-2026T11:38:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-09-2026T11:38:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+22-09-2026T11:38:45 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+22-09-2026T11:38:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.38.45).png]]
+
+22-09-2026T11:38:46 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB" time="20.502" classname="Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB" status="PASSED">
+         <system-out><![CDATA[22-09-2026T11:38:46 - [TEST_CASE][PASSED] - Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB: Test Cases/DATA UI/BrinsAsmik/Menu/Menu_Site_DOB
+
+22-09-2026T11:38:46 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:38:46 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:38:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-09-2026T11:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-09-2026T11:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Data UI/BrinsAsmik/Menu/searchSite"), "DEVELOPMENT AND OPERATIONAL BUSSINES DIVISION (DOB)"): Text 'DEVELOPMENT AND OPERATIONAL BUSSINES DIVISION (DOB)' is set on object 'Object Repository/Data UI/BrinsAsmik/Menu/searchSite'
+
+22-09-2026T11:38:50 - [MESSAGE][PASSED] - Text 'DEVELOPMENT AND OPERATIONAL BUSSINES DIVISION (DOB)' is set on object 'Object Repository/Data UI/BrinsAsmik/Menu/searchSite'
+
+22-09-2026T11:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Menu/pilihDOB")): Object: 'Object Repository/Data UI/BrinsAsmik/Menu/pilihDOB' is clicked on
+
+22-09-2026T11:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Menu/pilihDOB' is clicked on
+
+22-09-2026T11:38:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-09-2026T11:38:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-09-2026T11:38:53 - [TEST_STEP][PASSED] - screenshotPathDOB = $projectDir/Screenshots/Evidence_POSITIVE_Menu Site DOB_$timestamp.png: null
+
+22-09-2026T11:38:53 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathDOB): Taking screenshot successfully
+
+22-09-2026T11:38:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Menu Site DOB_22.09.2026_(11.38.46).png]]
+
+22-09-2026T11:38:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-09-2026T11:38:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-09-2026T11:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Menu/dataDevelopment")): Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataDevelopment' is clicked on
+
+22-09-2026T11:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataDevelopment' is clicked on
+
+22-09-2026T11:38:56 - [TEST_STEP][PASSED] - screenshotPathDevelopment = $projectDir/Screenshots/Evidence_POSITIVE_Data Development_$timestamp.png: null
+
+22-09-2026T11:38:56 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathDevelopment): Taking screenshot successfully
+
+22-09-2026T11:38:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data Development_22.09.2026_(11.38.46).png]]
+
+22-09-2026T11:38:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-09-2026T11:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-09-2026T11:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Menu/dataPerformance")): Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataPerformance' is clicked on
+
+22-09-2026T11:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataPerformance' is clicked on
+
+22-09-2026T11:38:59 - [TEST_STEP][PASSED] - screenshotPathPerformance = $projectDir/Screenshots/Evidence_POSITIVE_Data Performance_$timestamp.png: null
+
+22-09-2026T11:38:59 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathPerformance): Taking screenshot successfully
+
+22-09-2026T11:39:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data Performance_22.09.2026_(11.38.46).png]]
+
+22-09-2026T11:39:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-09-2026T11:39:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-09-2026T11:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Data UI/BrinsAsmik/Menu/dataAsmik")): Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataAsmik' is clicked on
+
+22-09-2026T11:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Data UI/BrinsAsmik/Menu/dataAsmik' is clicked on
+
+22-09-2026T11:39:03 - [TEST_STEP][PASSED] - screenshotPathAsmik = $projectDir/Screenshots/Evidence_POSITIVE_Data ASMIK_$timestamp.png: null
+
+22-09-2026T11:39:03 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathAsmik): Taking screenshot successfully
+
+22-09-2026T11:39:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_Data ASMIK_22.09.2026_(11.38.46).png]]
+
+22-09-2026T11:39:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-09-2026T11:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+22-09-2026T11:39:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data" time="27.486" classname="Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data" status="PASSED">
+         <system-out><![CDATA[22-09-2026T11:39:06 - [TEST_CASE][PASSED] - Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data: Test Cases/DATA UI/BrinsAsmik/Dashboard/Dashboard Data
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:39:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2026T11:39:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2026T11:39:11 - [TEST_STEP][PASSED] - screenshotPathCanvas = $projectDir/Screenshots/Evidence_POSITIVE_DashCanvas_$timestamp.png: null
+
+22-09-2026T11:39:11 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathCanvas): Taking screenshot successfully
+
+22-09-2026T11:39:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_DashCanvas_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2026T11:39:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2026T11:39:17 - [TEST_STEP][PASSED] - screenshotPathFBranch = $projectDir/Screenshots/Evidence_POSITIVE_FilterBranch_$timestamp.png: null
+
+22-09-2026T11:39:17 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFBranch): Taking screenshot successfully
+
+22-09-2026T11:39:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBranch_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2026T11:39:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2026T11:39:22 - [TEST_STEP][PASSED] - screenshotPathFTahun = $projectDir/Screenshots/Evidence_POSITIVE_FilterTahun_$timestamp.png: null
+
+22-09-2026T11:39:22 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFTahun): Taking screenshot successfully
+
+22-09-2026T11:39:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterTahun_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2026T11:39:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2026T11:39:28 - [TEST_STEP][PASSED] - screenshotPathFBulan = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulan_$timestamp.png: null
+
+22-09-2026T11:39:28 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFBulan): Taking screenshot successfully
+
+22-09-2026T11:39:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBulan_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2026T11:39:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - screenshotPathFApril = $projectDir/Screenshots/Evidence_POSITIVE_FilterBulanApril26_$timestamp.png: null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPathFApril): Taking screenshot successfully
+
+22-09-2026T11:39:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_POSITIVE_FilterBulanApril26_22.09.2026_(11.39.06).png]]
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - Start listener action : takeScreenshotAfterTestCase: null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - timestamp = Date().format("dd.MM.yyyy_(HH.mm.ss)"): null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - testCaseName = getTestCaseId().replace("/", "_"): null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - fullPath = $projectDir/Screenshots/Evidence_$status_$timestamp.png: null
+
+22-09-2026T11:39:33 - [TEST_STEP][PASSED] - takeScreenshot(fullPath): Taking screenshot successfully
+
+22-09-2026T11:39:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\TTECH-0251\\git\\AutoAPI\\Reports\\20260922_113726\\BrinscreenAll\\BrinsAsmik\\Dashboard_Performance_Asmik\\20260922_113726\\C:/Users/TTECH-0251/git/AutoAPI/Screenshots/Evidence_PASSED_22.09.2026_(11.39.33).png]]
+
+22-09-2026T11:39:34 - [TEST_STEP][PASSED] - println("Screenshot disimpan: " + fullPath): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-09-2026T11:37:31 - [TEST_SUITE][PASSED] - Dashboard_Performance_Asmik: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//span[@role='button' and contains(@aria-label,'Branch') and .//span[contains(@class,'tabComboBoxName') and normalize-space()='(All)']]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(@class,'tabComboBoxName') and normalize-space()='(All)']</value>
-      <webElementGuid>9157adc4-4008-4f8a-8497-3314c21f6ee6</webElementGuid>
+      <value>//span[@role='button' and contains(@aria-label,'Branch') and .//span[contains(@class,'tabComboBoxName') and normalize-space()='(All)']]</value>
+      <webElementGuid>ba60efb0-6c10-4dc2-9b6e-06fe6fab911b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

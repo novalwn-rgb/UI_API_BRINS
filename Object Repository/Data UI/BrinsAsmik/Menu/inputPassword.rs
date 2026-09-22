@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@data-tb-test-id='auth-component-password-text-field-TextInput']</value>
+         <value>//div[@data-tb-test-id='tabbed-auth-dialog-test-id-Dialog-Content']//input[@data-tb-test-id='auth-component-password-text-field-TextInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@data-tb-test-id='auth-component-password-text-field-TextInput']</value>
-      <webElementGuid>10c96498-0329-4719-b260-04f9e93206d8</webElementGuid>
+      <value>//div[@data-tb-test-id='tabbed-auth-dialog-test-id-Dialog-Content']//input[@data-tb-test-id='auth-component-password-text-field-TextInput']</value>
+      <webElementGuid>8fb7e08d-6ad0-4bc0-9282-8f7301f6a2b8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

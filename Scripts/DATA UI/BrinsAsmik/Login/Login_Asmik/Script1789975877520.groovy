@@ -31,10 +31,25 @@ WebUI.setText(findTestObject('Data UI/BrinsAsmik/Login/inputPassword'), 'passwor
 
 WebUI.click(findTestObject('Data UI/BrinsAsmik/Login/btnSignIn'))
 
-WebUI.delay(3)
+WebUI.delay(50)
 
 WebUI.verifyElementVisible(findTestObject('Data UI/BrinsAsmik/Login/secInvalidLogin'))
 
 String screenshotPathFailed = "${projectDir}/Screenshots/Evidence_NEGATIVE_Login Brins ASMIK_${timestamp}.png"
 
 WebUI.takeScreenshot(screenshotPathFailed)
+
+WebUI.refresh()
+
+//WebUI.sendKeys(findTestObject('Data UI/BrinsAsmik/Login/inputUsername'), Keys.chord(Keys.CONTROL, Keys.ALT, Keys.DELETE))
+
+WebUI.click(findTestObject('Data UI/BrinsAsmik/Login/inputUsername'))
+
+WebUI.setText(findTestObject('Data UI/BrinsAsmik/Login/inputUsername'), 'creator_2')
+
+WebUI.setText(findTestObject('Data UI/BrinsAsmik/Login/inputPassword'), 'Tsi_Brins2020')
+
+WebUI.click(findTestObject('Data UI/BrinsAsmik/Login/btnSignIn'))
+
+WebUI.delay(3)
+
